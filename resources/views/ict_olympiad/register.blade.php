@@ -5,7 +5,7 @@
 	<div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h1>Math Olympiad / <small>register a new participant</small></h1>
+                    <h1>ICT Olympiad / <small>register a new participant</small></h1>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -18,7 +18,7 @@
 
                       
                     
-                    <form class="form-horizontal form-label-left" method="POST" action="{{ route('store_mo') }}">
+                    <form class="form-horizontal form-label-left" method="POST" action="{{ route('store_io') }}">
                     	{{ csrf_field() }}
                       
 

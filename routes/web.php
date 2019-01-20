@@ -23,3 +23,8 @@ Route::get('/register_mo', 'MathOlympiadController@create')->name('register_mo')
 Route::get('/mo_list', 'MathOlympiadController@index')->name('mo_list');
 Route::post('/mo_list', 'MathOlympiadController@store')->name('store_mo');
 Route::get('/delete_mo/{id}','MathOlympiadController@delete');
+
+Route::get('/register_io', 'IctOlympiadController@create')->name('register_io');
+Route::get('/io_list', 'IctOlympiadController@index')->name('io_list');
+Route::post('/io_list', 'IctOlympiadController@store')->name('store_io');
+Route::get('/delete_io/{id}','IctOlympiadController@delete');

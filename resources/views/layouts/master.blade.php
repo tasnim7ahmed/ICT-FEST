@@ -68,6 +68,14 @@
                       <li><a href={{route('mo_list')}}>Participants' Info</a></li>
                     </ul>
                   </li>
+
+                  <li><a><i class="fa fa-edit"></i>ICT Olympiad<span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href={{route('register_io')}}>Register</a></li>
+                      <li><a href={{route('io_list')}}>Participants' Info</a></li>
+                    </ul>
+                  </li>
+                </ul>
                   
               <div class="menu_section">
                 <h3>Services</h3>
