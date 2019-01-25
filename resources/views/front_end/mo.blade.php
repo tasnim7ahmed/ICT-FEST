@@ -36,7 +36,65 @@
         </div>
         <div class="row block-9">
           <div class="col-md-9 pr-md-5">
-            <form action="#">
+            <form method="POST" action="{{ route('store_mo_front') }}">
+                      {{ csrf_field() }}
+                      
+                      <div class="form-group">
+                          <input type="text" name="name" class="form-control" placeholder="Your Name" required="required">
+                      </div>
+
+                      <div class="form-group">
+                        <label>Category</label>
+                          <select name="category" class="form-control" required="required">
+                              <option value="School">School</option>
+                              <option value="College">College</option>
+                              <option value="University">University</option>
+                          </select>
+                      </div>
+                      <div class="form-group">
+                          <input type="text" name="contact" class="form-control" placeholder="Contact No." required="required">
+                      </div>
+
+                      <div class="form-group">
+                          <input type="email" name="email" class="form-control" placeholder="E-mail">
+                      </div>
+
+                      <div class="form-group">
+                          <input type="text" name="institution" class="form-control" placeholder="Institution Name" required="required">
+                      </div>
+
+                      <div class="form-group">
+                        <label>Registration Fees</label>
+                          <select name="total" class="form-control" required="required">
+                              <option value="150">150</option>
+                          </select>
+                      </div>
+
+                      <div class="form-group">
+                        <label>T-Shirt Size</label>
+                        
+                          <select name="tshirt" class="form-control" required="required">
+                              <option value="M">M</option>
+                              <option value="L">L</option>
+                              <option value="XL">XL</option>
+                              <option value="XXL">XXL</option>
+                          </select>
+                      </div>
+
+              <div class="form-group">
+                <button type="reset" class="btn btn-primary py-3 px-5">Reset</button>
+                <button type="submit" class="btn btn-primary py-3 px-5">Register</button>
+              </div>
+              <div class="form-group">
+                
+              </div>
+            </form>
+
+
+
+
+
+<!--             <form action="#">
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Your Name">
               </div>
@@ -52,7 +110,7 @@
               <div class="form-group">
                 <input type="submit" value="Register" class="btn btn-primary py-3 px-5">
               </div>
-            </form>
+            </form> -->
           
           </div>
 

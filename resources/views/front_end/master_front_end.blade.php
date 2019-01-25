@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>ICT FEST X</title>
+    <title>IUT 10th ICT FEST</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -25,12 +25,13 @@
     <link rel="stylesheet" href="../snipp/css/flaticon.css">
     <link rel="stylesheet" href="../snipp/css/icomoon.css">
     <link rel="stylesheet" href="../snipp/css/style.css">
+    <link href="../css/sweetalert.css" rel="stylesheet">
   </head>
   <body>
     
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="{{route('front')}}">ICT FEST X.</a>
+      <a class="navbar-brand" href="{{route('front')}}">IUT 10<sup>th</sup> ICT FEST.</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
@@ -50,17 +51,14 @@
                     @endauth
                 
             @endif
-          
-          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Selected Participants</a>
               <div class="dropdown-menu" aria-labelledby="dropdown04">
-                <a class="dropdown-item" href="#">Portfolio</a>
-                <a class="dropdown-item" href="#">Portfolio Single</a>
+                <a class="dropdown-item" href={{route('selected_mo')}}>Math Olympiad</a>
+                <a class="dropdown-item" href="#">ICT Olympiad</a>
               </div>
           </li>
-          <li class="nav-item"><a href="#" class="nav-link">Case Studies</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Payment</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
           <li class="nav-item cta"><a href={{route('events')}} class="nav-link"><span>Events</span></a></li>
         </ul>
@@ -153,6 +151,26 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="../snipp/js/google-map.js"></script>
   <script src="../snipp/js/main.js"></script>
+
+    <script src="../vendors/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="../vendors/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+    <script src="../vendors/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="../vendors/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
+    <script src="../vendors/datatables.net-buttons/js/buttons.flash.min.js"></script>
+    <script src="../vendors/datatables.net-buttons/js/buttons.html5.min.js"></script>
+    <script src="../vendors/datatables.net-buttons/js/buttons.print.min.js"></script>
+    <script src="../vendors/datatables.net-fixedheader/js/dataTables.fixedHeader.min.js"></script>
+    <script src="../vendors/datatables.net-keytable/js/dataTables.keyTable.min.js"></script>
+    <script src="../vendors/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="../vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
+    <script src="../vendors/datatables.net-scroller/js/dataTables.scroller.min.js"></script>
+    <script src="../vendors/jszip/dist/jszip.min.js"></script>
+    <script src="../vendors/pdfmake/build/pdfmake.min.js"></script>
+    <script src="../vendors/pdfmake/build/vfs_fonts.js"></script>
+
+
+  <script src="../js/sweetalert.min.js"></script>
+  @include('sweet::alert')
     
   </body>
 </html>

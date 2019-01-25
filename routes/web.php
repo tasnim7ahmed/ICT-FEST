@@ -10,6 +10,11 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use App\MathOlympiad;
+
+
+
+
 
 Route::get('/', function () {
     return view('front_end/welcome');
@@ -23,14 +28,30 @@ Route::get('/events/math_olympiad', function () {
     return view('front_end/mo');
 })->name('mo');
 
+Route::get('/events/math_olympiad_selected', function () {
+    $mo = MathOlympiad::all();
+    return view('front_end/selected_mo')->with('mos',$mo);
+})->name('selected_mo');
+
+
+
+
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/register_mo', 'MathOlympiadController@create')->name('register_mo');
-Route::get('/mo_list', 'MathOlympiadController@index')->name('mo_list');
-Route::post('/mo_list', 'MathOlympiadController@store')->name('store_mo');
-Route::get('/delete_mo/{id}','MathOlympiadController@delete');
+Route::get('/register_mo', 'MathOlympiadController@create')->name('register_mo')->middleware('auth');
+Route::get('/mo_list', 'MathOlympiadController@index')->name('mo_list')->middleware('auth');
+Route::post('/mo_list', 'MathOlympiadController@store')->name('store_mo')->middleware('auth');
+Route::get('/delete_mo/{id}','MathOlympiadController@delete')->middleware('auth');
+
+
+
+Route::post('/events/math_olympiad', 'MathOlympiadController@store_front')->name('store_mo_front');
+
+
 
 Route::get('/register_io', 'IctOlympiadController@create')->name('register_io');
 Route::get('/io_list', 'IctOlympiadController@index')->name('io_list');

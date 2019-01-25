@@ -22,6 +22,8 @@ class CreateMathOlympiadsTable extends Migration
             $table->string('institution');
             $table->integer('total');
             $table->string('paid');
+            $table->string('selected');
+            $table->string('tshirt');
             $table->timestamps();
 
         });

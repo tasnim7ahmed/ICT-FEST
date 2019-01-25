@@ -32,11 +32,14 @@
                           <th>Contact No.</th>
                           <th>E-mail</th>
                           <th>Institution</th>
-                          <th>Registration<br>Fees</th>
-                          <th>Paid<br>Amount</th>
+                          <th>Fees</th>
+                          <th>T-Shirt</th>
+                          <th>Registered At</th>
                           <th>Payment<br>Status</th>
-                          <th>Payment<br>Completed</th>
-                          <th>Delete</th>
+                          <th>Selected<br>Status</th>
+                          <th><font style="color:red">Payment<br>Completed</th>
+                          <th><font style="color:red">Selected</th>
+                          <th><font style="color:red">Delete</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -49,7 +52,8 @@
                             <th>{{$mo->email}}</th>
                             <th>{{$mo->institution}}</th>
                             <th>{{$mo->total}}</th>
-                            <th>{{$mo->paid}}</th>
+                            <th>{{$mo->tshirt}}</th>
+                            <th>{{$mo->created_at}}</th>
                             <?php
                             
                             $paid = $mo->total - ($mo->paid);
@@ -62,7 +66,20 @@
                               echo '<th><font style="color:red">'.'Pending'.'</font></th>';
                             }
                             ?>
-                <th><a href="#" class="glyphicon glyphicon-pencil"></a></th>
+                            <?php
+                            
+                            $sel = $mo->Selected;
+                            if($sel=='True')
+                            {
+                                echo '<th><font style="color:green">'.'True'.'</font></th>';
+                            }
+                            else
+                            {
+                              echo '<th><font style="color:red">'.'False'.'</font></th>';
+                            }
+                            ?>
+                <th><a href="#" class="glyphicon glyphicon-euro"></a></th>
+                <th><a href="#" class="glyphicon glyphicon-plus"></a></th>
                 <th><a href="/delete_mo/{{$mo->id}}" class="glyphicon glyphicon-trash"></a></th>
                           </tr>
                         @endforeach

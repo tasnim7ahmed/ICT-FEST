@@ -12,17 +12,12 @@ class MathOlympiadController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
     
     public function index()
     {
         $mo = MathOlympiad::all();
         return view('math_olympiad/list')->with('mos',$mo);
     }
-
     /**
      * Show the form for creating a new resource.
      *
@@ -48,12 +43,31 @@ class MathOlympiadController extends Controller
         $new_mo->email = $request->email;
         $new_mo->institution = $request->institution;
         $new_mo->total = $request->total;
-        $new_mo->paid = $request->paid;
+        $new_mo->paid = 0;
+        $new_mo->selected = 'False';
+        $new_mo->tshirt = $request->tshirt;
         $new_mo->save();
         alert()->success('Participant has been admitted successfully.')->autoclose(3000);
        
         $mo = MathOlympiad::all();
         return view('math_olympiad/list')->with('mos',$mo);
+    }
+
+    public function store_front(Request $request)
+    {
+        $new_mo = new MathOlympiad;
+        $new_mo->name = $request->name;
+        $new_mo->category = $request->category;
+        $new_mo->contact = $request->contact;
+        $new_mo->email = $request->email;
+        $new_mo->institution = $request->institution;
+        $new_mo->total = $request->total;
+        $new_mo->paid = 0;
+        $new_mo->selected = 'False';
+        $new_mo->tshirt = $request->tshirt;
+        $new_mo->save();
+        alert()->success('Dear '.$request->name.', Your registration information has successfully been uploaded. Please check your e-mail and our website for further information.')->autoclose(120000);
+        return view('front_end/mo');
     }
 
     /**

@@ -88,9 +88,14 @@
                       </div>
 
                       <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Paid Amount </label>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12">T-Shirt Size</label>
                         <div class="col-md-4 col-sm-6 col-xs-12">
-                          <input type="number" name="paid" class="form-control" placeholder="" required="required">
+                          <select name="tshirt" class="form-control" required="required">
+                              <option value="M">M</option>
+                              <option value="L">L</option>
+                              <option value="XL">XL</option>
+                              <option value="XXL">XXL</option>
+                          </select>
                         </div>
                       </div>
 

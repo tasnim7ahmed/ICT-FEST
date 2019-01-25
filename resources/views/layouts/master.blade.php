@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" href="images/logo_black.png" type="image/ico" />
 
-    <title>ICT FEST X</title>
+    <title>IUT 10th ICT FEST</title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -37,7 +37,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href={{route('front')}} class="site_title"><span>ICT FEST X</span></a>
+              <a href={{route('front')}} class="site_title"><span>IUT 10<sup>th</sup> ICT FEST</span></a>
             </div>
 
             <div class="clearfix"></div>
