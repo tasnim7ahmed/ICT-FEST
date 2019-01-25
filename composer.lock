@@ -4,54 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "75ea6986d7467e64cc5ed526885ecc16",
+    "content-hash": "3843b41e1f13ff84c97b40194c973729",
     "packages": [
-        {
-            "name": "anwar/abkash",
-            "version": "v1.01",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ringkubd/AbKash.git",
-                "reference": "f55913e5e7098bc87b3921d6a28d5d88c794e7ca"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ringkubd/AbKash/zipball/f55913e5e7098bc87b3921d6a28d5d88c794e7ca",
-                "reference": "f55913e5e7098bc87b3921d6a28d5d88c794e7ca",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Anwar\\Abkash\\AbkashServiceProvider"
-                    ],
-                    "aliases": {
-                        "Abkash": "Anwar\\Abkash\\Faceds\\AbkashFaced"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Anwar\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "MD ANWAR JAHID",
-                    "email": "ajr.jahid@gmail.com"
-                }
-            ],
-            "description": "Bkash payment gateway for Bangladesh bKash i mobile payment service.",
-            "time": "2018-02-07T06:10:21+00:00"
-        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
