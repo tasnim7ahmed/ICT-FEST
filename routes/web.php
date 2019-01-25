@@ -15,6 +15,14 @@ Route::get('/', function () {
     return view('front_end/welcome');
 })->name('front');
 
+Route::get('/events', function () {
+    return view('front_end/events');
+})->name('events');
+
+Route::get('/events/math_olympiad', function () {
+    return view('front_end/mo');
+})->name('mo');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
