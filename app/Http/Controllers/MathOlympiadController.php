@@ -67,7 +67,7 @@ class MathOlympiadController extends Controller
         $new_mo->tshirt = $request->tshirt;
         $new_mo->save();
         alert()->success('Dear '.$request->name.', Your registration information has successfully been uploaded. Please check your e-mail and our website for further information.')->autoclose(120000);
-        return view('front_end/mo');
+        return redirect()->route('front');
     }
 
     /**

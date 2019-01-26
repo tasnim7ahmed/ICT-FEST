@@ -26,7 +26,7 @@
         <div class="row mb-5">
           <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block text-center">
-            <a href={{route('mo')}}>
+            <a href="{{route('mo')}}">
               <div class="d-flex justify-content-center"><div class="icon color-3 d-flex justify-content-center mb-3"><span class="align-self-center icon-lightbulb-o"></span></div></div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Math Olympiad</h3>
@@ -37,7 +37,7 @@
           </div>
           <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block text-center">
-            <a href="facebook.com">
+            <a href="{{route('io')}}">
               <div class="d-flex justify-content-center"><div class="icon color-1 d-flex justify-content-center mb-3"><span class="align-self-center icon-laptop"></span></div></div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">ICT Olympiad</h3>

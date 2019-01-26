@@ -11,7 +11,7 @@
 |
 */
 use App\MathOlympiad;
-
+use App\IctOlympiad;
 
 
 
@@ -34,6 +34,15 @@ Route::get('/events/math_olympiad_selected', function () {
 })->name('selected_mo');
 
 
+Route::get('/events/ict_olympiad', function () {
+    return view('front_end/io');
+})->name('io');
+
+Route::get('/events/ict_olympiad_selected', function () {
+    $io = IctOlympiad::all();
+    return view('front_end/selected_io')->with('ios',$io);
+})->name('selected_io');
+
 
 
 
@@ -53,7 +62,9 @@ Route::post('/events/math_olympiad', 'MathOlympiadController@store_front')->name
 
 
 
-Route::get('/register_io', 'IctOlympiadController@create')->name('register_io');
-Route::get('/io_list', 'IctOlympiadController@index')->name('io_list');
-Route::post('/io_list', 'IctOlympiadController@store')->name('store_io');
-Route::get('/delete_io/{id}','IctOlympiadController@delete');
+Route::get('/register_io', 'IctOlympiadController@create')->name('register_io')->middleware('auth');
+Route::get('/io_list', 'IctOlympiadController@index')->name('io_list')->middleware('auth');
+Route::post('/io_list', 'IctOlympiadController@store')->name('store_io')->middleware('auth');
+Route::get('/delete_io/{id}','IctOlympiadController@delete')->middleware('auth');
+
+Route::post('/events/ict_olympiad', 'IctOlympiadController@store_front')->name('store_io_front');

@@ -58,7 +58,7 @@
                       <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Contact No. </label>
                         <div class="col-md-4 col-sm-6 col-xs-12">
-                          <input type="text" name="contact" class="form-control" placeholder="" required="required">
+                          <input type="text" pattern="[+]?\d*" name="contact" class="form-control" placeholder="" required="required">
                         </div>
                       </div>
 

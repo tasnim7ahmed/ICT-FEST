@@ -54,8 +54,8 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Selected Participants</a>
               <div class="dropdown-menu" aria-labelledby="dropdown04">
-                <a class="dropdown-item" href={{route('selected_mo')}}>Math Olympiad</a>
-                <a class="dropdown-item" href="#">ICT Olympiad</a>
+                <a class="dropdown-item" href="{{route('selected_mo')}}">Math Olympiad</a>
+                <a class="dropdown-item" href="{{route('selected_io')}}">ICT Olympiad</a>
               </div>
           </li>
           <li class="nav-item"><a href="#" class="nav-link">Payment</a></li>
