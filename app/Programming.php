@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class ProgrammingContest extends Model
+class Programming extends Model
 {
     protected $guarded = [];
 }

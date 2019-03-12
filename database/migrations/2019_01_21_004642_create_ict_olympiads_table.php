@@ -21,7 +21,7 @@ class CreateIctOlympiadsTable extends Migration
             $table->string('email')->nullable();
             $table->string('institution');
             $table->integer('total');
-            $table->string('paid');
+            $table->integer('paid');
             $table->string('selected');
             $table->string('tshirt');
             $table->timestamps();

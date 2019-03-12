@@ -12,7 +12,7 @@
 */
 use App\MathOlympiad;
 use App\IctOlympiad;
-
+use App\Programming;
 
 
 
@@ -27,6 +27,7 @@ Route::get('/events', function () {
 Route::get('/events/math_olympiad', function () {
     return view('front_end/mo');
 })->name('mo');
+
 
 Route::get('/events/math_olympiad_selected', function () {
     $mo = MathOlympiad::all();
@@ -43,6 +44,15 @@ Route::get('/events/ict_olympiad_selected', function () {
     return view('front_end/selected_io')->with('ios',$io);
 })->name('selected_io');
 
+Route::get('/events/programming_contest', function () {
+    return view('front_end/pc');
+})->name('pc');
+
+Route::get('/events/programming_contest_selected', function () {
+    $pc = Programming::all();
+    return view('front_end/selected_pc')->with('pcs',$pc);
+})->name('selected_pc');
+
 
 
 
@@ -55,9 +65,6 @@ Route::get('/register_mo', 'MathOlympiadController@create')->name('register_mo')
 Route::get('/mo_list', 'MathOlympiadController@index')->name('mo_list')->middleware('auth');
 Route::post('/mo_list', 'MathOlympiadController@store')->name('store_mo')->middleware('auth');
 Route::get('/delete_mo/{id}','MathOlympiadController@delete')->middleware('auth');
-
-
-
 Route::post('/events/math_olympiad', 'MathOlympiadController@store_front')->name('store_mo_front');
 
 
@@ -68,3 +75,17 @@ Route::post('/io_list', 'IctOlympiadController@store')->name('store_io')->middle
 Route::get('/delete_io/{id}','IctOlympiadController@delete')->middleware('auth');
 
 Route::post('/events/ict_olympiad', 'IctOlympiadController@store_front')->name('store_io_front');
+
+
+
+
+
+
+
+Route::get('/register_pc', 'ProgrammingController@create')->name('register_pc')->middleware('auth');
+Route::get('/pc_list', 'ProgrammingController@index')->name('pc_list')->middleware('auth');
+Route::post('/pc_list', 'ProgrammingController@store')->name('store_pc')->middleware('auth');
+Route::get('/delete_pc/{id}','ProgrammingController@delete')->middleware('auth');
+
+Route::post('/events/programming_contest', 'ProgrammingController@store_front')->name('store_pc_front');
+

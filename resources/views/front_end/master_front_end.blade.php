@@ -26,6 +26,13 @@
     <link rel="stylesheet" href="../snipp/css/icomoon.css">
     <link rel="stylesheet" href="../snipp/css/style.css">
     <link href="../css/sweetalert.css" rel="stylesheet">
+
+    
+
+    <!-- Custom Theme Style -->
+    <!-- <link href="../build/css/custom.min.css" rel="stylesheet"> -->
+
+
   </head>
   <body>
     
@@ -56,6 +63,7 @@
               <div class="dropdown-menu" aria-labelledby="dropdown04">
                 <a class="dropdown-item" href="{{route('selected_mo')}}">Math Olympiad</a>
                 <a class="dropdown-item" href="{{route('selected_io')}}">ICT Olympiad</a>
+                <a class="dropdown-item" href="{{route('selected_pc')}}">Programming Contest</a>
               </div>
           </li>
           <li class="nav-item"><a href="#" class="nav-link">Payment</a></li>
@@ -167,6 +175,10 @@
     <script src="../vendors/jszip/dist/jszip.min.js"></script>
     <script src="../vendors/pdfmake/build/pdfmake.min.js"></script>
     <script src="../vendors/pdfmake/build/vfs_fonts.js"></script>
+
+
+
+    
 
 
   <script src="../js/sweetalert.min.js"></script>

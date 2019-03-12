@@ -259,8 +259,8 @@
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">
-            <span class="subheading">Customer Says</span>
-            <h2 class="mb-4">Our satisfied customer says</h2>
+            <span class="subheading">WEB-DEV</span>
+            <h2 class="mb-4">Developers Panel</h2>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
           </div>
         </div>
@@ -275,9 +275,11 @@
                     </span>
                   </div>
                   <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">Marketing Manager</span>
+                   
+                    <p class="name">Saadman Malik Aurko</p>
+                    <p class="mb-2">Front-end and Back-end Dev</p>
+                    <span class="position">facebook.com/saadman.malik</span><br>
+                    <span class="position">+8801733004000</span>
                   </div>
                 </div>
               </div>
@@ -289,59 +291,42 @@
                     </span>
                   </div>
                   <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">Interface Designer</span>
+                    
+                    <p class="name">Ifaz Ahmed Aflan</p>
+                    <p class="mb-2">Graphics Designer</p>
+                    <span class="position">facebook.com/aflan.cse</span>
+                    <span class="position">+8801733004000</span>
                   </div>
                 </div>
               </div>
+
               <div class="item text-center">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(../snipp/images/person_3.jpg)">
+                  <div class="user-img mb-4" style="background-image: url(../snipp/images/person_2.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
                   </div>
                   <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">UI Designer</span>
+                    
+                    <p class="name">Tasnim Ahmed</p>
+                    <p class="mb-2">Front-end and Back-end Dev</p>
+                    <span class="position">facebook.com/tasnim.ahmed.iut</span>
+                    <span class="position">+8801733004000</span>
                   </div>
                 </div>
               </div>
-              <div class="item text-center">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(../snipp/images/person_1.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">Web Developer</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item text-center">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(../snipp/images/person_1.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">System Analytics</span>
-                  </div>
-                </div>
-              </div>
+              
+              
+              
             </div>
           </div>
         </div>
       </div>
     </section>
+
+
+
     
     <section class="ftco-section ftco-counter" id="section-counter">
       <div class="container">
