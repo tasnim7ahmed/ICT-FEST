@@ -13,6 +13,7 @@
 use App\MathOlympiad;
 use App\IctOlympiad;
 use App\Programming;
+use App\Project;
 
 
 
@@ -27,6 +28,7 @@ Route::get('/events', function () {
 Route::get('/events/math_olympiad', function () {
     return view('front_end/mo');
 })->name('mo');
+
 
 
 Route::get('/events/math_olympiad_selected', function () {
@@ -49,11 +51,20 @@ Route::get('/events/programming_contest', function () {
 })->name('pc');
 
 Route::get('/events/programming_contest_selected', function () {
-    $pc = Programming::all();
+    $pc = Programming::where('selected','True')->get();
     return view('front_end/selected_pc')->with('pcs',$pc);
 })->name('selected_pc');
 
+Route::get('/events/project_showcasing', function () {
+    return view('front_end/ps');
+})->name('ps-go');
 
+
+
+Route::get('/events/project_showcasing_selected', function () {
+    $ps = Project::where('selected','True')->get();
+    return view('front_end/selected_ps')->with('pss',$ps);
+})->name('selected_ps');
 
 
 
@@ -95,4 +106,18 @@ Route::get('/selection_done_pc/{id}','ProgrammingController@selection')->middlew
 Route::get('/payment_done_pc/{id}','ProgrammingController@payment')->middleware('auth');
 
 Route::post('/events/programming_contest', 'ProgrammingController@store_front')->name('store_pc_front');
+
+
+
+
+
+
+Route::get('/register_ps', 'ProjectController@create')->name('register_ps')->middleware('auth');
+Route::get('/ps_list', 'ProjectController@index')->name('ps_list')->middleware('auth');
+Route::post('/ps_list', 'ProjectController@store')->name('store_ps')->middleware('auth');
+Route::get('/delete_ps/{id}','ProjectController@delete')->middleware('auth');
+Route::get('/selection_done_ps/{id}','ProjectController@selection')->middleware('auth');
+Route::get('/payment_done_ps/{id}','ProjectController@payment')->middleware('auth');
+
+Route::post('/events/project_showcasing', 'ProjectController@store_front')->name('store_ps_front');
 

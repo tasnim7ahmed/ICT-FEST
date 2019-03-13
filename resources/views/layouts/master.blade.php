@@ -82,6 +82,12 @@
                       <li><a href={{route('pc_list')}}>Participants' Info</a></li>
                     </ul>
                   </li>
+                  <li><a><i class="fa fa-edit"></i>Project Showcasing<span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href={{route('register_ps')}}>Register</a></li>
+                      <li><a href={{route('ps_list')}}>Participants' Info</a></li>
+                    </ul>
+                  </li>
                 </ul>
                   
               <div class="menu_section">
