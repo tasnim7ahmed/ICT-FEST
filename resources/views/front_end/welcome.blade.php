@@ -255,6 +255,78 @@
       </div>
     </section>
 
+
+    <section class="ftco-section testimony-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <span class="subheading">Organizers</span>
+            <h2 class="mb-4">IUTCS</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+          </div>
+        </div>
+        <div class="row ftco-animate">
+          <div class="col-md-12">
+            <div class="carousel-testimony owl-carousel ftco-owl">
+              <div class="item text-center">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="user-img mb-4" style="background-image: url(../snipp/images/person_1.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text">
+                   
+                    <p class="name">Tamzid Karim</p>
+                    <p class="mb-2">Vice-President</p>
+                    <span class="position">facebook.com/saadman.malik</span><br>
+                    <span class="position">+8801733004000</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item text-center">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="user-img mb-4" style="background-image: url(../snipp/images/person_2.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text">
+                    
+                    <p class="name">Anqur Enayet</p>
+                    <p class="mb-2">Vice-President</p>
+                    <span class="position">facebook.com/aflan.cse</span>
+                    <span class="position">+8801733004000</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item text-center">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="user-img mb-4" style="background-image: url(../snipp/images/person_2.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text">
+                    
+                    <p class="name">Rahat Anwar Khan</p>
+                    <p class="mb-2">President</p>
+                    <span class="position">facebook.com/tasnim.ahmed.iut</span>
+                    <span class="position">+8801733004000</span>
+                  </div>
+                </div>
+              </div>
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     <section class="ftco-section testimony-section bg-light">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">

@@ -68,7 +68,7 @@
                             ?>
                             <?php
                             
-                            $sel = $pc->Selected;
+                            $sel = $pc->selected;
                             if($sel=='True')
                             {
                                 echo '<th><font style="color:green">'.'True'.'</font></th>';
@@ -78,8 +78,8 @@
                               echo '<th><font style="color:red">'.'False'.'</font></th>';
                             }
                             ?>
-                <th><a href="#" class="glyphicon glyphicon-euro"></a></th>
-                <th><a href="#" class="glyphicon glyphicon-plus"></a></th>
+                <th><a href="/payment_done_pc/{{$pc->id}}" class="glyphicon glyphicon-euro"></a></th>
+                <th><a href="/selection_done_pc/{{$pc->id}}" class="glyphicon glyphicon-plus"></a></th>
                 <th><a href="/delete_pc/{{$pc->id}}" class="glyphicon glyphicon-trash"></a></th>
                           </tr>
                         @endforeach

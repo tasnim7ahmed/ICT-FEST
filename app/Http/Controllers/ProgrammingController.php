@@ -70,7 +70,7 @@ class ProgrammingController extends Controller
         alert()->success('Team has been added successfully.')->autoclose(3000);
        
         $pc = Programming::all();
-        return view('programming_contest/list')->with('pcs',$pc);
+        return redirect()->route('pc_list')->with('pcs',$pc);
     }
 
 
@@ -115,7 +115,25 @@ class ProgrammingController extends Controller
         $pc->delete();
         alert()->warning('Team has been discarded successfully', 'Deleted')->autoclose(3000);
         $pp=Programming::all();
-        return view('programming_contest/list')->with('pcs',$pp);
+        return redirect()->route('pc_list')->with('pcs',$pp);
+    }
+
+    public function selection($id)
+    {
+        Programming::find($id)->update(['selected' => 'True']);
+        
+        alert()->warning('Team has been selected successfully', 'Done')->autoclose(3000);
+        $mm=Programming::all();
+        return redirect()->route('pc_list')->with('pcs',$mm);
+    }
+
+    public function payment($id)
+    {
+        Programming::find($id)->update(['paid' => Programming::find($id)->total]);
+        
+        alert()->warning('Payment has been completed successfully', 'Done')->autoclose(3000);
+        $mm=Programming::all();
+        return redirect()->route('pc_list')->with('pcs',$mm);
     }
 
     /**

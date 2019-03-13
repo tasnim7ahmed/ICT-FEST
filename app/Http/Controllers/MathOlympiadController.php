@@ -50,7 +50,7 @@ class MathOlympiadController extends Controller
         alert()->success('Participant has been admitted successfully.')->autoclose(3000);
        
         $mo = MathOlympiad::all();
-        return view('math_olympiad/list')->with('mos',$mo);
+        return redirect()->route('mo_list')->with('mos',$mo);
     }
 
     public function store_front(Request $request)
@@ -87,8 +87,28 @@ class MathOlympiadController extends Controller
         $mo->delete();
         alert()->warning('Student has been discarded successfully', 'Deleted')->autoclose(3000);
         $mm=MathOlympiad::all();
-        return view('math_olympiad/list')->with('mos',$mm);
+        return redirect()->route('mo_list')->with('mos',$mm);
     }
+
+    public function selection($id)
+    {
+        MathOlympiad::find($id)->update(['selected' => 'True']);
+        
+        alert()->warning('Student has been selected successfully', 'Done')->autoclose(3000);
+        $mm=MathOlympiad::all();
+        return redirect()->route('mo_list')->with('mos',$mm);
+    }
+
+    public function payment($id)
+    {
+        MathOlympiad::find($id)->update(['paid' => MathOlympiad::find($id)->total]);
+        
+        alert()->warning('Payment has been completed successfully', 'Done')->autoclose(3000);
+        $mm=MathOlympiad::all();
+        return redirect()->route('mo_list')->with('mos',$mm);
+    }
+
+
 
     /**
      * Show the form for editing the specified resource.

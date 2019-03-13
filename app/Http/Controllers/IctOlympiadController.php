@@ -56,7 +56,7 @@ class IctOlympiadController extends Controller
         alert()->success('Participant has been admitted successfully.')->autoclose(3000);
        
         $io = IctOlympiad::all();
-        return view('ict_olympiad/list')->with('ios',$io);
+        return redirect()->route('io_list')->with('ios',$io);
     }
 
     public function store_front(Request $request)
@@ -93,7 +93,25 @@ class IctOlympiadController extends Controller
         $io->delete();
         alert()->warning('Student has been discarded successfully', 'Deleted')->autoclose(3000);
         $ii=IctOlympiad::all();
-        return view('ict_olympiad/list')->with('ios',$ii);
+        return redirect()->route('io_list')->with('ios',$ii);
+    }
+
+    public function selection($id)
+    {
+        IctOlympiad::find($id)->update(['selected' => 'True']);
+        
+        alert()->warning('Student has been selected successfully', 'Done')->autoclose(3000);
+        $mm=IctOlympiad::all();
+        return redirect()->route('io_list')->with('ios',$mm);
+    }
+
+    public function payment($id)
+    {
+        IctOlympiad::find($id)->update(['paid' => IctOlympiad::find($id)->total]);
+        
+        alert()->warning('Payment has been completed successfully', 'Done')->autoclose(3000);
+        $mm=IctOlympiad::all();
+        return redirect()->route('io_list')->with('ios',$mm);
     }
 
     /**
