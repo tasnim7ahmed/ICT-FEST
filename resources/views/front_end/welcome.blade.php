@@ -312,8 +312,8 @@
                     
                     <p class="name">Rahat Anwar Khan</p>
                     <p class="mb-2">President</p>
-                    <span class="position">facebook.com/tasnim.ahmed.iut</span>
-                    <span class="position">+8801733004000</span>
+                    <span class="position">facebook.com/rahat.khan.2848</span>
+                    <span class="position">+8801521323672</span>
                   </div>
                 </div>
               </div>
@@ -351,7 +351,7 @@
                     <p class="name">Saadman Malik Aurko</p>
                     <p class="mb-2">Front-end and Back-end Dev</p>
                     <span class="position">facebook.com/saadman.malik</span><br>
-                    <span class="position">+8801733004000</span>
+                    <span class="position">+8801912810987</span>
                   </div>
                 </div>
               </div>
@@ -367,7 +367,7 @@
                     <p class="name">Ifaz Ahmed Aflan</p>
                     <p class="mb-2">Graphics Designer</p>
                     <span class="position">facebook.com/aflan.cse</span>
-                    <span class="position">+8801733004000</span>
+                    <span class="position">+8801954790638</span>
                   </div>
                 </div>
               </div>

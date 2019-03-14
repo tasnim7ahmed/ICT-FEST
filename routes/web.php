@@ -14,6 +14,7 @@ use App\MathOlympiad;
 use App\IctOlympiad;
 use App\Programming;
 use App\Project;
+use App\Business;
 
 
 
@@ -25,10 +26,11 @@ Route::get('/events', function () {
     return view('front_end/events');
 })->name('events');
 
+
+
 Route::get('/events/math_olympiad', function () {
     return view('front_end/mo');
 })->name('mo');
-
 
 
 Route::get('/events/math_olympiad_selected', function () {
@@ -59,18 +61,27 @@ Route::get('/events/project_showcasing', function () {
     return view('front_end/ps');
 })->name('ps-go');
 
-
-
 Route::get('/events/project_showcasing_selected', function () {
     $ps = Project::where('selected','True')->get();
     return view('front_end/selected_ps')->with('pss',$ps);
 })->name('selected_ps');
+
+Route::get('/events/it_business', function () {
+    return view('front_end/business');
+})->name('business');
+
+Route::get('/events/it_business_selected', function () {
+    $business = Business::where('selected','True')->get();
+    return view('front_end/selected_business')->with('businesses',$business);
+})->name('selected_business');
 
 
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
 
 Route::get('/register_mo', 'MathOlympiadController@create')->name('register_mo')->middleware('auth');
 Route::get('/mo_list', 'MathOlympiadController@index')->name('mo_list')->middleware('auth');
@@ -79,6 +90,7 @@ Route::get('/delete_mo/{id}','MathOlympiadController@delete')->middleware('auth'
 Route::get('/selection_done_mo/{id}','MathOlympiadController@selection')->middleware('auth');
 Route::get('/payment_done_mo/{id}','MathOlympiadController@payment')->middleware('auth');
 Route::post('/events/math_olympiad', 'MathOlympiadController@store_front')->name('store_mo_front');
+
 
 
 
@@ -120,4 +132,17 @@ Route::get('/selection_done_ps/{id}','ProjectController@selection')->middleware(
 Route::get('/payment_done_ps/{id}','ProjectController@payment')->middleware('auth');
 
 Route::post('/events/project_showcasing', 'ProjectController@store_front')->name('store_ps_front');
+
+
+
+
+
+Route::get('/register_business', 'BusinessController@create')->name('register_business')->middleware('auth');
+Route::get('/business_list', 'BusinessController@index')->name('business_list')->middleware('auth');
+Route::post('/business_list', 'BusinessController@store')->name('store_business')->middleware('auth');
+Route::get('/delete_business/{id}','BusinessController@delete')->middleware('auth');
+Route::get('/selection_done_business/{id}','BusinessController@selection')->middleware('auth');
+Route::get('/payment_done_business/{id}','BusinessController@payment')->middleware('auth');
+
+Route::post('/events/it_business', 'BusinessController@store_front')->name('store_business_front');
 
