@@ -9,7 +9,10 @@
           <div class="col-md-6 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
             <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
             <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">IT BUSINESS CASE COMPETITION</h1>
+
           </div>
+
+
         </div>
       </div>
     </div>
@@ -26,6 +29,61 @@
       </div>
     </section>
 
+
+    <section>
+      <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Idea Submission Form</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        
+        <form method="POST" action="{{ route('business_upload') }}" enctype="multipart/form-data">
+                      {{ csrf_field() }}
+                      
+
+                      <div class="form-group">
+                        <label>Team ID</label>
+                          <select name="id" class="form-control" required="required">
+                              <option value="">-- Please select your team ID --</option>
+                              @foreach ($businesses as $business) 
+                          
+                              echo '<option value="{{$business->id}}">{{$business->id}}</option>';
+                           
+                        @endforeach
+                          </select>
+                      </div>
+
+                      <div class="form-group">
+                        <label>Please select a PDF file not exceeding 5 MB</label>
+                          <input type="file" name="pdf" class="form-control" placeholder="" required="required">
+                      </div>
+                      
+                    <div class="form-group">
+                <button type="reset" class="btn btn-primary py-3 px-5">Reset</button>
+                <button type="submit" class="btn btn-primary py-3 px-5">Submit</button>
+              </div>
+            </form>
+
+      </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="text-center">
+  <a href=""data-toggle="modal" data-target="#modalLoginForm">Submit Your Idea Here! <br><br></a>
+</div>
+    </section>
+
     <div class="x_content">         
                     <table id="datatable-responsive" class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
                       <thead>
@@ -37,6 +95,7 @@
                           <th>Member - 1</th>
                           <th>Member - 2</th>
                           <th>Fees</th>
+                          <th>Idea Submission</th>
                           <th>Registered At</th>
                           <th>Payment<br>Status</th>
                         </tr>
@@ -51,6 +110,21 @@
                             <td>{{$business->member_2_name}}</td>
                             <td>{{$business->member_3_name}}</td>
                             <td>{{$business->total}}</td>
+
+                            <?php
+                            
+                            $sub = $business->submission;
+                            if($sub=='True')
+                            {
+                                echo '<th><font style="color:green">'.'Successful'.'</font></th>';
+                            }
+                            else
+                            {
+                              echo '<th><font style="color:red">'.'Pending'.'</font></th>';
+                            }
+                            ?>
+
+
                             <td>{{$business->created_at}}</td>
                             <?php
                             

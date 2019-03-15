@@ -146,3 +146,6 @@ Route::get('/payment_done_business/{id}','BusinessController@payment')->middlewa
 
 Route::post('/events/it_business', 'BusinessController@store_front')->name('store_business_front');
 
+Route::post('/events/it_business_selected', 'BusinessController@upload')->name('business_upload');
+Route::get('/business_download/{id}','BusinessController@download')->middleware('auth');
+

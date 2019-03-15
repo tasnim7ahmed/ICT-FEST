@@ -38,6 +38,7 @@
                           <th>Selected<br>Status</th>
                           <th><font style="color:red">Payment<br>Completed</th>
                           <th><font style="color:red">Selected</th>
+                          <th><font style="color:red">Download</th>
                           <th><font style="color:red">Delete</th>
                         </tr>
                       </thead>
@@ -78,6 +79,8 @@
                             ?>
                 <th><a href="/payment_done_business/{{$business->id}}" class="glyphicon glyphicon-euro"></a></th>
                 <th><a href="/selection_done_business/{{$business->id}}" class="glyphicon glyphicon-plus"></a></th>
+                
+                <th><a href="/business_download/{{$business->id}}" class="glyphicon glyphicon-download"></a></th>
                 <th><a href="/delete_business/{{$business->id}}" class="glyphicon glyphicon-trash"></a></th>
                           </tr>
                         @endforeach

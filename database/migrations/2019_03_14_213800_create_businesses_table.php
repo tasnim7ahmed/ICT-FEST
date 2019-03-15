@@ -21,6 +21,8 @@ class CreateBusinessesTable extends Migration
             $table->integer('total');
             $table->integer('paid');
             $table->string('selected');
+            $table->string('submission')->nullable();
+            $table->string('pdf')->nullable();
             
             $table->string('member_1_name');
             $table->string('member_1_email');

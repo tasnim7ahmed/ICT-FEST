@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\business;
 use Illuminate\Http\Request;
+use Storage;
 
 class BusinessController extends Controller
 {
@@ -142,6 +143,31 @@ class BusinessController extends Controller
         alert()->warning('Payment has been completed successfully', 'Done')->autoclose(3000);
         $mm=Business::all();
         return redirect()->route('business_list')->with('businesses',$mm);
+    }
+
+    public function upload(Request $request)
+    {
+        $flag = 0;
+        $biz = Business::find($request->id);
+        if ($request->has('pdf')) {
+            $biz->update(['pdf' => $request->file('pdf')->store('it_business')]);
+        $flag = 1;
+        $biz->update(['submission'=>'True']);
+        }
+        
+        if ($flag==1) {
+            alert()->warning('File Uploaded successfully', 'Done')->autoclose(3000);
+        }
+        
+        $mm=Business::all();
+        return redirect()->route('selected_business')->with('businesses',$mm);
+    }
+
+    public function download($id)
+    {
+        $biz = Business::find($id);
+        //$file = Storage::disk('local')->get($biz->pdf);
+        return Storage::download($biz->pdf);
     }
 
 
