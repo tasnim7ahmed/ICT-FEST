@@ -15,6 +15,7 @@ use App\IctOlympiad;
 use App\Programming;
 use App\Project;
 use App\Business;
+use App\FIFA19;
 
 
 
@@ -74,6 +75,16 @@ Route::get('/events/it_business_selected', function () {
     $business = Business::where('selected','True')->get();
     return view('front_end/selected_business')->with('businesses',$business);
 })->name('selected_business');
+
+Route::get('/events/fifa19', function () {
+    return view('front_end/fifa');
+})->name('fifa');
+
+
+Route::get('/events/fifa19_selected', function () {
+    $fifa = FIFA19::where('selected','True')->get();
+    return view('front_end/selected_fifa')->with('fifas',$fifa);
+})->name('selected_fifa');
 
 
 
@@ -149,3 +160,15 @@ Route::post('/events/it_business', 'BusinessController@store_front')->name('stor
 Route::post('/events/it_business_selected', 'BusinessController@upload')->name('business_upload');
 Route::get('/business_download/{id}','BusinessController@download')->middleware('auth');
 
+
+
+
+
+
+Route::get('/register_fifa', 'FIFA19Controller@create')->name('register_fifa')->middleware('auth');
+Route::get('/fifa_list', 'FIFA19Controller@index')->name('fifa_list')->middleware('auth');
+Route::post('/fifa_list', 'FIFA19Controller@store')->name('store_fifa')->middleware('auth');
+Route::get('/delete_fifa/{id}','FIFA19Controller@delete')->middleware('auth');
+Route::get('/selection_done_fifa/{id}','FIFA19Controller@selection')->middleware('auth');
+Route::get('/payment_done_fifa/{id}','FIFA19Controller@payment')->middleware('auth');
+Route::post('/events/fifa19', 'FIFA19Controller@store_front')->name('store_fifa_front');
