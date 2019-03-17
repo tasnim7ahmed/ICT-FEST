@@ -5,7 +5,7 @@
 	<div class="">
             <div class="page-title">
               <div class="title_left">
-                <h1>PROJECT SHOWCASING / <small>list of teams</small></h1>
+                <h1>RAINBOW SIX SIEGE / <small>list of teams</small></h1>
               </div>
 
             <div class="clearfix"></div>
@@ -28,10 +28,12 @@
                         <tr>
                           <th>ID</th>
                           <th>Team Name</th>
-                          <th>Institution</th>
                           <th>Team Leader</th>
                           <th>Member - 1</th>
                           <th>Member - 2</th>
+                          <th>Member - 3</th>
+                          <th>Member - 4</th>
+                          <th>Member - 5</th>
                           <th>Fees</th>
                           <th>Registered At</th>
                           <th>Payment<br>Status</th>
@@ -42,19 +44,21 @@
                         </tr>
                       </thead>
                       <tbody>
-                      		@foreach ($pss as $pc) 
+                      		@foreach ($sieges as $siege) 
                           <tr>
-                            <td>{{$pc->id}}</td>
-                            <td>{{$pc->team_name}}</td>
-                            <td>{{$pc->institution}}</td>
-                            <td>{{$pc->member_1_name}}</td>
-                            <td>{{$pc->member_2_name}}</td>
-                            <td>{{$pc->member_3_name}}</td>
-                            <td>{{$pc->total}}</td>
-                            <td>{{$pc->created_at}}</td>
+                            <td>{{$siege->id}}</td>
+                            <td>{{$siege->team_name}}</td>
+                            <td>{{$siege->member_1_name}}</td>
+                            <td>{{$siege->member_2_name}}</td>
+                            <td>{{$siege->member_3_name}}</td>
+                            <td>{{$siege->member_4_name}}</td>
+                            <td>{{$siege->member_5_name}}</td>
+                            <td>{{$siege->member_6_name}}</td>
+                            <td>{{$siege->total}}</td>
+                            <td>{{$siege->created_at}}</td>
                             <?php
                             
-                            $paid = $pc->total - ($pc->paid);
+                            $paid = $siege->total - ($siege->paid);
                             if($paid==0)
                             {
                                 echo '<th><font style="color:green">'.'Successful'.'</font></th>';
@@ -66,7 +70,7 @@
                             ?>
                             <?php
                             
-                            $sel = $pc->selected;
+                            $sel = $siege->selected;
                             if($sel=='True')
                             {
                                 echo '<th><font style="color:green">'.'True'.'</font></th>';
@@ -76,9 +80,9 @@
                               echo '<th><font style="color:red">'.'False'.'</font></th>';
                             }
                             ?>
-                <th><a href="/payment_done_ps/{{$pc->id}}" class="glyphicon glyphicon-euro"></a></th>
-                <th><a href="/selection_done_ps/{{$pc->id}}" class="glyphicon glyphicon-plus"></a></th>
-                <th><a href="/delete_ps/{{$pc->id}}" class="glyphicon glyphicon-trash"></a></th>
+                <th><a href="/payment_done_siege/{{$siege->id}}" class="glyphicon glyphicon-euro"></a></th>
+                <th><a href="/selection_done_siege/{{$siege->id}}" class="glyphicon glyphicon-plus"></a></th>
+                <th><a href="/delete_siege/{{$siege->id}}" class="glyphicon glyphicon-trash"></a></th>
                           </tr>
                         @endforeach
                       </tbody>
