@@ -65,8 +65,9 @@
                 <a class="dropdown-item" href="{{route('selected_io')}}">ICT Olympiad</a>
                 <a class="dropdown-item" href="{{route('selected_pc')}}">Programming Contest</a>
                 <a class="dropdown-item" href="{{route('selected_ps')}}">Project Showcasing</a>
-                <a class="dropdown-item" href="{{route('selected_business')}}">IT BUSINESS CASE COMPETITION</a>
+                <a class="dropdown-item" href="{{route('selected_business')}}">IT Business Case Competition</a>
                 <a class="dropdown-item" href="{{route('selected_fifa')}}">FIFA 19</a>
+                <a class="dropdown-item" href="{{route('selected_siege')}}">Rainbow Six Siege</a>
               </div>
           </li>
           <li class="nav-item"><a href="#" class="nav-link">Payment</a></li>

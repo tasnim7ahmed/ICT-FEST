@@ -16,6 +16,7 @@ use App\Programming;
 use App\Project;
 use App\Business;
 use App\FIFA19;
+use App\Siege;
 
 
 
@@ -85,6 +86,15 @@ Route::get('/events/fifa19_selected', function () {
     $fifa = FIFA19::where('selected','True')->get();
     return view('front_end/selected_fifa')->with('fifas',$fifa);
 })->name('selected_fifa');
+
+Route::get('/events/siege', function () {
+    return view('front_end/siege');
+})->name('siege');
+
+Route::get('/events/siege_selected', function () {
+    $siege = Siege::where('selected','True')->get();
+    return view('front_end/selected_siege')->with('sieges',$siege);
+})->name('selected_siege');
 
 
 
@@ -172,3 +182,16 @@ Route::get('/delete_fifa/{id}','FIFA19Controller@delete')->middleware('auth');
 Route::get('/selection_done_fifa/{id}','FIFA19Controller@selection')->middleware('auth');
 Route::get('/payment_done_fifa/{id}','FIFA19Controller@payment')->middleware('auth');
 Route::post('/events/fifa19', 'FIFA19Controller@store_front')->name('store_fifa_front');
+
+
+
+
+
+Route::get('/register_siege', 'SiegeController@create')->name('register_siege')->middleware('auth');
+Route::get('/siege_list', 'SiegeController@index')->name('siege_list')->middleware('auth');
+Route::post('/siege_list', 'SiegeController@store')->name('store_siege')->middleware('auth');
+Route::get('/delete_siege/{id}','SiegeController@delete')->middleware('auth');
+Route::get('/selection_done_siege/{id}','SiegeController@selection')->middleware('auth');
+Route::get('/payment_done_siege/{id}','SiegeController@payment')->middleware('auth');
+
+Route::post('/events/siege', 'SiegeController@store_front')->name('store_siege_front');
