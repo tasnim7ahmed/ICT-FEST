@@ -53,7 +53,7 @@
                               <option value="">-- Please select your team ID --</option>
                               @foreach ($businesses as $business) 
                           
-                              echo '<option value="{{$business->id}}">{{$business->id}}</option>';
+                              echo '<option value="{{$business->id}}">{{$business->team_name}}</option>';
                            
                         @endforeach
                           </select>

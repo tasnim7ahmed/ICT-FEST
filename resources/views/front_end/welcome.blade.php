@@ -270,7 +270,7 @@
             <div class="carousel-testimony owl-carousel ftco-owl">
               <div class="item text-center">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(../snipp/images/person_1.jpg)">
+                  <div class="user-img mb-4" style="background-image: url(../images/tamzid.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
@@ -279,14 +279,14 @@
                    
                     <p class="name">Tamzid Karim</p>
                     <p class="mb-2">Vice-President</p>
-                    <span class="position">facebook.com/saadman.malik</span><br>
-                    <span class="position">+8801733004000</span>
+                    <span class="position">facebook.com/karim.tamzid</span><br>
+                    <span class="position">+8801722237176</span>
                   </div>
                 </div>
               </div>
               <div class="item text-center">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(../snipp/images/person_2.jpg)">
+                  <div class="user-img mb-4" style="background-image: url(../images/anqur.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
@@ -295,15 +295,15 @@
                     
                     <p class="name">Anqur Enayet</p>
                     <p class="mb-2">Vice-President</p>
-                    <span class="position">facebook.com/aflan.cse</span>
-                    <span class="position">+8801733004000</span>
+                    <span class="position">facebook.com/anqur.enayet</span><br>
+                    <span class="position">+8801834684946</span>
                   </div>
                 </div>
               </div>
 
               <div class="item text-center">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(../snipp/images/person_2.jpg)">
+                  <div class="user-img mb-4" style="background-image: url(../images/rahat.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
@@ -312,7 +312,7 @@
                     
                     <p class="name">Rahat Anwar Khan</p>
                     <p class="mb-2">President</p>
-                    <span class="position">facebook.com/rahat.khan.2848</span>
+                    <span class="position">facebook.com/rahat.khan.2848</span><br>
                     <span class="position">+8801521323672</span>
                   </div>
                 </div>
@@ -341,7 +341,7 @@
             <div class="carousel-testimony owl-carousel ftco-owl">
               <div class="item text-center">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(../snipp/images/person_1.jpg)">
+                  <div class="user-img mb-4" style="background-image: url(../images/saadman2.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
@@ -357,7 +357,7 @@
               </div>
               <div class="item text-center">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(../snipp/images/person_2.jpg)">
+                  <div class="user-img mb-4" style="background-image: url(../images/aflan.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
@@ -366,7 +366,7 @@
                     
                     <p class="name">Ifaz Ahmed Aflan</p>
                     <p class="mb-2">Graphics Designer</p>
-                    <span class="position">facebook.com/aflan.cse</span>
+                    <span class="position">facebook.com/aflan.cse</span><br>
                     <span class="position">+8801954790638</span>
                   </div>
                 </div>
@@ -374,7 +374,7 @@
 
               <div class="item text-center">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(../snipp/images/person_2.jpg)">
+                  <div class="user-img mb-4" style="background-image: url(../images/tasnim.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
