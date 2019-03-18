@@ -5,7 +5,7 @@
 	<div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h1>PROJECT SHOWCASING / <small>register a new team</small></h1>
+                    <h1>DOTA 2 / <small>register a new team</small></h1>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -18,30 +18,23 @@
 
                       
                     
-                    <form class="form-horizontal form-label-left" method="POST" action="{{ route('store_ps') }}">
+                    <form class="form-horizontal form-label-left" method="POST" action="{{ route('store_dota') }}">
                     	{{ csrf_field() }}
                       
 
-                      
-
-
-
-
-
-
-
+                 <div class="col-md-12 mb-4">
+                          <h2 class="h3">Team Information</h2>
+                      </div>
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
                           <input type="text" name="team_name" class="form-control" placeholder="Team Name" required="required">
                       </div>
+
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                          <input type="text" name="institution" class="form-control" placeholder="Institution Name" required="required">
+                          <input type="text" pattern="[+]?\d*" name="contact" class="form-control" placeholder="Contact Number" required="required">
                       </div>
-
-
-
-                      
-
-
+                      <div class="form-group col-md-4 col-sm-6 col-xs-12">
+                          <input type="email" name="email" class="form-control" placeholder="E-mail" required="required">
+                      </div>
 
 
 
@@ -54,12 +47,9 @@
                           <input type="text" name="member_1_name" class="form-control" placeholder="Name of the Team Leader" required="required">
                       </div>
 
-                      <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                          <input type="text" pattern="[+]?\d*" name="member_1_contact" class="form-control" placeholder="Contact No. of the Team Leader" required="required">
-                      </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                          <input type="email" name="member_1_email" class="form-control" placeholder="E-mail of the Team Leader">
+                          <input type="text" name="member_1_ign" class="form-control" placeholder="DOTA 2 ID of the Team Leader">
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
@@ -72,7 +62,6 @@
                               <option value="XXL">XXL</option>
                           </select>
                       </div>
-
 
                       
 
@@ -87,12 +76,9 @@
                           <input type="text" name="member_2_name" class="form-control" placeholder="Name of Member - 1" required="required">
                       </div>
 
-                      <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                          <input type="text" pattern="[+]?\d*" name="member_2_contact" class="form-control" placeholder="Contact No. of Member - 1" required="required">
-                      </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                          <input type="email" name="member_2_email" class="form-control" placeholder="E-mail of Member - 1">
+                          <input type="text" name="member_2_ign" class="form-control" placeholder="DOTA 2 ID of Member - 1">
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
@@ -108,10 +94,6 @@
 
 
 
-
-
-
-
                       <!-- member_3 -->
                       <div class="col-md-12 mb-4">
                           <h2 class="h3">Information Regarding Member - 2 (optional)</h2>
@@ -121,18 +103,94 @@
                           <input type="text" name="member_3_name" class="form-control" placeholder="Name of Member - 2" >
                       </div>
 
-                      <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                          <input type="text" pattern="[+]?\d*" name="member_3_contact" class="form-control" placeholder="Contact No. of Member - 2" >
-                      </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                          <input type="email" name="member_3_email" class="form-control" placeholder="E-mail of Member - 2">
+                          <input type="text" name="member_3_ign" class="form-control" placeholder="DOTA 2 ID of Member - 2">
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
                         <label>T-Shirt Size of Member - 2</label>
                         
                           <select name="member_3_tshirt" class="form-control">
+                    
+                              <option value="M">M</option>
+                              <option value="L">L</option>
+                              <option value="XL">XL</option>
+                              <option value="XXL">XXL</option>
+                          </select>
+                      </div>
+
+                      <!-- member_4 -->
+                      <div class="col-md-12 mb-4">
+                          <h2 class="h3">Information Regarding Member - 2 (optional)</h2>
+                      </div>
+
+                      <div class="form-group col-md-4 col-sm-6 col-xs-12">
+                          <input type="text" name="member_4_name" class="form-control" placeholder="Name of Member - 3" >
+                      </div>
+
+
+                      <div class="form-group col-md-4 col-sm-6 col-xs-12">
+                          <input type="text" name="member_4_ign" class="form-control" placeholder="DOTA 2 ID of Member - 3">
+                      </div>
+
+                      <div class="form-group col-md-4 col-sm-6 col-xs-12">
+                        <label>T-Shirt Size of Member - 3</label>
+                        
+                          <select name="member_4_tshirt" class="form-control">
+                              
+                              <option value="M">M</option>
+                              <option value="L">L</option>
+                              <option value="XL">XL</option>
+                              <option value="XXL">XXL</option>
+                          </select>
+                      </div>
+
+                      <!-- member_5 -->
+                      <div class="col-md-12 mb-4">
+                          <h2 class="h3">Information Regarding Member - 2 (optional)</h2>
+                      </div>
+
+                      <div class="form-group col-md-4 col-sm-6 col-xs-12">
+                          <input type="text" name="member_5_name" class="form-control" placeholder="Name of Member - 4" >
+                      </div>
+
+
+                      <div class="form-group col-md-4 col-sm-6 col-xs-12">
+                          <input type="text" name="member_5_ign" class="form-control" placeholder="DOTA 2 ID of Member - 4">
+                      </div>
+
+                      <div class="form-group col-md-4 col-sm-6 col-xs-12">
+                        <label>T-Shirt Size of Member - 4</label>
+                        
+                          <select name="member_5_tshirt" class="form-control">
+                              
+                              <option value="M">M</option>
+                              <option value="L">L</option>
+                              <option value="XL">XL</option>
+                              <option value="XXL">XXL</option>
+                          </select>
+                      </div>
+
+
+                      <!-- member_6 -->
+                      <div class="col-md-12 mb-4">
+                          <h2 class="h3">Information Regarding Member - 2 (optional)</h2>
+                      </div>
+
+                      <div class="form-group col-md-4 col-sm-6 col-xs-12">
+                          <input type="text" name="member_6_name" class="form-control" placeholder="Name of Member - 5" >
+                      </div>
+
+
+                      <div class="form-group col-md-4 col-sm-6 col-xs-12">
+                          <input type="text" name="member_6_ign" class="form-control" placeholder="DOTA 2 ID of Member - 5">
+                      </div>
+
+                      <div class="form-group col-md-4 col-sm-6 col-xs-12">
+                        <label>T-Shirt Size of Member - 5</label>
+                        
+                          <select name="member_6_tshirt" class="form-control">
                               <option value="">-- please select t-shirt size --</option>
                               <option value="M">M</option>
                               <option value="L">L</option>
@@ -141,10 +199,12 @@
                           </select>
                       </div>
 
+
+
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
                         <label>Registration Fees</label>
                           <select name="total" class="form-control" required="required" selected = "true">
-                              <option value="1500">1500</option>
+                              <option value="2000">2000</option>
                           </select>
                       </div>
 

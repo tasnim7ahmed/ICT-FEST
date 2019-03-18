@@ -14,23 +14,25 @@
       </div>
     </div>
     
-    <section class="ftco-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
+    <section class="ftco-section" style="background-image: url(../images/Fifa.jpg); background-size: auto; background-repeat: no-repeat;">
+      <div class="container bg-light" style="opacity:0.88">
+        <div class="row justify-content-center mb-5 pb-5" >
           <div class="col-md-6 text-center heading-section ftco-animate">
             <span class="subheading">FIFA 19</span>
             <h2 class="mb-4">Rules &amp; Regulations</h2>
+            <h5>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+          </h5>
           </div>
         </div>
       </div>
-    </section>
+    <!-- </section>
 
-    <section class="ftco-section contact-section ftco-degree-bg">
-      <div class="container bg-light">
+    <section class="ftco-section contact-section ftco-degree-bg"> -->
+      <div class="container bg-light" style="opacity:0.88">
         <div class="row d-flex mb-5 contact-info">
           <div class="col-md-12 mb-4">
-            <h2 class="h4">Registration Form</h2>
+            <h2 class="h3"><br>Registration Form</h2>
           </div>
           <div class="w-100"></div>
         </div>
@@ -39,7 +41,7 @@
             <form method="POST" action="{{ route('store_fifa_front') }}">
                       {{ csrf_field() }}
                       
-                      <div class="form-group">
+                      <div class="form-group" >
                           <input type="text" name="name" class="form-control" placeholder="Your Name" required="required">
                       </div>
 
