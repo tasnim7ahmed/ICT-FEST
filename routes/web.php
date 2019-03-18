@@ -17,6 +17,8 @@ use App\Project;
 use App\business;
 use App\FIFA19;
 use App\Siege;
+use App\Dota;
+use App\Poster;
 
 
 
@@ -95,6 +97,24 @@ Route::get('/events/siege_selected', function () {
     $siege = Siege::where('selected','True')->get();
     return view('front_end/selected_siege')->with('sieges',$siege);
 })->name('selected_siege');
+
+Route::get('/events/dota', function () {
+    return view('front_end/dota');
+})->name('dota');
+
+Route::get('/events/dota_selected', function () {
+    $dota = Dota::where('selected','True')->get();
+    return view('front_end/selected_dota')->with('dotas',$dota);
+})->name('selected_dota');
+
+Route::get('/events/poster', function () {
+    return view('front_end/poster');
+})->name('poster');
+
+Route::get('/events/poster_selected', function () {
+    $poster = Poster::where('selected','True')->get();
+    return view('front_end/selected_poster')->with('posters',$poster);
+})->name('selected_poster');
 
 
 
@@ -195,3 +215,34 @@ Route::get('/selection_done_siege/{id}','SiegeController@selection')->middleware
 Route::get('/payment_done_siege/{id}','SiegeController@payment')->middleware('auth');
 
 Route::post('/events/siege', 'SiegeController@store_front')->name('store_siege_front');
+
+
+
+
+
+Route::get('/register_dota', 'DotaController@create')->name('register_dota')->middleware('auth');
+Route::get('/dota_list', 'DotaController@index')->name('dota_list')->middleware('auth');
+Route::post('/dota_list', 'DotaController@store')->name('store_dota')->middleware('auth');
+Route::get('/delete_dota/{id}','DotaController@delete')->middleware('auth');
+Route::get('/selection_done_dota/{id}','DotaController@selection')->middleware('auth');
+Route::get('/payment_done_dota/{id}','DotaController@payment')->middleware('auth');
+
+Route::post('/events/dota', 'DotaController@store_front')->name('store_dota_front');
+
+
+
+
+
+
+
+Route::get('/register_poster', 'PosterController@create')->name('register_poster')->middleware('auth');
+Route::get('/poster_list', 'PosterController@index')->name('poster_list')->middleware('auth');
+Route::post('/poster_list', 'PosterController@store')->name('store_poster')->middleware('auth');
+Route::get('/delete_poster/{id}','PosterController@delete')->middleware('auth');
+Route::get('/selection_done_poster/{id}','PosterController@selection')->middleware('auth');
+Route::get('/payment_done_poster/{id}','PosterController@payment')->middleware('auth');
+
+Route::post('/events/poster', 'PosterController@store_front')->name('store_poster_front');
+
+Route::post('/events/poster_selected', 'PosterController@upload')->name('poster_upload');
+Route::get('/poster_download/{id}','PosterController@download')->middleware('auth');

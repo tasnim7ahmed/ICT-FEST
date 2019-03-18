@@ -106,6 +106,18 @@
                       <li><a href={{route('siege_list')}}>Participants' Info</a></li>
                     </ul>
                   </li>
+                  <li><a><i class="fa fa-edit"></i>DOTA 2<span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href={{route('register_dota')}}>Register</a></li>
+                      <li><a href={{route('dota_list')}}>Participants' Info</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-edit"></i>Poster Presentation<span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href={{route('register_poster')}}>Register</a></li>
+                      <li><a href={{route('poster_list')}}>Participants' Info</a></li>
+                    </ul>
+                  </li>
 
                 </ul>
 
