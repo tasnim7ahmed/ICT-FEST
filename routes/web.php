@@ -14,7 +14,7 @@ use App\MathOlympiad;
 use App\IctOlympiad;
 use App\Programming;
 use App\Project;
-use App\Business;
+use App\business;
 use App\FIFA19;
 use App\Siege;
 
