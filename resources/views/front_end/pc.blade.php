@@ -62,7 +62,7 @@
                       </div>
 
                       <div class="form-group">
-                          <input type="email" name="coach_email" class="form-control" placeholder="E-mail of the Coach">
+                          <input type="email" name="coach_email" class="form-control" placeholder="E-mail of the Coach" required="required">
                       </div>
 
                       <div class="form-group">
@@ -94,7 +94,7 @@
                       </div>
 
                       <div class="form-group">
-                          <input type="email" name="member_1_email" class="form-control" placeholder="E-mail of the Team Leader">
+                          <input type="email" name="member_1_email" class="form-control" placeholder="E-mail of the Team Leader" required="required">
                       </div>
 
                       <div class="form-group">
@@ -127,7 +127,7 @@
                       </div>
 
                       <div class="form-group">
-                          <input type="email" name="member_2_email" class="form-control" placeholder="E-mail of Member - 1">
+                          <input type="email" name="member_2_email" class="form-control" placeholder="E-mail of Member - 1" required="required">
                       </div>
 
                       <div class="form-group">
@@ -161,7 +161,7 @@
                       </div>
 
                       <div class="form-group">
-                          <input type="email" name="member_3_email" class="form-control" placeholder="E-mail of Member - 2">
+                          <input type="email" name="member_3_email" class="form-control" placeholder="E-mail of Member - 2" required="required">
                       </div>
 
                       <div class="form-group">

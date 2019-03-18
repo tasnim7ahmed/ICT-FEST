@@ -19,6 +19,7 @@ use App\FIFA19;
 use App\Siege;
 use App\Dota;
 use App\Poster;
+use App\Appdev;
 
 
 
@@ -115,6 +116,15 @@ Route::get('/events/poster_selected', function () {
     $poster = Poster::where('selected','True')->get();
     return view('front_end/selected_poster')->with('posters',$poster);
 })->name('selected_poster');
+
+Route::get('/events/appdev', function () {
+    return view('front_end/appdev');
+})->name('appdev');
+
+Route::get('/events/appdev_selected', function () {
+    $appdev = Appdev::where('selected','True')->get();
+    return view('front_end/selected_appdev')->with('appdevs',$appdev);
+})->name('selected_appdev');
 
 
 
@@ -246,3 +256,20 @@ Route::post('/events/poster', 'PosterController@store_front')->name('store_poste
 
 Route::post('/events/poster_selected', 'PosterController@upload')->name('poster_upload');
 Route::get('/poster_download/{id}','PosterController@download')->middleware('auth');
+
+
+
+
+
+
+Route::get('/register_appdev', 'AppdevController@create')->name('register_appdev')->middleware('auth');
+Route::get('/appdev_list', 'AppdevController@index')->name('appdev_list')->middleware('auth');
+Route::post('/appdev_list', 'AppdevController@store')->name('store_appdev')->middleware('auth');
+Route::get('/delete_appdev/{id}','AppdevController@delete')->middleware('auth');
+Route::get('/selection_done_appdev/{id}','AppdevController@selection')->middleware('auth');
+Route::get('/payment_done_appdev/{id}','AppdevController@payment')->middleware('auth');
+
+Route::post('/events/appdev', 'AppdevController@store_front')->name('store_appdev_front');
+
+// Route::post('/events/appdev_selected', 'AppdevController@upload')->name('appdev_upload');
+Route::get('/appdev_download/{id}','AppdevController@download')->middleware('auth');

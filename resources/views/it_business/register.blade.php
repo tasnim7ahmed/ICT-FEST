@@ -54,7 +54,7 @@
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                          <input type="email" name="member_1_email" class="form-control" placeholder="E-mail of the Team Leader">
+                          <input type="email" name="member_1_email" class="form-control" placeholder="E-mail of the Team Leader" required="required">
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
@@ -91,7 +91,7 @@
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                          <input type="email" name="member_2_email" class="form-control" placeholder="E-mail of Member - 1">
+                          <input type="email" name="member_2_email" class="form-control" placeholder="E-mail of Member - 1" required="required">
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
@@ -129,7 +129,7 @@
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                          <input type="email" name="member_3_email" class="form-control" placeholder="E-mail of Member - 2">
+                          <input type="email" name="member_3_email" class="form-control" placeholder="E-mail of Member - 2" required="required">
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">

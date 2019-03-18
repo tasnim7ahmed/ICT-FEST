@@ -77,7 +77,7 @@
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                          <input type="email" name="member_1_email" class="form-control" placeholder="E-mail of the Team Leader">
+                          <input type="email" name="member_1_email" class="form-control" placeholder="E-mail of the Team Leader" required="required">
                       </div>
 
                     
@@ -110,7 +110,7 @@
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                          <input type="email" name="member_2_email" class="form-control" placeholder="E-mail of Member - 1">
+                          <input type="email" name="member_2_email" class="form-control" placeholder="E-mail of Member - 1" required="required">
                       </div>
 
                       
@@ -192,6 +192,9 @@
                           </select>
                       </div>
 
+                      <div class="col-md-12 mb-4">
+                          <h2 class="h3">Abstract of your presentation topic</h2>
+                      </div>
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
                         <label>Please select a PDF file not exceeding 5 MB</label>
                           <input type="file" name="pdf" class="form-control" placeholder="" required="required">

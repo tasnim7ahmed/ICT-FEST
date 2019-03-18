@@ -49,7 +49,7 @@
 
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                          <input type="text" name="member_1_ign" class="form-control" placeholder="DOTA 2 ID of the Team Leader">
+                          <input type="text" name="member_1_ign" class="form-control" placeholder="DOTA 2 ID of the Team Leader" required="required">
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
@@ -78,7 +78,7 @@
 
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                          <input type="text" name="member_2_ign" class="form-control" placeholder="DOTA 2 ID of Member - 1">
+                          <input type="text" name="member_2_ign" class="form-control" placeholder="DOTA 2 ID of Member - 1" required="required">
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
@@ -96,22 +96,22 @@
 
                       <!-- member_3 -->
                       <div class="col-md-12 mb-4">
-                          <h2 class="h3">Information Regarding Member - 2 (optional)</h2>
+                          <h2 class="h3">Information Regarding Member - 2</h2>
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                          <input type="text" name="member_3_name" class="form-control" placeholder="Name of Member - 2" >
+                          <input type="text" name="member_3_name" class="form-control" placeholder="Name of Member - 2" required="required">
                       </div>
 
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                          <input type="text" name="member_3_ign" class="form-control" placeholder="DOTA 2 ID of Member - 2">
+                          <input type="text" name="member_3_ign" class="form-control" placeholder="DOTA 2 ID of Member - 2" required="required">
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
                         <label>T-Shirt Size of Member - 2</label>
                         
-                          <select name="member_3_tshirt" class="form-control">
+                          <select name="member_3_tshirt" class="form-control" required="required">
                     
                               <option value="M">M</option>
                               <option value="L">L</option>
@@ -122,22 +122,22 @@
 
                       <!-- member_4 -->
                       <div class="col-md-12 mb-4">
-                          <h2 class="h3">Information Regarding Member - 2 (optional)</h2>
+                          <h2 class="h3">Information Regarding Member - 3</h2>
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                          <input type="text" name="member_4_name" class="form-control" placeholder="Name of Member - 3" >
+                          <input type="text" name="member_4_name" class="form-control" placeholder="Name of Member - 3" required="required">
                       </div>
 
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                          <input type="text" name="member_4_ign" class="form-control" placeholder="DOTA 2 ID of Member - 3">
+                          <input type="text" name="member_4_ign" class="form-control" placeholder="DOTA 2 ID of Member - 3" required="required">
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
                         <label>T-Shirt Size of Member - 3</label>
                         
-                          <select name="member_4_tshirt" class="form-control">
+                          <select name="member_4_tshirt" class="form-control" required="required">
                               
                               <option value="M">M</option>
                               <option value="L">L</option>
@@ -148,22 +148,22 @@
 
                       <!-- member_5 -->
                       <div class="col-md-12 mb-4">
-                          <h2 class="h3">Information Regarding Member - 2 (optional)</h2>
+                          <h2 class="h3">Information Regarding Member - 4</h2>
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                          <input type="text" name="member_5_name" class="form-control" placeholder="Name of Member - 4" >
+                          <input type="text" name="member_5_name" class="form-control" placeholder="Name of Member - 4" required="required">
                       </div>
 
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                          <input type="text" name="member_5_ign" class="form-control" placeholder="DOTA 2 ID of Member - 4">
+                          <input type="text" name="member_5_ign" class="form-control" placeholder="DOTA 2 ID of Member - 4" required="required">
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
                         <label>T-Shirt Size of Member - 4</label>
                         
-                          <select name="member_5_tshirt" class="form-control">
+                          <select name="member_5_tshirt" class="form-control" required="required">
                               
                               <option value="M">M</option>
                               <option value="L">L</option>
@@ -175,7 +175,7 @@
 
                       <!-- member_6 -->
                       <div class="col-md-12 mb-4">
-                          <h2 class="h3">Information Regarding Member - 2 (optional)</h2>
+                          <h2 class="h3">Information Regarding Member - 5 (optional)</h2>
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">

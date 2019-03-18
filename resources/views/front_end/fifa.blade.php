@@ -14,7 +14,7 @@
       </div>
     </div>
     
-    <section class="ftco-section" style="background-image: url(../images/Fifa.jpg); background-size: auto; background-repeat: no-repeat;">
+    <section class="ftco-section" style="background-image: url(../images/Fifa.png); background-size: 100%;">
       <div class="container bg-light" style="opacity:0.88">
         <div class="row justify-content-center mb-5 pb-5" >
           <div class="col-md-6 text-center heading-section ftco-animate">
@@ -51,7 +51,7 @@
                       </div>
 
                       <div class="form-group">
-                          <input type="email" name="email" class="form-control" placeholder="E-mail">
+                          <input type="email" name="email" class="form-control" placeholder="E-mail" required="required">
                       </div>
 
                       

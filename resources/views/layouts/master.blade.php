@@ -118,6 +118,12 @@
                       <li><a href={{route('poster_list')}}>Participants' Info</a></li>
                     </ul>
                   </li>
+                  <li><a><i class="fa fa-edit"></i>Application Development<span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href={{route('register_appdev')}}>Register</a></li>
+                      <li><a href={{route('appdev_list')}}>Participants' Info</a></li>
+                    </ul>
+                  </li>
 
                 </ul>
 

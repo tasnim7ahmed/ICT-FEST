@@ -14,7 +14,7 @@
       </div>
     </div>
     
-    <section class="ftco-section" style="background-image: url(../images/Dota2.jpg); background-size: 100%; ">
+    <section class="ftco-section" style="background-image: url(../images/DOTA.png); background-size: 100%; ">
       <div class="container bg-light" style="opacity:0.7">
         <div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-6 text-center heading-section ftco-animate">
@@ -51,7 +51,7 @@
                           <input type="text" pattern="[+]?\d*" name="contact" class="form-control" placeholder="Contact Number" required="required">
                       </div>
                       <div class="form-group">
-                          <input type="email" name="email" class="form-control" placeholder="E-mail">
+                          <input type="email" name="email" class="form-control" placeholder="E-mail" required="required">
                       </div>
 
 
@@ -66,7 +66,7 @@
 
 
                       <div class="form-group">
-                          <input type="text" name="member_1_ign" class="form-control" placeholder="DOTA 2 ID of the Team Leader">
+                          <input type="text" name="member_1_ign" class="form-control" placeholder="DOTA 2 ID of the Team Leader" required="required">
                       </div>
 
                       <div class="form-group">
@@ -96,7 +96,7 @@
 
 
                       <div class="form-group">
-                          <input type="text" name="member_2_ign" class="form-control" placeholder="DOTA 2 ID of Member - 1">
+                          <input type="text" name="member_2_ign" class="form-control" placeholder="DOTA 2 ID of Member - 1" required="required">
                       </div>
 
                       <div class="form-group">
@@ -127,7 +127,7 @@
 
 
                       <div class="form-group">
-                          <input type="text" name="member_3_ign" class="form-control" placeholder="DOTA 2 ID of Member - 2">
+                          <input type="text" name="member_3_ign" class="form-control" placeholder="DOTA 2 ID of Member - 2" required="required">
                       </div>
 
                       <div class="form-group">
@@ -153,7 +153,7 @@
 
 
                       <div class="form-group">
-                          <input type="text" name="member_4_ign" class="form-control" placeholder="DOTA 2 ID of Member - 3">
+                          <input type="text" name="member_4_ign" class="form-control" placeholder="DOTA 2 ID of Member - 3" required="required">
                       </div>
 
                       <div class="form-group">
@@ -179,7 +179,7 @@
 
 
                       <div class="form-group">
-                          <input type="text" name="member_5_ign" class="form-control" placeholder="DOTA 2 ID of Member - 4">
+                          <input type="text" name="member_5_ign" class="form-control" placeholder="DOTA 2 ID of Member - 4" required="required">
                       </div>
 
                       <div class="form-group">

@@ -70,6 +70,7 @@
                 <a class="dropdown-item" href="{{route('selected_siege')}}">Rainbow Six Siege</a>
                 <a class="dropdown-item" href="{{route('selected_dota')}}">DOTA 2</a>
                 <a class="dropdown-item" href="{{route('selected_poster')}}">Poster Presentation</a>
+                <a class="dropdown-item" href="{{route('selected_appdev')}}">Application Development</a>
               </div>
           </li>
           <li class="nav-item"><a href="#" class="nav-link">Payment</a></li>

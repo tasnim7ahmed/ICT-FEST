@@ -8,37 +8,35 @@
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-6 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
             <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-            <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">RAINBOW SIX SIEGE</h1>
+            <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">APPLICATION DEVELOPMENT</h1>
           </div>
         </div>
       </div>
     </div>
     
-    <section class="ftco-section" style="background-image: url(../images/Siege.png); background-size: 100%; ">
-      <div class="container bg-light" style="opacity:0.7">
+    <section class="ftco-section">
+      <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-6 text-center heading-section ftco-animate">
-            <span class="subheading">RAINBOW SIX SIEGE</span>
+            <span class="subheading">APPLICATION DEVELOPMENT</span>
             <h2 class="mb-4">Rules &amp; Regulations</h2>
-            <h5>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
-          </h5>
           </div>
         </div>
       </div>
-    <!-- </section>
+    </section>
 
-    <section class="ftco-section contact-section ftco-degree-bg"> -->
-      <div class="container bg-light" style="opacity:0.7">
+    <section class="ftco-section contact-section ftco-degree-bg">
+      <div class="container bg-light">
         <div class="row d-flex mb-5 contact-info">
           <div class="col-md-12 mb-4">
-            <h2 class="h3"><br>Registration Form</h2>
+            <h2 class="h4">Registration Form</h2>
           </div>
           <div class="w-100"></div>
         </div>
         <div class="row block-9">
           <div class="col-md-9 pr-md-5">
-            <form method="POST" action="{{ route('store_siege_front') }}">
+            <form method="POST" action="{{ route('store_appdev_front') }}" enctype="multipart/form-data">
                       {{ csrf_field() }}
                       
                       <div class="col-md-12 mb-4">
@@ -47,12 +45,10 @@
                       <div class="form-group">
                           <input type="text" name="team_name" class="form-control" placeholder="Team Name" required="required">
                       </div>
-                      <div class="form-group">
-                          <input type="text" pattern="[+]?\d*" name="contact" class="form-control" placeholder="Contact Number" required="required">
-                      </div>
-                      <div class="form-group">
-                          <input type="email" name="email" class="form-control" placeholder="E-mail" required="required">
-                      </div>
+
+                    
+                      
+
 
 
                       <!-- member_1 -->
@@ -64,9 +60,20 @@
                           <input type="text" name="member_1_name" class="form-control" placeholder="Name of the Team Leader" required="required">
                       </div>
 
+                      <div class="form-group">
+                          <input type="text" name="member_1_institution" class="form-control" placeholder="Institution Name of the Team Leader" required="required">
+                      </div>
 
                       <div class="form-group">
-                          <input type="text" name="member_1_ign" class="form-control" placeholder="In-Game Name (IGN) of the Team Leader" required="required">
+                          <input type="text" name="member_1_std_id" class="form-control" placeholder="Student ID of the Team Leader" required="required">
+                      </div>
+
+                      <div class="form-group">
+                          <input type="text" pattern="[+]?\d*" name="member_1_contact" class="form-control" placeholder="Contact No. of the Team Leader" required="required">
+                      </div>
+
+                      <div class="form-group">
+                          <input type="email" name="member_1_email" class="form-control" placeholder="E-mail of the Team Leader" required="required">
                       </div>
 
                       <div class="form-group">
@@ -94,10 +101,22 @@
                           <input type="text" name="member_2_name" class="form-control" placeholder="Name of Member - 1" required="required">
                       </div>
 
+                      <div class="form-group">
+                          <input type="text" name="member_2_institution" class="form-control" placeholder="Institution Name of Member - 1" required="required">
+                      </div>
 
                       <div class="form-group">
-                          <input type="text" name="member_2_ign" class="form-control" placeholder="In-Game Name (IGN) of Member - 1" required="required">
+                          <input type="text" name="member_2_std_id" class="form-control" placeholder="Student ID of Member - 1" required="required">
                       </div>
+
+                      <div class="form-group">
+                          <input type="text" pattern="[+]?\d*" name="member_2_contact" class="form-control" placeholder="Contact No. of Member - 1" required="required">
+                      </div>
+
+                      <div class="form-group">
+                          <input type="email" name="member_2_email" class="form-control" placeholder="E-mail of Member - 1" required="required">
+                      </div>
+
 
                       <div class="form-group">
                         <label>T-Shirt Size of Member - 1</label>
@@ -118,17 +137,21 @@
 
                       <!-- member_3 -->
                       <div class="col-md-12 mb-4">
-                          <h3 class="h4">Information Regarding Member - 2 </h3>
+                          <h3 class="h4">Information Regarding Member - 2</h3>
                       </div>
 
                       <div class="form-group">
                           <input type="text" name="member_3_name" class="form-control" placeholder="Name of Member - 2" required="required">
                       </div>
 
+                      <div class="form-group">
+                          <input type="text" name="member_3_institution" class="form-control" placeholder="Institution Name of Member - 2" required="required">
+                      </div>
 
                       <div class="form-group">
-                          <input type="text" name="member_3_ign" class="form-control" placeholder="In-Game Name (IGN) of Member - 2" required="required">
+                          <input type="text" name="member_3_std_id" class="form-control" placeholder="Student ID of Member - 2" required="required">
                       </div>
+
 
                       <div class="form-group">
                         <label>T-Shirt Size of Member - 2</label>
@@ -142,24 +165,30 @@
                       </div>
 
 
+
                       <!-- member_4 -->
                       <div class="col-md-12 mb-4">
-                          <h3 class="h4">Information Regarding Member - 3 </h3>
+                          <h3 class="h4">Information Regarding Member - 3 (Optional)</h3>
                       </div>
 
                       <div class="form-group">
-                          <input type="text" name="member_4_name" class="form-control" placeholder="Name of Member - 3" required="required">
+                          <input type="text" name="member_4_name" class="form-control" placeholder="Name of Member - 3">
                       </div>
-
 
                       <div class="form-group">
-                          <input type="text" name="member_4_ign" class="form-control" placeholder="In-Game Name (IGN) of Member - 3" required="required">
+                          <input type="text" name="member_4_institution" class="form-control" placeholder="Institution Name of Member - 3">
                       </div>
+
+                      <div class="form-group">
+                          <input type="text" name="member_4_std_id" class="form-control" placeholder="Student ID of Member - 3">
+                      </div>
+
 
                       <div class="form-group">
                         <label>T-Shirt Size of Member - 3</label>
                         
-                          <select name="member_4_tshirt" class="form-control" required="required">
+                          <select name="member_4_tshirt" class="form-control">
+                            <option value="">-- Please select t-shirt size --</option>
                               <option value="M">M</option>
                               <option value="L">L</option>
                               <option value="XL">XL</option>
@@ -168,63 +197,19 @@
                       </div>
 
 
-                      <!-- member_5 -->
                       <div class="col-md-12 mb-4">
-                          <h3 class="h4">Information Regarding Member - 4 </h3>
+                          <h2 class="h3">Summary of your application</h2>
                       </div>
-
                       <div class="form-group">
-                          <input type="text" name="member_5_name" class="form-control" placeholder="Name of Member - 4" required="required">
-                      </div>
-
-
-                      <div class="form-group">
-                          <input type="text" name="member_5_ign" class="form-control" placeholder="In-Game Name (IGN) of Member - 4" required="required">
-                      </div>
-
-                      <div class="form-group">
-                        <label>T-Shirt Size of Member - 4</label>
-                        
-                          <select name="member_5_tshirt" class="form-control" required="required">
-                              <option value="M">M</option>
-                              <option value="L">L</option>
-                              <option value="XL">XL</option>
-                              <option value="XXL">XXL</option>
-                          </select>
-                      </div>
-
-
-                      <!-- member_6 -->
-                      <div class="col-md-12 mb-4">
-                          <h3 class="h4">Information Regarding Member - 5 (Optional) </h3>
-                      </div>
-
-                      <div class="form-group">
-                          <input type="text" name="member_6_name" class="form-control" placeholder="Name of Member - 5">
-                      </div>
-
-
-                      <div class="form-group">
-                          <input type="text" name="member_6_ign" class="form-control" placeholder="In-Game Name (IGN) of Member - 5">
-                      </div>
-
-                      <div class="form-group">
-                        <label>T-Shirt Size of Member - 5</label>
-                        
-                          <select name="member_6_tshirt" class="form-control">
-                            <option value="">-- please select t-shirt size --</option>
-                              <option value="M">M</option>
-                              <option value="L">L</option>
-                              <option value="XL">XL</option>
-                              <option value="XXL">XXL</option>
-                          </select>
+                        <label>Please select a PDF/DOC file not exceeding 5 MB</label>
+                          <input type="file" name="pdf" class="form-control" placeholder="" required="required">
                       </div>
 
 
                       <div class="form-group">
                         <label>Registration Fees</label>
                           <select name="total" class="form-control" required="required" selected = "true">
-                              <option value="500">500</option>
+                              <option value="4000">4000</option>
                           </select>
                       </div>
 
