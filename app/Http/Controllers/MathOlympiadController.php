@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\MathOlympiad;
 use Illuminate\Http\Request;
+use Mail;
+use App\Mail\RegisterMail;
 
 class MathOlympiadController extends Controller
 {
@@ -48,6 +50,8 @@ class MathOlympiadController extends Controller
         $new_mo->tshirt = $request->tshirt;
         $new_mo->save();
         alert()->success('Participant has been admitted successfully.')->autoclose(3000);
+
+        Mail::to($new_mo->email)->send(new RegisterMail($new_mo->name,'Math Olympiad'));
        
         $mo = MathOlympiad::all();
         return redirect()->route('mo_list')->with('mos',$mo);
@@ -67,6 +71,11 @@ class MathOlympiadController extends Controller
         $new_mo->tshirt = $request->tshirt;
         $new_mo->save();
         alert()->success('Dear '.$request->name.', Your registration information has successfully been uploaded. Please check your e-mail and our website for further information.')->autoclose(120000);
+
+
+        Mail::to($new_mo->email)->send(new RegisterMail($new_mo->name,'Math Olympiad'));
+
+
         return redirect()->route('front');
     }
 

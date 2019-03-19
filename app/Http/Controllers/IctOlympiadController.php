@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\IctOlympiad;
 use Illuminate\Http\Request;
+use Mail;
+use App\Mail\RegisterMail;
 
 class IctOlympiadController extends Controller
 {
@@ -54,6 +56,7 @@ class IctOlympiadController extends Controller
         $new_io->tshirt = $request->tshirt;
         $new_io->save();
         alert()->success('Participant has been admitted successfully.')->autoclose(3000);
+        Mail::to($new_io->email)->send(new RegisterMail($new_mo->name,'ICT Olympiad'));
        
         $io = IctOlympiad::all();
         return redirect()->route('io_list')->with('ios',$io);
@@ -73,6 +76,8 @@ class IctOlympiadController extends Controller
         $new_io->tshirt = $request->tshirt;
         $new_io->save();
         alert()->success('Dear '.$request->name.', Your registration information has successfully been uploaded. Please check your e-mail and our website for further information.')->autoclose(120000);
+
+        Mail::to($new_io->email)->send(new RegisterMail($new_mo->name,'ICT Olympiad'));
         return redirect()->route('front');
     }
 
