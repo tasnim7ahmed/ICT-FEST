@@ -15,7 +15,7 @@
     </div>
     
     <section class="ftco-section" style="background-image: url(../images/Fifa.png); background-size: 100%;">
-      <div class="container bg-light" style="opacity:0.88">
+      <div class="container bg-light" style="opacity:0.92">
         <div class="row justify-content-center mb-5 pb-5" >
           <div class="col-md-6 text-center heading-section ftco-animate">
             <span class="subheading">FIFA 19</span>
@@ -29,7 +29,7 @@
     <!-- </section>
 
     <section class="ftco-section contact-section ftco-degree-bg"> -->
-      <div class="container bg-light" style="opacity:0.88">
+      <div class="container bg-light" style="opacity:0.92">
         <div class="row d-flex mb-5 contact-info">
           <div class="col-md-12 mb-4">
             <h2 class="h3"><br>Registration Form</h2>

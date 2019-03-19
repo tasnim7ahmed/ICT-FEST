@@ -20,6 +20,7 @@ use App\Siege;
 use App\Dota;
 use App\Poster;
 use App\Appdev;
+use App\Hackathon;
 
 
 
@@ -125,6 +126,15 @@ Route::get('/events/appdev_selected', function () {
     $appdev = Appdev::where('selected','True')->get();
     return view('front_end/selected_appdev')->with('appdevs',$appdev);
 })->name('selected_appdev');
+
+Route::get('/events/hackathon', function () {
+    return view('front_end/hackathon');
+})->name('hackathon');
+
+Route::get('/events/hackathon_selected', function () {
+    $hackathon = Hackathon::where('selected','True')->get();
+    return view('front_end/selected_hackathon')->with('hackathons',$hackathon);
+})->name('selected_hackathon');
 
 
 
@@ -273,3 +283,17 @@ Route::post('/events/appdev', 'AppdevController@store_front')->name('store_appde
 
 // Route::post('/events/appdev_selected', 'AppdevController@upload')->name('appdev_upload');
 Route::get('/appdev_download/{id}','AppdevController@download')->middleware('auth');
+
+
+
+
+
+
+Route::get('/register_hackathon', 'HackathonController@create')->name('register_hackathon')->middleware('auth');
+Route::get('/hackathon_list', 'HackathonController@index')->name('hackathon_list')->middleware('auth');
+Route::post('/hackathon_list', 'HackathonController@store')->name('store_hackathon')->middleware('auth');
+Route::get('/delete_hackathon/{id}','HackathonController@delete')->middleware('auth');
+Route::get('/selection_done_hackathon/{id}','HackathonController@selection')->middleware('auth');
+Route::get('/payment_done_hackathon/{id}','HackathonController@payment')->middleware('auth');
+
+Route::post('/events/hackathon', 'HackathonController@store_front')->name('store_hackathon_front');

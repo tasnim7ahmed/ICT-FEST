@@ -71,6 +71,7 @@
                 <a class="dropdown-item" href="{{route('selected_dota')}}">DOTA 2</a>
                 <a class="dropdown-item" href="{{route('selected_poster')}}">Poster Presentation</a>
                 <a class="dropdown-item" href="{{route('selected_appdev')}}">Application Development</a>
+                <a class="dropdown-item" href="{{route('selected_hackathon')}}">Hackathon</a>
               </div>
           </li>
           <li class="nav-item"><a href="#" class="nav-link">Payment</a></li>
