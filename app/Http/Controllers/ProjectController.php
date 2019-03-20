@@ -39,7 +39,7 @@ class ProjectController extends Controller
         $new_pc = new Project;
         $new_pc->team_name = $request->team_name;
         $new_pc->institution = $request->institution;
-        $new_pc->total = $request->total;
+        $new_pc->total = 2500;
         $new_pc->paid = 0;
         $new_pc->selected = 'False';
 
@@ -73,7 +73,7 @@ class ProjectController extends Controller
         $new_pc = new Project;
         $new_pc->team_name = $request->team_name;
         $new_pc->institution = $request->institution;
-        $new_pc->total = $request->total;
+        $new_pc->total = 2500;
         $new_pc->paid = 0;
         $new_pc->selected = 'False';
 

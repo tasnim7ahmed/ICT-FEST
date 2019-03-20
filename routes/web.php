@@ -32,6 +32,10 @@ Route::get('/events', function () {
     return view('front_end/events');
 })->name('events');
 
+Route::get('/payment', function () {
+    return view('front_end/payment');
+})->name('payment');
+
 
 
 Route::get('/events/math_olympiad', function () {
@@ -50,7 +54,7 @@ Route::get('/events/ict_olympiad', function () {
 })->name('io');
 
 Route::get('/events/ict_olympiad_selected', function () {
-    $io = IctOlympiad::all();
+    $io = IctOlympiad::where('selected','True')->get();
     return view('front_end/selected_io')->with('ios',$io);
 })->name('selected_io');
 
@@ -73,7 +77,8 @@ Route::get('/events/project_showcasing_selected', function () {
 })->name('selected_ps');
 
 Route::get('/events/it_business', function () {
-    return view('front_end/business');
+    $business = Business::all();
+    return view('front_end/business')->with('businesses',$business);
 })->name('business');
 
 Route::get('/events/it_business_selected', function () {

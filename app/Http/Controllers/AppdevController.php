@@ -40,7 +40,7 @@ class AppdevController extends Controller
         $new_appdev = new Appdev;
         $new_appdev->team_name = $request->team_name;
         
-        $new_appdev->total = $request->total;
+        $new_appdev->total = 2000;
         $new_appdev->paid = 0;
         $new_appdev->selected = 'False';
         $new_appdev->submission = 'False';
@@ -104,7 +104,7 @@ class AppdevController extends Controller
        $new_appdev = new Appdev;
         $new_appdev->team_name = $request->team_name;
         
-        $new_appdev->total = $request->total;
+        $new_appdev->total = 2000;
         $new_appdev->paid = 0;
         $new_appdev->selected = 'False';
         $new_appdev->submission = 'False';

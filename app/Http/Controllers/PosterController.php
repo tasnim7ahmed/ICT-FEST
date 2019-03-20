@@ -43,7 +43,7 @@ class PosterController extends Controller
         $new_poster->team_name = $request->team_name;
         $new_poster->category = $request->category;
         $new_poster->institution = $request->institution;
-        $new_poster->total = $request->total;
+        $new_poster->total = 1200;
         $new_poster->paid = 0;
         $new_poster->selected = 'False';
         $new_poster->submission = 'False';
@@ -111,7 +111,7 @@ class PosterController extends Controller
         $new_poster->team_name = $request->team_name;
         $new_poster->category = $request->category;
         $new_poster->institution = $request->institution;
-        $new_poster->total = $request->total;
+        $new_poster->total = 1200;
         $new_poster->paid = 0;
         $new_poster->selected = 'False';
         $new_poster->submission = 'False';

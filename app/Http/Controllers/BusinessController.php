@@ -40,7 +40,7 @@ class BusinessController extends Controller
         $new_business = new Business;
         $new_business->team_name = $request->team_name;
         $new_business->institution = $request->institution;
-        $new_business->total = $request->total;
+        $new_business->total = 2000;
         $new_business->paid = 0;
         $new_business->selected = 'False';
 
@@ -79,7 +79,7 @@ class BusinessController extends Controller
         $new_business = new Business;
         $new_business->team_name = $request->team_name;
         $new_business->institution = $request->institution;
-        $new_business->total = $request->total;
+        $new_business->total = 2000;
         $new_business->paid = 0;
         $new_business->selected = 'False';
 

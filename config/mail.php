@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'tasnim7ahmed@gmail.com'),
-        'name' => env('MAIL_FROM_NAME', 'Registration Confirmation'),
+        'address' => env('MAIL_FROM_ADDRESS', 'admin@ictfest2019.com'),
+        'name' => env('MAIL_FROM_NAME', 'IUT 10th ICT FEST'),
     ],
 
     /*

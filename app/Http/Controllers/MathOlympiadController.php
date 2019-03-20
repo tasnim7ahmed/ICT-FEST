@@ -6,6 +6,7 @@ use App\MathOlympiad;
 use Illuminate\Http\Request;
 use Mail;
 use App\Mail\RegisterMail;
+use Illuminate\Support\Facades\Crypt;
 
 class MathOlympiadController extends Controller
 {
@@ -44,14 +45,15 @@ class MathOlympiadController extends Controller
         $new_mo->contact = $request->contact;
         $new_mo->email = $request->email;
         $new_mo->institution = $request->institution;
-        $new_mo->total = $request->total;
+        $new_mo->total = 400;
         $new_mo->paid = 0;
         $new_mo->selected = 'False';
         $new_mo->tshirt = $request->tshirt;
         $new_mo->save();
+        $key = Crypt::encryptString('MO-'.$new_mo->id);
         alert()->success('Participant has been admitted successfully.')->autoclose(3000);
 
-        Mail::to($new_mo->email)->send(new RegisterMail($new_mo->name,'Math Olympiad'));
+        Mail::to($new_mo->email)->send(new RegisterMail($new_mo->name,'Math Olympiad',$key));
        
         $mo = MathOlympiad::all();
         return redirect()->route('mo_list')->with('mos',$mo);
@@ -65,15 +67,17 @@ class MathOlympiadController extends Controller
         $new_mo->contact = $request->contact;
         $new_mo->email = $request->email;
         $new_mo->institution = $request->institution;
-        $new_mo->total = $request->total;
+        $new_mo->total = 400;
         $new_mo->paid = 0;
         $new_mo->selected = 'False';
         $new_mo->tshirt = $request->tshirt;
         $new_mo->save();
+        $key = Crypt::encryptString('MO-'.$new_mo->id);
+
         alert()->success('Dear '.$request->name.', Your registration information has successfully been uploaded. Please check your e-mail and our website for further information.')->autoclose(120000);
 
 
-        Mail::to($new_mo->email)->send(new RegisterMail($new_mo->name,'Math Olympiad'));
+        Mail::to($new_mo->email)->send(new RegisterMail($new_mo->name,'Math Olympiad',$key));
 
 
         return redirect()->route('front');

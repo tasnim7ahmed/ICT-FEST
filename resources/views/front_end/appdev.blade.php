@@ -13,6 +13,18 @@
         </div>
       </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
     
     <section class="ftco-section">
       <div class="container">
@@ -20,11 +32,64 @@
           <div class="col-md-6 text-center heading-section ftco-animate">
             <span class="subheading">APPLICATION DEVELOPMENT</span>
             <h2 class="mb-4">Rules &amp; Regulations</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+            <br>
+            <br>
+            <h4><strong>ONLINE SUBMISSION</strong></h4>
+<ul>
+<li><strong>Every team has to register and submit their idea online</strong></li>
+</ul>
+<h4><strong>IDEA SELECTION</strong></h4>
+<ul>
+<li><strong>From the submitted ideas, a fixed number of ideas will be selected and the selected teams need to pay the registration fee to confirm their participation</strong></li>
+</ul>
+<h4><strong>APPLICATION SHOWCASING</strong></h4>
+<ul>
+<li><strong>In this phase selected teams will showcase their developed application or prototype based on the idea on the event days.</strong></li>
+</ul>
+<h4><strong>RULES</strong></h4>
+<ul>
+<li><strong>The application must be based on Android or iOS or Windows platform.</strong></li>
+<li><strong>The developed app does not need to be 100% complete. Building only a working demo and demonstration of the demo is enough.</strong></li>
+<li><strong>Each team cannot submit more than one idea.</strong></li>
+<li><strong>Among the submitted ideas, a fixed number of ideas will be selected and declared in the &ldquo;IUT 10th ICT FEST 2019&rdquo; Facebook page and event. The selected teams then need to perform the final registration by sending the registration fee within a given period of time.</strong></li>
+<li><strong>If all the selected teams from the main list do not perform the final registration within the specified time, their chance of final registration will be canceled and a second list of selected ideas will be declared in the &ldquo;IUT 10th ICT FEST 2019&rdquo; Facebook page and event. The selected teams in the second list will be given a specified time within which they need to perform final registration by sending the registration fee.</strong></li>
+<li><strong>Only registered team members are allowed to showcase their applications. No substitution is permissible.</strong></li>
+<li><strong>Each team has to bring their full project on the day of showcasing. Bringing only the apk or exe file will lead to disqualification.</strong></li>
+<li><strong>The application can be fully developed or a prototype. In both cases, the developed app must be relevant to the submitted idea and will be able to perform all the features that are described when submitting the ideas.</strong></li>
+<li><strong>The team members must be current students of any university.</strong></li>
+<li><strong>Each team can have maximum 4 members. The member can be from same/different institution.</strong></li>
+<li><strong>Participants are requested to bring their Identity Cards of respective institutions.</strong></li>
+<li><strong>Teams must remain present on both days of the fest as per event schedule.</strong></li>
+<li><strong>The organizing committee holds the right to disqualify any team. Any type of misbehavior with the judges will result in disqualification.</strong></li>
+<li><strong>The organizing committee will not be liable if any team or individual lost his/her laptop, cellular phones, gadgets and other stuffs.</strong></li>
+</ul>
+<p><strong>&nbsp;</strong></p>
+<p><strong>The last date for idea submission is 7TH APRIL 2019.</strong></p>
+<p><strong>Selected teams will be notified within 9TH APRIL 2019.</strong></p>
+<p><strong>Selected teams must pay the registration fees within 10TH APRIL 2019.</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<h4 style="color: red"><strong>Registration FEE (only applicable to selected teams)</strong></h4>
+<p><strong>2000 Taka (for 3/4 people)**</strong></p>
+<p><strong>bKash Account Number for payment: ***** ****** or ***** ******</strong></p>
+<p><strong>DBBL Rocket Account Number for payment: ***** ******</strong></p>
+<p><strong>To know more about the payment procedure, click </strong><a href="http://cse.iutoic-dhaka.edu/ictfest/payment.php"><strong>HERE</strong></a></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
           </div>
         </div>
       </div>
     </section>
+
+
+
+
+
+
+
+
+
 
     <section class="ftco-section contact-section ftco-degree-bg">
       <div class="container bg-light">
@@ -206,12 +271,7 @@
                       </div>
 
 
-                      <div class="form-group">
-                        <label>Registration Fees</label>
-                          <select name="total" class="form-control" required="required" selected = "true">
-                              <option value="4000">4000</option>
-                          </select>
-                      </div>
+                      
 
 
               <div class="form-group">

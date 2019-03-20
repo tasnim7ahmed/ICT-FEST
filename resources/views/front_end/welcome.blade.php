@@ -126,7 +126,7 @@
         <div class="row mt-5 d-flex justify-content-center">
           <div class="col-md-8 text-center heading-section ftco-animate">
             <h2 class="h1">UI/UX, visual, <strong class="px-3">Web designer</strong> with more than 12 years of experience in designing websites and mobile apps.</h2>
-            <p><a href="#" class="btn btn-primary mt-3 py-3 px-5">Get in touch</a></p>
+            <!-- <p><a href="#" class="btn btn-primary mt-3 py-3 px-5">Get in touch</a></p> -->
           </div>
         </div>
       </div>
@@ -134,7 +134,7 @@
     </div>
     
   
-    <section class="ftco-section">
+    <!-- <section class="ftco-section">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-6 text-center heading-section ftco-animate">
@@ -183,11 +183,14 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
-    <section class="ftco-section-parallax">
-      <div class="parallax-img d-flex align-items-center">
-        <div class="container">
+    <div>
+      <img src={{asset('images/banner.png')}} width="100%" height="100%">
+    </div>
+
+    <!-- <section class="ftco-section-parallax" >
+      <div class="parallax-img d-flex align-items-center" style="background-image: url(../images/banner.png); background-size: 100%; ">
           <div class="row d-flex justify-content-center">
             <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
               <h2>Subcribe to our Newsletter</h2>
@@ -204,11 +207,10 @@
               </div>
             </div>
           </div>
-        </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class="ftco-section">
+    <!--<section class="ftco-section">
       <div class="container">
         <div class="row no-gutters justify-content-center mb-5 pb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">
@@ -254,15 +256,15 @@
         </div>
       </div>
     </section>
-
+ -->
 
     <section class="ftco-section testimony-section bg-light">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">
-            <span class="subheading">Organizers</span>
-            <h2 class="mb-4">IUTCS</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+            <span>Organizers</span>
+            <h2 class="mb-4">IUT Computer Society</h2>
+           <!--  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p> -->
           </div>
         </div>
         <div class="row ftco-animate">
@@ -331,9 +333,9 @@
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">
-            <span class="subheading">WEB-DEV</span>
+            <span>WEB-DEV</span>
             <h2 class="mb-4">Developers Panel</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+            <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p> -->
           </div>
         </div>
         <div class="row ftco-animate">
@@ -400,7 +402,7 @@
 
 
     
-    <section class="ftco-section ftco-counter" id="section-counter">
+    <!-- <section class="ftco-section ftco-counter" id="section-counter">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
@@ -491,5 +493,5 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 @endsection

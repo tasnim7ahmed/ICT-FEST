@@ -15,13 +15,45 @@
     </div>
     
     <section class="ftco-section">
-      <div class="container bg-light">
+      <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-6 text-center heading-section ftco-animate">
             <span class="subheading">HACKATHON</span>
             <h2 class="mb-4">Rules &amp; Regulations</h2>
             <h5>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+          
+<h1>Phases</h1>
+<h2>ONLINE REGISTRATION:</h2> <p>Every team has to register online and choose a topic (Agriculture, Education, Health, Travel) on which they are interested to develop an application during registration.</p>
+
+<h2>APPLICATION DEVELOPMENT:</h2> <p>In this phase the team need to develop an application for a given problem statement based on the topic they selected within 24 hours on spot in the event day. The problem statement will be given on spot in the event day.</p>
+
+<h2>PRESENTATION:</h2> <p>After the application development phase, 10 teams will be selected. Selected teams need to give a presentation based on the prototype or application they developed.</p>
+
+<h2>RULES</h2>
+<ol type="1">
+  <li>The application must be developed on any of the following platforms:
+    <ol type="a">
+      <li>Android</li>
+      <li>iOS</li>
+      <li>Web</li>
+    </ol>
+  </li>
+  <li>The problem statement and challenges will be given on spot in the event day.</li>
+  <li>The developed application does not need to be 100% complete. Building only the prototype and how the prototype is related with the problem statement is enough.</li>
+  <li>The hackathon will continue for 24 hours. Each team must stay for 24 hours. The team leader will give a presentation on their proposed solution after the development phase.</li>
+  <li>All the members of the team must be a current student of a university.</li>
+  <li>Each team can have minimum 3 members and maximum 4 members. The member can be from same/different institution.</li>
+  <li>Each team must have a team leader.</li>
+  <li>The team members need to bring their own laptops, cell phones, mobile charger, power bank, multiplug etc. It is better if the team keeps an USB internet modem with them so that they can use it if any unavoidable circumstances occurs.</li>
+  <li>Only registered teams will be allowed to participate in the hackathon.</li>
+  <li>Participants are requested to bring their Identity Cards of respective institutions.</li>
+  <li>Teams must be present on time in the event day.</li>
+  <li>The organizing committee holds the right to disqualify any team. Any type of misbehavior with the judges will result in disqualification.</li>
+  <li>The organizing committee will not be liable if any team or individual lost his/her laptop, cellular phones, gadgets and other stuffs.</li>
+</ol>
+
+<p><h5 style="color: red">Registration fee: Tk. 3000.00 (BDT Three thousand taka)</h5></p>
+
           </h5>
           </div>
         </div>
@@ -168,12 +200,7 @@
                       </div>
 
 
-                      <div class="form-group">
-                        <label>Registration Fees</label>
-                          <select name="total" class="form-control" required="required" selected = "true">
-                              <option value="2000">2000</option>
-                          </select>
-                      </div>
+                      
 
 
               <div class="form-group">

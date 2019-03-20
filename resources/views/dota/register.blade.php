@@ -201,12 +201,7 @@
 
 
 
-                      <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                        <label>Registration Fees</label>
-                          <select name="total" class="form-control" required="required" selected = "true">
-                              <option value="2000">2000</option>
-                          </select>
-                      </div>
+                      
 
 
 

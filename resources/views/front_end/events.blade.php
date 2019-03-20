@@ -15,172 +15,146 @@
     </div>
     
     <section class="ftco-section">
-      <div class="container">
+      <div class="container" align="center">
         <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-6 text-center heading-section ftco-animate">
-            <span class="subheading">Our Events</span>
-            <h2 class="mb-4">Web &amp; Mobile app design, bring your ideas to life</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+          <div class="col-md-9 text-center heading-section ftco-animate">
+            <span>Our Events</span>
+            <h3 align="center" class="mb-4">With a plethora of events to offer, ICT Fest ensures that every tech enthusiast has something they can enjoy.<br>Scroll on to discover more!</h3>
           </div>
         </div>
         <div class="row mb-5">
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+          <div class="col-md-6 col-lg-4 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block text-center">
             <a href="{{route('mo')}}">
               <div class="d-flex justify-content-center"><div class="icon color-3 d-flex justify-content-center mb-3"><span class="align-self-center icon-lightbulb-o"></span></div></div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Math Olympiad</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <p>Is crunching large numerical datasets your forte? Or maybe, solving unsolvable equations is your jam? Either way, our Math Olympiad is the perfect opportunity to get your analytical juices flowing. Register now!</p>
               </div>
             </a>
             </div>      
           </div>
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+          <div class="col-md-6 col-lg-4 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block text-center">
             <a href="{{route('io')}}">
               <div class="d-flex justify-content-center"><div class="icon color-1 d-flex justify-content-center mb-3"><span class="align-self-center icon-laptop"></span></div></div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">ICT Olympiad</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <p>Think you know the ins and outs of the latest technological advances out there? Prove yourself in our cleverly designed ICT Olympiad and win it big!</p>
               </div>
             </a>
             </div>      
           </div>
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+          <div class="col-md-6 col-lg-4 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block text-center">
               <a href = "{{route('pc')}}">
               <div class="d-flex justify-content-center"><div class="icon color-2 d-flex justify-content-center mb-3"><span class="align-self-center icon-gear"></span></div></div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Programming Contest</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <p>Speed or accuracy? Hasty start or steady finish? If you have what it takes to make the right decisions in the right scenarios, register now with your team to show that your analytical prowess is above and beyond your peers!</p>
               </div>
             </div>    
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+          <div class="col-md-6 col-lg-4 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block text-center">
               <a href = "{{route('ps-go')}}">
               <div class="d-flex justify-content-center"><div class="icon color-2 d-flex justify-content-center mb-3"><span class="align-self-center icon-gear"></span></div></div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Project Showcasing</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <p>Brimming with ideas but lack the proper podium to present your ideas and articulate your thoughts? We have just the place where you can showcase your project and turn heads in the process! Register now and prove your worth!</p>
               </div>
             </div>    
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+          <div class="col-md-6 col-lg-4 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block text-center">
               <a href = "{{route('business')}}">
               <div class="d-flex justify-content-center"><div class="icon color-2 d-flex justify-content-center mb-3"><span class="align-self-center icon-gear"></span></div></div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">IT Business Case Competition</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <p>Have a ground-breaking idea that can potentially improve the lives of millions? Is so, this is your opportunity to showcase your talents and ideas in the right platform, in front of the right people. Register now and unleash your inner genie!</p>
               </div>
             </div>    
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+          <div class="col-md-6 col-lg-4 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block text-center">
               <a href = "{{route('fifa')}}">
               <div class="d-flex justify-content-center"><div class="icon color-2 d-flex justify-content-center mb-3"><span class="align-self-center icon-gear"></span></div></div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">FIFA 19</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <p>Do you have a knack for scoring exceptional goals against the toughest defenses? Register now!</p>
               </div>
             </div>    
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+          <div class="col-md-6 col-lg-4 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block text-center">
               <a href = "{{route('siege')}}">
               <div class="d-flex justify-content-center"><div class="icon color-2 d-flex justify-content-center mb-3"><span class="align-self-center icon-gear"></span></div></div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Rainbow Six Siege</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <p>Do you think your precision aim and quick thinking can successfully defuse bombs in hostile situations? Register now to find out!</p>
               </div>
             </div>    
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+          <div class="col-md-6 col-lg-4 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block text-center">
               <a href = "{{route('dota')}}">
               <div class="d-flex justify-content-center"><div class="icon color-2 d-flex justify-content-center mb-3"><span class="align-self-center icon-gear"></span></div></div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">DOTA 2</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <p>Your phenomenal carry or support gameplay can lead your team to a glorious victory. In any case, our gaming fest gives you the opportunity to accomplish all this and more! Register now!
+</p>
               </div>
             </div>    
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+          <div class="col-md-6 col-lg-4 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block text-center">
               <a href = "{{route('poster')}}">
               <div class="d-flex justify-content-center"><div class="icon color-2 d-flex justify-content-center mb-3"><span class="align-self-center icon-gear"></span></div></div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Poster Presentation</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <p>To all the technology enthusiasts out there, it’s your time to shine! Grab all of your creative ideas and thoughts about our today’s technology, and present them with stunning posters. Share your creativity with us and win amazing cash prizes!</p>
               </div>
             </div>    
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+          <div class="col-md-6 col-lg-6 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block text-center">
               <a href = "{{route('appdev')}}">
               <div class="d-flex justify-content-center"><div class="icon color-2 d-flex justify-content-center mb-3"><span class="align-self-center icon-gear"></span></div></div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Application Development</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <p>If you have what it takes to transform abstract ideas into truly innovational breakthroughs, then our “App Development” event is made for you. Register now and show everyone that your development skills are second to none!</p>
               </div>
             </div>    
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+          <div class="col-md-6 col-lg-6 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block text-center">
               <a href = "{{route('hackathon')}}">
               <div class="d-flex justify-content-center"><div class="icon color-2 d-flex justify-content-center mb-3"><span class="align-self-center icon-gear"></span></div></div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Hackathon</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <p>Brainstorm your way through seemingly impossible difficulties and hurdles and show the world that every problem has a solution when there’s creativity and the will to achieve success. Registration for hackathon is now live!</p>
               </div>
             </div>    
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="d-flex justify-content-center"><div class="icon color-4 d-flex justify-content-center mb-3"><span class="align-self-center icon-live_help"></span></div></div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Help &amp; Supports</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-        </div>
+        
         <div class="row mt-5">
+          
+          
           <div class="col-md-4 ftco-animate">
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-            <ul class="list-services">
-              <li><h3>#1</h3></li>
-              <li><a href="#">UI/UX Design</a></li>
-              <li><a href="#">Mobile App Design Design</a></li>
-              <li><a href="#">Responsive Design</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-            <ul class="list-services">
-              <li><h3>#2</h3></li>
-              <li><a href="#">HTML / CSS</a></li>
-              <li><a href="#">Prototyping</a></li>
-              <li><a href="#">Wireframes</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-            <ul class="list-services">
-              <li><h3>#3</h3></li>
-              <li><a href="#">Product Strategy</a></li>
-              <li><a href="#">UX Strategy</a></li>
-              <li><a href="#">User Testing</a></li>
+                        <ul class="list-services">
+              <li><h3></h3></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
             </ul>
           </div>
         </div>

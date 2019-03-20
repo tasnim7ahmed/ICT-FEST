@@ -21,7 +21,59 @@
             <span class="subheading">DOTA 2</span>
             <h2 class="mb-4">Rules &amp; Regulations</h2>
             <h5>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+            <p>IUT 10<sup>TH</sup> ICT FEST DOTA 2 CHAMPIONSHIP</p>
+<p>&nbsp;</p>
+<p>Official Event Rules of Defense Of The Ancients 2</p>
+<p>&nbsp;</p>
+<p><strong>General Rules &amp; Game Settings: </strong></p>
+<ul>
+<li>Max Teams: 32</li>
+<li>Competition Method: 5 vs 5</li>
+<li>Each team is allowed only 1 substitute. 1 player cannot play for more than 1 team.</li>
+<li>Every player must have a valid steam ID</li>
+<li>By attending the competition participants agree to comply with the rules and regulations and with the decisions made by the organizers.</li>
+<li>Every participant acknowledges the right for the organizers to modify the rules and regulations for adjustments at any time without notice.</li>
+<li>Every participant has to show the needed respect towards organizers and other participants. Insults and unfair or disrespectful behavior towards anyone will not be tolerated.</li>
+<li>Every team accepts the official schedule of the competition and declares its ability to be available during these times.</li>
+<li>Each team will be given around 10 minutes to set up their equipment after which, the match will immediately start.</li>
+<li>Match Setup: Radiant Team Captain will host the lobby and provide passwords to both teams.</li>
+</ul>
+<p><strong>BRACKETS</strong></p>
+<ul>
+<li>All team starts in Upper bracket. Games are best of 1.</li>
+<li>Losers goes to Lower Bracket.</li>
+<li>If a team loses in lower bracket they are eliminated.</li>
+<li>Lower Bracket final,Upper Bracket final and Grand final will be played in best of 3.</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>All other matches will be best of 1.</li>
+<li>Matches up to semifinal will be held in Online. So 8 teams (4 upper bracket teams, 4 lower bracket teams) will participate in the MAIN EVENT at IUT,GAZIPUR.</li>
+<li>Brackets will be disclosed after team registration are finalized.</li>
+</ul>
+<p><strong>TOURNAMENT RULES</strong></p>
+<ul>
+<li>GAME MODE - Captains Mode</li>
+<li>DOTA TV DELAY - 2 minutes</li>
+<li>VERSION &ndash; Tournament</li>
+</ul>
+<p><strong>DURING A GAME</strong></p>
+<ul>
+<li>1.Picks&amp;Bans<br /> The hero pool always consists of all heroes the game mode allows and might therefore change several times during the competition. The game must not be paused during the draft, unless a drafter disconnects.</li>
+<li>2.Pauses<br /> Each team has the right to pause the game for an acceptable duration, if a player announces it at least three seconds in advance and calls a coherent reason (exception: not necessary, if someone disconnects). The game must not be resumed before both teams agree with it. When the number or the duration of breaks becomes too high or long, the administration may force the continuation of the game.</li>
+<li>3.Disconnects &amp; Reconnects</li>
+<li><br /> If a player disconnects, the game is to be paused instantly.&nbsp;<u>Everyone has up to ten minutes to reconnect to the game (if the same person disconnects more than once, all times get added up).</u>&nbsp;If this time is passed, the opposing team may continue the game, unless an admin demands the opposite. The affected player is in this case still allowed to rejoin later on.</li>
+<li>4.Broadcasting&nbsp;<br /> 4.1 Every authorized spectator inside the game is allowed to provide a video stream with a delay of at least two minutes.<br /> 4.2 Spectators from DotaTV are allowed to broadcast a match with any delay. Upon request from the administration or join dota management these streamers have to use proper overlays and possibly fulfill additional requirements.<br /> 4.3 The players are not allowed to watch or listen to any of these video streams or DotaTV at any time during their match. Furthermore they are not allowed to provide a stream themselves, unless there is no official broadcaster inside the game.</li>
+<li>5.Bugs<br /> If any serious bugs occur, the game has to be paused immediately and the administration decides how to continue. Knowingly abusing a bug is strictly forbidden.</li>
+<li>6. Tools / Hacks</li>
+</ul>
+<p><br /> The usage of any Dota - related tool aside from Steam and Dota 2 during a match is strictly forbidden.</p>
+<ul>
+<li>7.Ending<br /> A game is finished, when an Ancient Fortress is destroyed, when th e majority of a team leaves on purpose, or when the administration decides on it.&nbsp;(Note: A game is not forfeited, when a player types "gg" or "ff". Always wait for the ancient to be destroyed!)</li>
+</ul>
+<p>&nbsp;</p>
+<p><h6 style="color: red">REGISTRATION FEE: </h6></p>
+<p><h6 style="color: red">2000TK PER TEAM</h6></p>
           </h5>
           </div>
         </div>
@@ -221,12 +273,7 @@
                       </div>
 
 
-                      <div class="form-group">
-                        <label>Registration Fees</label>
-                          <select name="total" class="form-control" required="required" selected = "true">
-                              <option value="2000">2000</option>
-                          </select>
-                      </div>
+                      
 
 
               <div class="form-group">

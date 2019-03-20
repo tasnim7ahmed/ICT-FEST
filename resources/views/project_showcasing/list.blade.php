@@ -23,7 +23,7 @@
                     <div class="clearfix"></div>
                   </div>
                   <div class="x_content">					
-                    <table id="datatable-responsive" class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%" align="center">
+                    <table id="datatable-responsive" class="table table-striped table-bordered nowrap" cellspacing="0" width="100%" align="center">
                       <thead>
                         <tr>
                           <th>ID</th>

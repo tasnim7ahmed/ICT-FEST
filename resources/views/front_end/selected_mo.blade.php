@@ -19,15 +19,15 @@
         <div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-6 text-center heading-section ftco-animate">
             <span class="subheading">Math Olympiad</span>
-            <h2 class="mb-4">Rules &amp; Regulations</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+            <h2 class="mb-4">Selected Participants of Math Olympiad</h2>
+            <p> </p>
           </div>
         </div>
       </div>
     </section>
 
     <div class="x_content">         
-                    <table id="datatable-responsive" class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
+                    <table id="datatable-responsive" class="table table-striped table-bordered nowrap" cellspacing="0" width="100%">
                       <thead>
                         <tr>
                           <th>ID</th>

@@ -41,7 +41,7 @@ class FIFA19Controller extends Controller
         $new_fifa->contact = $request->contact;
         $new_fifa->email = $request->email;
         $new_fifa->device = $request->device;
-        $new_fifa->total = $request->total;
+        $new_fifa->total = 300;
         $new_fifa->paid = 0;
         $new_fifa->selected = 'False';
         $new_fifa->tshirt = $request->tshirt;
@@ -67,7 +67,7 @@ class FIFA19Controller extends Controller
         $new_fifa->contact = $request->contact;
         $new_fifa->email = $request->email;
         $new_fifa->device = $request->device;
-        $new_fifa->total = $request->total;
+        $new_fifa->total = 300;
         $new_fifa->paid = 0;
         $new_fifa->selected = 'False';
         $new_fifa->tshirt = $request->tshirt;

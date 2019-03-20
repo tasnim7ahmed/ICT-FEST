@@ -6,6 +6,7 @@ use App\IctOlympiad;
 use Illuminate\Http\Request;
 use Mail;
 use App\Mail\RegisterMail;
+use Illuminate\Support\Facades\Crypt;
 
 class IctOlympiadController extends Controller
 {
@@ -50,13 +51,14 @@ class IctOlympiadController extends Controller
         $new_io->contact = $request->contact;
         $new_io->email = $request->email;
         $new_io->institution = $request->institution;
-        $new_io->total = $request->total;
+        $new_io->total = 400;
         $new_io->paid = 0;
         $new_io->selected = 'False';
         $new_io->tshirt = $request->tshirt;
         $new_io->save();
+        $key = Crypt::encryptString('IO-'.$new_io->id);
         alert()->success('Participant has been admitted successfully.')->autoclose(3000);
-        Mail::to($new_io->email)->send(new RegisterMail($new_mo->name,'ICT Olympiad'));
+        Mail::to($new_io->email)->send(new RegisterMail($new_io->name,'ICT Olympiad',$key));
        
         $io = IctOlympiad::all();
         return redirect()->route('io_list')->with('ios',$io);
@@ -70,14 +72,15 @@ class IctOlympiadController extends Controller
         $new_io->contact = $request->contact;
         $new_io->email = $request->email;
         $new_io->institution = $request->institution;
-        $new_io->total = $request->total;
+        $new_io->total = 400;
         $new_io->paid = 0;
         $new_io->selected = 'False';
         $new_io->tshirt = $request->tshirt;
         $new_io->save();
+        $key = Crypt::encryptString('IO-'.$new_io->id);
         alert()->success('Dear '.$request->name.', Your registration information has successfully been uploaded. Please check your e-mail and our website for further information.')->autoclose(120000);
 
-        Mail::to($new_io->email)->send(new RegisterMail($new_mo->name,'ICT Olympiad'));
+        Mail::to($new_io->email)->send(new RegisterMail($new_io->name,'ICT Olympiad',$key));
         return redirect()->route('front');
     }
 

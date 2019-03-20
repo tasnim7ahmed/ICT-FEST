@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Programming;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Crypt;
+use Mail;
+use App\Mail\RegisterMail;
 
 class ProgrammingController extends Controller
 {
@@ -39,7 +42,7 @@ class ProgrammingController extends Controller
         $new_pc = new Programming;
         $new_pc->team_name = $request->team_name;
         $new_pc->institution = $request->institution;
-        $new_pc->total = $request->total;
+        $new_pc->total = 4000;
         $new_pc->paid = 0;
         $new_pc->selected = 'False';
 
@@ -67,7 +70,12 @@ class ProgrammingController extends Controller
         
         
         $new_pc->save();
+        $key = Crypt::encryptString('PC-'.$new_pc->id);
         alert()->success('Team has been added successfully.')->autoclose(3000);
+        Mail::to($new_pc->coach_email)->send(new RegisterMail($new_pc->coach_name,'Programming Contest',$key));
+        Mail::to($new_pc->member_1_email)->send(new RegisterMail($new_pc->member_1_name,'Programming Contest',$key));
+        Mail::to($new_pc->member_2_email)->send(new RegisterMail($new_pc->member_2_name,'Programming Contest',$key));
+        Mail::to($new_pc->member_3_email)->send(new RegisterMail($new_pc->member_3_name,'Programming Contest',$key));
        
         $pc = Programming::all();
         return redirect()->route('pc_list')->with('pcs',$pc);
@@ -79,7 +87,7 @@ class ProgrammingController extends Controller
         $new_pc = new Programming;
         $new_pc->team_name = $request->team_name;
         $new_pc->institution = $request->institution;
-        $new_pc->total = $request->total;
+        $new_pc->total = 4000;
         $new_pc->paid = 0;
         $new_pc->selected = 'False';
 
@@ -105,7 +113,13 @@ class ProgrammingController extends Controller
         $new_pc->member_3_tshirt =  $request->member_3_tshirt;
         
         $new_pc->save();
+        $key = Crypt::encryptString('PC-'.$new_pc->id);
+        Mail::to($new_pc->coach_email)->send(new RegisterMail($new_pc->coach_name,'Programming Contest',$key));
+        Mail::to($new_pc->member_1_email)->send(new RegisterMail($new_pc->member_1_name,'Programming Contest',$key));
+        Mail::to($new_pc->member_2_email)->send(new RegisterMail($new_pc->member_2_name,'Programming Contest',$key));
+        Mail::to($new_pc->member_3_email)->send(new RegisterMail($new_pc->member_3_name,'Programming Contest',$key));
         alert()->success('Dear '.$request->team_name.', Your registration information has successfully been uploaded. Please check your e-mail and our website for further information.')->autoclose(120000);
+
         return redirect()->route('front');
     }
 

@@ -80,9 +80,9 @@
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Registration Fees</label>
                         <div class="col-md-4 col-sm-6 col-xs-12">
                           <select name="total" class="form-control" required="required">
-                              <option value="150">150</option>
+                              
                               <option value="250">250</option>
-                              <option value="350">350</option>
+                              <option value="400">400</option>
                           </select>
                         </div>
                       </div>

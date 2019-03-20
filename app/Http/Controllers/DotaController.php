@@ -40,7 +40,7 @@ class DotaController extends Controller
         $dota->team_name = $request->team_name;
         $dota->contact = $request->contact;
         $dota->email = $request->email;
-        $dota->total = $request->total;
+        $dota->total = 2000;
         $dota->paid = 0;
         $dota->selected = 'False';
 
@@ -92,7 +92,7 @@ class DotaController extends Controller
         $dota->team_name = $request->team_name;
         $dota->contact = $request->contact;
         $dota->email = $request->email;
-        $dota->total = $request->total;
+        $dota->total = 2000;
         $dota->paid = 0;
         $dota->selected = 'False';
 

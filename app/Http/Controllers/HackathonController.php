@@ -42,7 +42,7 @@ class HackathonController extends Controller
         $hackathon->institution = $request->institution;
         $hackathon->contact = $request->contact;
         $hackathon->email = $request->email;
-        $hackathon->total = $request->total;
+        $hackathon->total = 3000;
         $hackathon->paid = 0;
         $hackathon->selected = 'False';
 
@@ -84,7 +84,7 @@ class HackathonController extends Controller
         $hackathon->institution = $request->institution;
         $hackathon->contact = $request->contact;
         $hackathon->email = $request->email;
-        $hackathon->total = $request->total;
+        $hackathon->total = 3000;
         $hackathon->paid = 0;
         $hackathon->selected = 'False';
 

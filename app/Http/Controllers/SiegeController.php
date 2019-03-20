@@ -40,7 +40,7 @@ class SiegeController extends Controller
         $siege->team_name = $request->team_name;
         $siege->contact = $request->contact;
         $siege->email = $request->email;
-        $siege->total = $request->total;
+        $siege->total = 2000;
         $siege->paid = 0;
         $siege->selected = 'False';
 
@@ -92,7 +92,7 @@ class SiegeController extends Controller
         $siege->team_name = $request->team_name;
         $siege->contact = $request->contact;
         $siege->email = $request->email;
-        $siege->total = $request->total;
+        $siege->total = 2000;
         $siege->paid = 0;
         $siege->selected = 'False';
 

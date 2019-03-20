@@ -20,7 +20,99 @@
           <div class="col-md-6 text-center heading-section ftco-animate">
             <span class="subheading">POSTER PRESENTATION</span>
             <h2 class="mb-4">Rules &amp; Regulations</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+            <p>EVENT DETAILS</p>
+<p>&nbsp;</p>
+<p><strong><h4>Registration Cost</h4></strong> <h6 style="color: red">BDT 1200 per team. Each team can be maximum of 3 members and minimum of 2.</h6></p>
+
+<p>RULES for the poster presentation competition are :<br /> ---------------------------------------------------------------------------------<br /> </p>
+<ol>
+<li>An accepted poster must include:</li>
+</ol>
+<ul>
+<li>Title of the poster.</li>
+<li>Name of the authors followed by their institution.</li>
+<li>Name of the supervisor followed by his institution.(If there is any supervisor supervising for the team)</li>
+<li>Abstract</li>
+<li>Methodology</li>
+<li>Feasibility and Impact Analysis</li>
+<li>Conclusion</li>
+</ul>
+<p>&nbsp;</p>
+<ol start="2">
+<li>You will get 10-15 minutes to present your poster.<br /> <br /> Note 1: When you begin to make your poster, first create a list of the visuals that you would use if you were describing your project with only the visuals. Write the text after you have created the list of visuals. Don&rsquo;t be afraid to point out uncertainties in your work; this is where you may get useful feedback.<br /> <br /> Note 2: SIMPLICITY IS THE KEY. Keep to the point, and don&rsquo;t try to cover too many things. Present only enough data to support your conclusions.</li>
+</ol>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Other rules:</p>
+<ul>
+<li>Poster size should be 36&rdquo; (height) by 24&rdquo; (width) and must be oriented in Portrait Style.</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>Poster banner:</li>
+</ul>
+<p>PVC banner (For University Level Students)</p>
+<p>PVC or Handmade Banner (For School-College Level Students)</p>
+<p>&nbsp;</p>
+<ul>
+<li>Students must obtain permission from their mentors/supervisors and</li>
+</ul>
+<p>co-authors before presenting the poster. Any report referring to an unauthorized poster presentation will be addressed immediately.</p>
+<p>&nbsp;</p>
+<ul>
+<li>Students from schools, colleges and universities (up to Masters) can participate.</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>The judgement will be for individual two levels:</li>
+</ul>
+<ol>
+<li>University Level.</li>
+<li>School-College Level.</li>
+</ol>
+<p>&nbsp;</p>
+<ul>
+<li>The work presented must be original and innovative. Immediate actions will be taken against any form of <strong>plagiarism</strong>.</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>Upon registration, <strong>abstract</strong> of each poster must be uploaded as a pdf format to the website to get selected as a participant in the competition.</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>A team should be formed with a minimum of 2 members and maximum 3 members.</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>All the team members must register their posters within the registration deadline.</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>Registrations should be done online.</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>The presenters must bring their Student ID card on program day for verification purpose.</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>A certificate will be issued against every poster presented.</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>Poster printing must be done by the presenter or by the presentation team.</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>In all cases, decisions taken by the organizing committee will be final.</li>
+</ul>
+<p><br /> <br /> <strong>****************************************************</strong><br /> TOPICS of the competition:<br /> <br /> The topic of the presented poster is open to your choices. We welcome your choice of topic and any creative ideas that you want to share with us.</p>
+<p>&nbsp;</p>
+
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
           </div>
         </div>
       </div>
@@ -198,12 +290,7 @@
                       </div>
 
 
-                      <div class="form-group">
-                        <label>Registration Fees</label>
-                          <select name="total" class="form-control" required="required" selected = "true">
-                              <option value="4000">4000</option>
-                          </select>
-                      </div>
+                      
 
 
               <div class="form-group">
