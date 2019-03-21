@@ -8,7 +8,7 @@
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-6 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
             <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Welcome to the largest <strong>ICT FEST</strong> of the country</h1>
-            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href={{route('events')}} class="btn btn-primary btn-outline-white px-5 py-3">Events</a></p>
+            <p ><a href={{route('events')}} class="btn btn-primary btn-outline-white px-5 py-3">Events</a></p>
           </div>
         </div>
       </div>
@@ -17,18 +17,18 @@
     <div class="bg-light">
     <section class="ftco-section-featured ftco-animate">
       <div class="container-fluid" data-scrollax-parent="true">
-        <div class="row no-gutters d-flex align-items-center" data-scrollax=" properties: { translateY: '-30%'}">
+        <div class="row no-gutters d-flex align-items-center" >
 
-          <div class="col-md-3 mb-3">
+          <div class="col-md-3 mb-4">
             <a href="#" class="featured-img">
-              <div class="text-1 p-4 d-flex align-items-center">
+              <!-- <div class="text-1 p-4 d-flex align-items-center">
                 <h3>The Verge<br><span class="tag">Website</span></h3>
-              </div>
-              <img src="../snipp/images/image_1.jpg" class="img-fluid" alt="">
+              </div> -->
+              <img src="../images/01 First Top.jpg" class="img-fluid" alt="">
               <div class="text p-4 d-flex align-items-center">
                 <div class="user d-flex align-items-center">
-                  <div class="user-img mr-3" style="background-image: url(../snipp/images/person_1.jpg);"></div>
-                  <h3>John Bruce <br><span class="position">Designer</span></h3>
+                  <div class="user-img mr-3"></div>
+                  <h3>THE FIVE PILLARS <!-- <br><span class="position">Designer</span> --></h3>
                 </div>
               </div>
             </a>
@@ -39,31 +39,31 @@
               <div class="col-md-12">
                 <div class="row no-gutters d-flex align-items-end">
 
-                  <div class="col-md-8">
+                  <div class="col-md-6">
                     <a href="#" class="featured-img">
-                      <div class="text-1 p-4 d-flex align-items-center">
+                      <!-- <div class="text-1 p-4 d-flex align-items-center">
                         <h3>Racks<br><span class="tag">Website</span></h3>
-                      </div>
-                      <img src="../snipp/images/image_5.jpg" class="img-fluid" alt="">
+                      </div> -->
+                      <img src="../images/02 Middle up.jpg" class="img-fluid" alt="">
                       <div class="text p-4 d-flex align-items-center">
                         <div class="user d-flex align-items-center">
-                          <div class="user-img mr-3" style="background-image: url(../snipp/images/person_1.jpg);"></div>
-                          <h3>John Bruce <br><span class="position">Designer</span></h3>
+                          <div class="user-img mr-3"></div>
+                          <h3>THE ENTRANCE</h3>
                         </div>
                       </div>
                     </a>
                   </div>
 
-                  <div class="col-md-4">
+                  <div class="col-md-6">
                     <a href="#" class="featured-img">
-                      <div class="text-1 p-4 d-flex align-items-center">
+                      <!-- <div class="text-1 p-4 d-flex align-items-center">
                         <h3>Zendesk<br><span class="tag">Website</span></h3>
-                      </div>
-                      <img src="../snipp/images/image_4.jpg" class="img-fluid" alt="">
+                      </div> -->
+                      <img src="../images/03 Right Top.jpg" class="img-fluid" alt="">
                       <div class="text p-4 d-flex align-items-center">
                         <div class="user d-flex align-items-center">
-                          <div class="user-img mr-3" style="background-image: url(../snipp/images/person_1.jpg);"></div>
-                          <h3>John Bruce <br><span class="position">Designer</span></h3>
+                          <div class="user-img mr-3" ></div>
+                          <h3>MOSQUE &amp; THE FIELD</h3>
                         </div>
                       </div>
                     </a>
@@ -74,30 +74,30 @@
 
               <div class="col-md-12">
                 <div class="row no-gutters d-flex align-items-start">
-                  <div class="col-md-8">
+                  <div class="col-md-6">
                     <a href="#" class="featured-img">
-                      <div class="text-1 p-4 d-flex align-items-center">
+                      <!-- <div class="text-1 p-4 d-flex align-items-center">
                         <h3>Curator<br><span class="tag">Website</span></h3>
-                      </div>
-                      <img src="../snipp/images/image_6.jpg" class="img-fluid" alt="">
+                      </div> -->
+                      <img src="../images/04 Left Down.jpg" class="img-fluid" alt="">
                       <div class="text p-4 d-flex align-items-center">
                         <div class="user d-flex align-items-center">
-                          <div class="user-img mr-3" style="background-image: url(../snipp/images/person_1.jpg);"></div>
-                          <h3>John Bruce <br><span class="position">Designer</span></h3>
+                          <div class="user-img mr-3" ></div>
+                          <h3>PARTICIPANTS AND GUESTS </h3>
                         </div>
                       </div>
                     </a>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-6">
                     <a href="#" class="featured-img">
-                      <div class="text-1 p-4 d-flex align-items-center">
+                      <!-- <div class="text-1 p-4 d-flex align-items-center">
                         <h3>Tasty<br><span class="tag">Website</span></h3>
-                      </div>
-                      <img src="../snipp/images/image_3.jpg" class="img-fluid" alt="">
+                      </div> -->
+                      <img src="../images/05 Middle Down.jpg" class="img-fluid" alt="">
                       <div class="text p-4 d-flex align-items-center">
                         <div class="user d-flex align-items-center">
-                          <div class="user-img mr-3" style="background-image: url(../snipp/images/person_1.jpg);"></div>
-                          <h3>John Bruce <br><span class="position">Designer</span></h3>
+                          <div class="user-img mr-3"></div>
+                          <h3>9TH ICT FEST ORGANIZERS</h3>
                         </div>
                       </div>
                     </a>
@@ -109,14 +109,14 @@
 
           <div class="col-md-3">
             <a href="#" class="featured-img">
-              <div class="text-1 p-4 d-flex align-items-center">
+              <!-- <div class="text-1 p-4 d-flex align-items-center">
                 <h3>Voyage<br><span class="tag">Website</span></h3>
-              </div>
-              <img src="../snipp/images/image_2.jpg" class="img-fluid" alt="">
+              </div> -->
+              <img src="../images/06 Right Down.jpg" class="img-fluid" alt="">
               <div class="text p-4 d-flex align-items-center">
                 <div class="user d-flex align-items-center">
-                  <div class="user-img mr-3" style="background-image: url(../snipp/images/person_1.jpg);"></div>
-                  <h3>John Bruce <br><span class="position">Designer</span></h3>
+                  <div class="user-img mr-3"></div>
+                  <h3>ICT FEST SNEAK PEAKS</h3>
                 </div>
               </div>
             </a>
@@ -125,7 +125,9 @@
         </div>
         <div class="row mt-5 d-flex justify-content-center">
           <div class="col-md-8 text-center heading-section ftco-animate">
-            <h2 class="h1">UI/UX, visual, <strong class="px-3">Web designer</strong> with more than 12 years of experience in designing websites and mobile apps.</h2>
+            <!-- <h2 class="h1">UI/UX, visual, <strong class="px-3">Web designer</strong> with more than 12 years of experience in designing websites and mobile apps.</h2> -->
+
+            <h2 class="h1">“Simplicity, carried to the extreme, becomes elegance.” — Jon Franklin</h2>
             <!-- <p><a href="#" class="btn btn-primary mt-3 py-3 px-5">Get in touch</a></p> -->
           </div>
         </div>
@@ -186,7 +188,7 @@
     </section>-->
 
     <div>
-      <img src={{asset('images/banner.png')}} width="100%" height="100%">
+      <img src={{asset('images/Banner.png')}} width="100%" height="100%">
     </div>
 
     <!-- <section class="ftco-section-parallax" >
@@ -258,7 +260,7 @@
     </section>
  -->
 
-    <section class="ftco-section testimony-section bg-light">
+    <section class="ftco-section testimony-section bg-light" >
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">
@@ -279,10 +281,10 @@
                   </div>
                   <div class="text">
                    
-                    <p class="name">Tamzid Karim</p>
-                    <p class="mb-2">Vice-President</p>
-                    <span class="position">facebook.com/karim.tamzid</span><br>
-                    <span class="position">+8801722237176</span>
+                    <p class="name" style="color: black">Tamzid Karim</p>
+                    <p class="mb-2" style="color: black">Vice-President</p>
+                    <span class="position" style="color: black">facebook.com/karim.tamzid</span><br>
+                    <span class="position" style="color: black">+8801722237176</span>
                   </div>
                 </div>
               </div>
@@ -295,27 +297,27 @@
                   </div>
                   <div class="text">
                     
-                    <p class="name">Anqur Enayet</p>
-                    <p class="mb-2">Vice-President</p>
-                    <span class="position">facebook.com/anqur.enayet</span><br>
-                    <span class="position">+8801834684946</span>
+                    <p class="name" style="color: black">Anqur Enayet</p>
+                    <p class="mb-2" style="color: black">Vice-President</p>
+                    <span class="position" style="color: black">facebook.com/anqur.enayet</span><br>
+                    <span class="position" style="color: black">+8801834684946</span>
                   </div>
                 </div>
               </div>
 
               <div class="item text-center">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(../images/rahat.jpg)">
+                  <div class="user-img mb-4" style="background-image: url(../images/Rahat.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
                   </div>
                   <div class="text">
                     
-                    <p class="name">Rahat Anwar Khan</p>
-                    <p class="mb-2">President</p>
-                    <span class="position">facebook.com/rahat.khan.2848</span><br>
-                    <span class="position">+8801521323672</span>
+                    <p class="name" style="color: black">Rahat Anwar Khan</p>
+                    <p class="mb-2" style="color: black">President</p>
+                    <span class="position" style="color: black">facebook.com/rahat.khan.2848</span><br>
+                    <span class="position" style="color: black">+8801521323672</span>
                   </div>
                 </div>
               </div>
@@ -350,10 +352,10 @@
                   </div>
                   <div class="text">
                    
-                    <p class="name">Saadman Malik Aurko</p>
-                    <p class="mb-2">Front-end and Back-end Dev</p>
-                    <span class="position">facebook.com/saadman.malik</span><br>
-                    <span class="position">+8801912810987</span>
+                    <p class="name" style="color: black">Saadman Malik Aurko</p>
+                    <p class="mb-2" style="color: black">Front-end and Back-end Dev</p>
+                    <span class="position" style="color: black">facebook.com/saadman.malik</span><br>
+                    <span class="position" style="color: black">+8801912810987</span>
                   </div>
                 </div>
               </div>
@@ -366,10 +368,10 @@
                   </div>
                   <div class="text">
                     
-                    <p class="name">Ifaz Ahmed Aflan</p>
-                    <p class="mb-2">Graphics Designer</p>
-                    <span class="position">facebook.com/aflan.cse</span><br>
-                    <span class="position">+8801954790638</span>
+                    <p class="name" style="color: black">Ifaz Ahmed Aflan</p>
+                    <p class="mb-2" style="color: black">Graphics Designer</p>
+                    <span class="position" style="color: black">facebook.com/aflan.cse</span><br>
+                    <span class="position" style="color: black">+8801954790638</span>
                   </div>
                 </div>
               </div>
@@ -383,10 +385,10 @@
                   </div>
                   <div class="text">
                     
-                    <p class="name">Tasnim Ahmed</p>
-                    <p class="mb-2">Front-end and Back-end Dev</p>
-                    <span class="position">facebook.com/tasnim.ahmed.iut</span>
-                    <span class="position">+8801733004000</span>
+                    <p class="name" style="color: black">Tasnim Ahmed</p>
+                    <p class="mb-2" style="color: black">Front-end and Back-end Dev</p>
+                    <span class="position" style="color: black">facebook.com/tasnim.ahmed.iut</span>
+                    <span class="position" style="color: black">+8801733004000</span>
                   </div>
                 </div>
               </div>

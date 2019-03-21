@@ -6,7 +6,9 @@ use App\Poster;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 use Storage;
-
+use Illuminate\Support\Facades\Crypt;
+use Mail;
+use App\Mail\RegisterMail;
 
 class PosterController extends Controller
 {
@@ -91,6 +93,20 @@ class PosterController extends Controller
 
         $new_poster->save();
         alert()->success('Team has been added successfully.')->autoclose(3000);
+        $key = Crypt::encryptString('POSTER-'.$new_poster->id);
+        
+        Mail::to($new_poster->member_1_email)->send(new RegisterMail($new_poster->member_1_name,'Poster Presentation',$key));
+        Mail::to($new_poster->member_2_email)->send(new RegisterMail($new_poster->member_2_name,'Poster Presentation',$key));
+
+        if ($new_poster->member_3_email!=null) {
+            Mail::to($new_poster->member_3_email)->send(new RegisterMail($new_poster->member_3_name,'Poster Presentation',$key));
+        }
+        if ($new_poster->coach_email!=null) {
+            Mail::to($new_poster->coach_email)->send(new RegisterMail($new_poster->coach_name,'Poster Presentation',$key));
+        }
+
+        
+        
        
         $poster = Poster::all();
         return redirect()->route('poster_list')->with('posters',$poster);
@@ -158,6 +174,18 @@ class PosterController extends Controller
 
         $new_poster->save();
         alert()->success('Dear '.$request->team_name.', Your registration information has successfully been uploaded. Please check your e-mail and our website for further information.')->autoclose(120000);
+
+        $key = Crypt::encryptString('POSTER-'.$new_poster->id);
+        
+        Mail::to($new_poster->member_1_email)->send(new RegisterMail($new_poster->member_1_name,'Poster Presentation',$key));
+        Mail::to($new_poster->member_2_email)->send(new RegisterMail($new_poster->member_2_name,'Poster Presentation',$key));
+
+        if ($new_poster->member_3_email!=null) {
+            Mail::to($new_poster->member_3_email)->send(new RegisterMail($new_poster->member_3_name,'Poster Presentation',$key));
+        }
+        if ($new_poster->coach_email!=null) {
+            Mail::to($new_poster->coach_email)->send(new RegisterMail($new_poster->coach_name,'Poster Presentation',$key));
+        }
         return redirect()->route('front');
     }
 

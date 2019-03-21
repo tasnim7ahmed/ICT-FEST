@@ -14,7 +14,11 @@
       </div>
     </div>
 
-    <section class="ftco-section">
+    <div>
+      <img src={{asset('images/Cover_Business.png')}} width="100%" height="100%">
+    </div>
+
+    <section class="ftco-section" style="background-image: url(../images/Background.png); background-size: 100%;">
       <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
   aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -68,67 +72,61 @@
   <a href=""data-toggle="modal" data-target="#modalLoginForm">Submit Your Idea Here! <br><br></a></h2>
 </div>
 </section>
+
     
-    <section class="ftco-section">
+    
+    <section class="ftco-section" style="background-image: url(../images/Background.png); background-size: 100%;">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-6 text-center heading-section ftco-animate">
+          <div class="col-md-6 text heading-section ftco-animate">
             <span class="subheading">IT BUSINESS CASE COMPETITION</span>
             <h2 class="mb-4">Rules &amp; Regulations</h2>
-            <p>IUT Computer Society (IUTCS) invites you to ICT Fest Business Case Competition 2019. This year, we&rsquo;re doing it differently to make it more challenging for you.</p>
+            <p style="color: black">IUT Computer Society (IUTCS) invites you to ICT Fest Business Case Competition 2019. This year, we&rsquo;re doing it differently to make it more challenging for you.</p>
 <h4><strong>Prize Money </strong></h4>
-<p>Champion : 50k</p>
-<p>1st Runner Up : 25k</p>
-<p>2nd Runner Up : 15k</p>
+<p style="color: black">Champion : 50k</p>
+<p style="color: black">1st Runner Up : 25k</p>
+<p style="color: black">2nd Runner Up : 15k</p>
 <br>
 <h4><strong>Registration guidelines :</strong></h4>
-<p>Teams have to be from the same institution. Each team should have 3 members.</p>
+<p style="color: black">Teams have to be from the same institution. Each team should have 3 members.</p>
 <h4><strong>Registration deadline </strong>: 28th March 11:59 PM.</h4>
 <br>
-<p><strong>This year, we will have 3 rounds. </strong></p>
+<p style="color: black"><strong>This year, we will have 3 rounds. </strong></p>
 <ol>
-<li>Online round</li>
-<li>Presentation round</li>
-<li>The grand finale</li>
+<li style="color:black">Online round</li>
+<li style="color:black">Presentation round</li>
+<li style="color:black">The grand finale</li>
 </ol>
 <br>
 <h4><strong>Online Round :</strong></h4>
-<p>Upon registration, each team will be provided a unique code. The respective team leader will get the case within 48 hours via his/her email.</p>
-<p>The solution of the case study should be submitted in this link using the unique code :</p>
+<p style="color: black">Upon registration, each team will be provided a unique code. The respective team leader will get the case within 48 hours via his/her email.</p>
+<p style="color: black">The solution of the case study should be submitted in this link using the unique code :</p>
 <h4>Case submission deadline March 31st, 11:59 PM</h4>
-<p>The case solution should be within 1000 words. Rename the case solution file before submission using this format : &lsquo;Team name_institution&rsquo;. For example, The Boring Team_IUT.</p>
-<p>A selected list of teams will be announced on our facebook event page on April 3rd, 8PM. A waiting list for teams will also be published.</p>
-<p>The teams will then have to pay the registration fee.</p>
+<p style="color: black">The case solution should be within 1000 words. Rename the case solution file before submission using this format : &lsquo;Team name_institution&rsquo;. For example, The Boring Team_IUT.</p>
+<p style="color: black">A selected list of teams will be announced on our facebook event page on April 3rd, 8PM. A waiting list for teams will also be published.</p>
+<p style="color: black">The teams will then have to pay the registration fee.</p>
 <br>
 <h4><strong>Payment Details :</strong></h4>
-<p>ONLY THE SELECTED TEAMS from will have to pay the registration fee.</p>
-<p><h6 style="color:red">Registration Fee : 2000 Tk</p></h6>
+<p style="color: black">ONLY THE SELECTED TEAMS from will have to pay the registration fee.</p>
+<p style="color: black"><h6 style="color:red">Registration Fee : 2000 Tk</p></h6>
 <br>
 <h4><strong>Presentation Round :</strong></h4>
-<p>The selected teams will make a presentation on their case on April 12th at IUT Campus. Each team will get 15 minutes to present their case and there will be 5 minutes of question-answer round.</p>
-<p>The presentation should be in .pptx format. The teams will submit their presentations to the volunteers at 9:30 AM. After that, no modification will be allowed.</p>
-<p>6 teams from the presentation round will proceed to the grand finale on 13th April.</p>
+<p style="color: black">The selected teams will make a presentation on their case on April 12th at IUT Campus. Each team will get 15 minutes to present their case and there will be 5 minutes of question-answer round.</p>
+<p style="color: black">The presentation should be in .pptx format. The teams will submit their presentations to the volunteers at 9:30 AM. After that, no modification will be allowed.</p>
+<p style="color: black">6 teams from the presentation round will proceed to the grand finale on 13th April.</p>
 <h4><strong>Grand Finale :</strong></h4>
-<p>The grand finale will be an instant case solution round.</p>
-<p>Teams will have to report at 9 AM sharp at the venue. A case will be given at 9:30 AM. Teams will get 2 hours to solve the case and make a presentation.</p>
-<p>From 12PM, the presentations will start at IUT Auditorium.</p>
-<p>3 Teams will win prizes based on their performance at Grand Finale.</p>
-<p>We&rsquo;re very excited to invite you to an event you&rsquo;ll remember for a long time.</p>
-<p>&nbsp;</p>
+<p style="color: black">The grand finale will be an instant case solution round.</p>
+<p style="color: black">Teams will have to report at 9 AM sharp at the venue. A case will be given at 9:30 AM. Teams will get 2 hours to solve the case and make a presentation.</p>
+<p style="color: black">From 12PM, the presentations will start at IUT Auditorium.</p>
+<p style="color: black">3 Teams will win prizes based on their performance at Grand Finale.</p>
+<p style="color: black">We&rsquo;re very excited to invite you to an event you&rsquo;ll remember for a long time.</p>
+<p style="color: black">&nbsp;</p>
           </div>
         </div>
       </div>
-    </section>
+    <!-- </section>
 
-
-
-
-
-
-
-
-
-    <section class="ftco-section contact-section ftco-degree-bg">
+    <section class="ftco-section contact-section ftco-degree-bg"> -->
       <div class="container bg-light">
         <div class="row d-flex mb-5 contact-info">
           <div class="col-md-12 mb-4">

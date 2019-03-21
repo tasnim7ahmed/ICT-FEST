@@ -14,7 +14,7 @@
       </div>
     </div>
     
-    <section class="ftco-section">
+    <section class="ftco-section" style="background-image: url(../images/Background.png); background-size: 100%;">
       <div class="container" align="center">
         <div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-9 text-center heading-section ftco-animate">

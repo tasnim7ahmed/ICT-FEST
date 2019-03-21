@@ -13,33 +13,37 @@
         </div>
       </div>
     </div>
+
+    <div>
+      <img src={{asset('images/Cover_IO.png')}} width="100%" height="100%">
+    </div>
     
-    <section class="ftco-section">
+    <section class="ftco-section" style="background-image: url(../images/Background.png); background-size: 100%;">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-6 text-center heading-section ftco-animate">
+          <div class="col-md-6 text heading-section ftco-animate">
             <span class="subheading">ICT Olympiad</span>
             <h2 class="mb-4">Rules &amp; Regulations</h2>
             <h4><strong>Registration</strong></h4>
 <ul>
-<li>First you have to fill up the online form in the website.</li>
-<li>Then you have to complete the payment.<br></li>
+<li style="color:black">First you have to fill up the online form in the website.</li>
+<li style="color:black">Then you have to complete the payment.<br></li>
 <br>
 <h4 align="text-center"><strong>Registration Fee</strong></h4>
 
 <li style="color: red">University Level: 400 Taka (Four Hundred Taka)</li>
-<li style="color: red">School/College Level: 250 Taka (Two Hundred and Fifty Taka)</li>
+<li style="color: red">School/College Level: 300 Taka (Three Hundred Taka)</li>
 <br>
 </li>
 </ul>
 <h4 align="text-center"><strong>Participation Rules</strong></h4>
 <ul>
-<li>You must complete the registration to participate.</li>
-<li>You have to participate individually.</li>
-<li>There will be two categories.
+<li style="color:black">You must complete the registration to participate.</li>
+<li style="color:black">You have to participate individually.</li>
+<li style="color:black">There will be two categories.
 <ul>
-<li>University Level (Undergraduate students)</li>
-<li>School/College Level (College students + School students from Class 8 to Class 10)</li>
+<li style="color:black">University Level (Undergraduate students)</li>
+<li style="color:black">School/College Level (College students + School students from Class 8 to Class 10)</li>
 </ul>
 </li>
 <li style="color: red">You must bring your School/College/University ID Card at the day of the olympiad for verification purpose.</li>
@@ -47,11 +51,11 @@
 <br>
 <h4 align="center"><strong>Olympiad Rules</strong></h4>
 <ul>
-<li>There will be a total of 50 MCQ questions.</li>
-<li>You will be given 50 minutes to answer the questions.</li>
-<li>The total marks will be 50.</li>
-<li>You have to fill the circle for the appropriate answer on the given answer sheet.</li>
-<li>It is recommended to use black ball point pen for marking the answers</li>
+<li style="color:black">There will be a total of 50 MCQ questions.</li>
+<li style="color:black">You will be given 50 minutes to answer the questions.</li>
+<li style="color:black">The total marks will be 50.</li>
+<li style="color:black">You have to fill the circle for the appropriate answer on the given answer sheet.</li>
+<li style="color:black">It is recommended to use black ball point pen for marking the answers</li>
 
 </ul>
 <p>&nbsp;</p>
@@ -60,14 +64,14 @@
 <ul>
 <h4 align="text-center">University Level</h4>
 <ul>
-<li>Computer Fundamentals</li>
-<li>Programming language basics</li>
-<li>Operating System</li>
-<li>Boolean Logic</li>
-<li>Data Structures</li>
-<li>Database Management</li>
-<li>Common Algorithms</li>
-<li>Basic Networking</li>
+<li style="color:black">Computer Fundamentals</li>
+<li style="color:black">Programming language basics</li>
+<li style="color:black">Operating System</li>
+<li style="color:black">Boolean Logic</li>
+<li style="color:black">Data Structures</li>
+<li style="color:black">Database Management</li>
+<li style="color:black">Common Algorithms</li>
+<li style="color:black">Basic Networking</li>
 </ul>
 </li>
 </ul>
@@ -75,11 +79,11 @@
 <ul>
 <h4 align="text-center">School/College Level</h4>
 <ul>
-<li>Computer Fundamentals</li>
-<li>Programming language basics</li>
-<li>Operating System</li>
-<li>Boolean Logic</li>
-<li>Database Management</li>
+<li style="color:black">Computer Fundamentals</li>
+<li style="color:black">Programming language basics</li>
+<li style="color:black">Operating System</li>
+<li style="color:black">Boolean Logic</li>
+<li style="color:black">Database Management</li>
 </ul>
 </li>
 </ul>
@@ -87,9 +91,9 @@
           </div>
         </div>
       </div>
-    </section>
+    <!-- </section>
 
-    <section class="ftco-section contact-section ftco-degree-bg">
+    <section class="ftco-section contact-section ftco-degree-bg"> -->
       <div class="container bg-light">
         <div class="row d-flex mb-5 contact-info">
           <div class="col-md-12 mb-4">

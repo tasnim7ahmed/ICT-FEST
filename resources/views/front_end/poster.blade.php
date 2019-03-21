@@ -14,111 +14,114 @@
       </div>
     </div>
     
-    <section class="ftco-section">
+    <div>
+      <img src={{asset('images/Cover_Poster.png')}} width="100%" height="100%">
+    </div>
+
+    <section class="ftco-section" style="background-image: url(../images/Background.png); background-size: 100%;">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-6 text-center heading-section ftco-animate">
+          <div class="col-md-6 text heading-section ftco-animate">
             <span class="subheading">POSTER PRESENTATION</span>
             <h2 class="mb-4">Rules &amp; Regulations</h2>
-            <p>EVENT DETAILS</p>
-<p>&nbsp;</p>
-<p><strong><h4>Registration Cost</h4></strong> <h6 style="color: red">BDT 1200 per team. Each team can be maximum of 3 members and minimum of 2.</h6></p>
+            <p style="color:black">EVENT DETAILS</p>
+<p style="color:black">&nbsp;</p>
+<p style="color:black"><strong><h4>Registration Cost</h4></strong> <h6 style="color: red">BDT 1200 per team. Each team can be maximum of 3 members and minimum of 2.</h6></p>
 
-<p>RULES for the poster presentation competition are :<br /> ---------------------------------------------------------------------------------<br /> </p>
+<p style="color:black">RULES for the poster presentation competition are :<br /> ---------------------------------------------------------------------------------<br /> </p>
 <ol>
-<li>An accepted poster must include:</li>
+<li style="color:black">An accepted poster must include:</li>
 </ol>
 <ul>
-<li>Title of the poster.</li>
-<li>Name of the authors followed by their institution.</li>
-<li>Name of the supervisor followed by his institution.(If there is any supervisor supervising for the team)</li>
-<li>Abstract</li>
-<li>Methodology</li>
-<li>Feasibility and Impact Analysis</li>
-<li>Conclusion</li>
+<li style="color:black">Title of the poster.</li>
+<li style="color:black">Name of the authors followed by their institution.</li>
+<li style="color:black">Name of the supervisor followed by his institution.(If there is any supervisor supervising for the team)</li>
+<li style="color:black">Abstract</li>
+<li style="color:black">Methodology</li>
+<li style="color:black">Feasibility and Impact Analysis</li>
+<li style="color:black">Conclusion</li>
 </ul>
-<p>&nbsp;</p>
+<p style="color:black">&nbsp;</p>
 <ol start="2">
-<li>You will get 10-15 minutes to present your poster.<br /> <br /> Note 1: When you begin to make your poster, first create a list of the visuals that you would use if you were describing your project with only the visuals. Write the text after you have created the list of visuals. Don&rsquo;t be afraid to point out uncertainties in your work; this is where you may get useful feedback.<br /> <br /> Note 2: SIMPLICITY IS THE KEY. Keep to the point, and don&rsquo;t try to cover too many things. Present only enough data to support your conclusions.</li>
+<li style="color:black">You will get 10-15 minutes to present your poster.<br /> <br /> Note 1: When you begin to make your poster, first create a list of the visuals that you would use if you were describing your project with only the visuals. Write the text after you have created the list of visuals. Don&rsquo;t be afraid to point out uncertainties in your work; this is where you may get useful feedback.<br /> <br /> Note 2: SIMPLICITY IS THE KEY. Keep to the point, and don&rsquo;t try to cover too many things. Present only enough data to support your conclusions.</li>
 </ol>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>Other rules:</p>
+<p style="color:black">&nbsp;</p>
+<p style="color:black">Other rules:</p>
 <ul>
-<li>Poster size should be 36&rdquo; (height) by 24&rdquo; (width) and must be oriented in Portrait Style.</li>
+<li style="color:black">Poster size should be 36&rdquo; (height) by 24&rdquo; (width) and must be oriented in Portrait Style.</li>
 </ul>
-<p>&nbsp;</p>
+<p style="color:black">&nbsp;</p>
 <ul>
-<li>Poster banner:</li>
+<li style="color:black">Poster banner:</li>
 </ul>
-<p>PVC banner (For University Level Students)</p>
-<p>PVC or Handmade Banner (For School-College Level Students)</p>
-<p>&nbsp;</p>
+<p style="color:black">PVC banner (For University Level Students)</p>
+<p style="color:black">PVC or Handmade Banner (For School-College Level Students)</p>
+<p style="color:black">&nbsp;</p>
 <ul>
-<li>Students must obtain permission from their mentors/supervisors and</li>
+<li style="color:black">Students must obtain permission from their mentors/supervisors and</li>
 </ul>
-<p>co-authors before presenting the poster. Any report referring to an unauthorized poster presentation will be addressed immediately.</p>
-<p>&nbsp;</p>
+<p style="color:black">co-authors before presenting the poster. Any report referring to an unauthorized poster presentation will be addressed immediately.</p>
+<p style="color:black">&nbsp;</p>
 <ul>
-<li>Students from schools, colleges and universities (up to Masters) can participate.</li>
+<li style="color:black">Students from schools, colleges and universities (up to Masters) can participate.</li>
 </ul>
-<p>&nbsp;</p>
+<p style="color:black">&nbsp;</p>
 <ul>
-<li>The judgement will be for individual two levels:</li>
+<li style="color:black">The judgement will be for individual two levels:</li>
 </ul>
 <ol>
-<li>University Level.</li>
-<li>School-College Level.</li>
+<li style="color:black">University Level.</li>
+<li style="color:black">School-College Level.</li>
 </ol>
-<p>&nbsp;</p>
+<p style="color:black">&nbsp;</p>
 <ul>
-<li>The work presented must be original and innovative. Immediate actions will be taken against any form of <strong>plagiarism</strong>.</li>
+<li style="color:black">The work presented must be original and innovative. Immediate actions will be taken against any form of <strong>plagiarism</strong>.</li>
 </ul>
-<p>&nbsp;</p>
+<p style="color:black">&nbsp;</p>
 <ul>
-<li>Upon registration, <strong>abstract</strong> of each poster must be uploaded as a pdf format to the website to get selected as a participant in the competition.</li>
+<li style="color:black">Upon registration, <strong>abstract</strong> of each poster must be uploaded as a pdf format to the website to get selected as a participant in the competition.</li>
 </ul>
-<p>&nbsp;</p>
+<p style="color:black">&nbsp;</p>
 <ul>
-<li>A team should be formed with a minimum of 2 members and maximum 3 members.</li>
+<li style="color:black">A team should be formed with a minimum of 2 members and maximum 3 members.</li>
 </ul>
-<p>&nbsp;</p>
+<p style="color:black">&nbsp;</p>
 <ul>
-<li>All the team members must register their posters within the registration deadline.</li>
+<li style="color:black">All the team members must register their posters within the registration deadline.</li>
 </ul>
-<p>&nbsp;</p>
+<p style="color:black">&nbsp;</p>
 <ul>
-<li>Registrations should be done online.</li>
+<li style="color:black">Registrations should be done online.</li>
 </ul>
-<p>&nbsp;</p>
+<p style="color:black">&nbsp;</p>
 <ul>
-<li>The presenters must bring their Student ID card on program day for verification purpose.</li>
+<li style="color:black">The presenters must bring their Student ID card on program day for verification purpose.</li>
 </ul>
-<p>&nbsp;</p>
+<p style="color:black">&nbsp;</p>
 <ul>
-<li>A certificate will be issued against every poster presented.</li>
+<li style="color:black">A certificate will be issued against every poster presented.</li>
 </ul>
-<p>&nbsp;</p>
+<p style="color:black">&nbsp;</p>
 <ul>
-<li>Poster printing must be done by the presenter or by the presentation team.</li>
+<li style="color:black">Poster printing must be done by the presenter or by the presentation team.</li>
 </ul>
-<p>&nbsp;</p>
+<p style="color:black">&nbsp;</p>
 <ul>
-<li>In all cases, decisions taken by the organizing committee will be final.</li>
+<li style="color:black">In all cases, decisions taken by the organizing committee will be final.</li>
 </ul>
-<p><br /> <br /> <strong>****************************************************</strong><br /> TOPICS of the competition:<br /> <br /> The topic of the presented poster is open to your choices. We welcome your choice of topic and any creative ideas that you want to share with us.</p>
-<p>&nbsp;</p>
+<p style="color:black"><br /> <br /> <strong>****************************************************</strong><br /> TOPICS of the competition:<br /> <br /> The topic of the presented poster is open to your choices. We welcome your choice of topic and any creative ideas that you want to share with us.</p>
+<p style="color:black">&nbsp;</p>
 
 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+<p style="color:black">&nbsp;</p>
+<p style="color:black">&nbsp;</p>
+<p style="color:black">&nbsp;</p>
           </div>
         </div>
       </div>
-    </section>
+    <!-- </section>
 
-    <section class="ftco-section contact-section ftco-degree-bg">
+    <section class="ftco-section contact-section ftco-degree-bg"> -->
       <div class="container bg-light">
         <div class="row d-flex mb-5 contact-info">
           <div class="col-md-12 mb-4">

@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use App\Appdev;
 use Illuminate\Http\Request;
 use Storage;
+use Illuminate\Support\Facades\Crypt;
+use Mail;
+use App\Mail\RegisterMail;
 
 class AppdevController extends Controller
 {
@@ -84,6 +87,12 @@ class AppdevController extends Controller
         }
 
         $new_appdev->save();
+
+        $key = Crypt::encryptString('APPDEV-'.$new_appdev->id);
+
+        Mail::to($new_appdev->member_1_email)->send(new RegisterMail($new_appdev->member_1_name,'Application Development',$key));
+        Mail::to($new_appdev->member_2_email)->send(new RegisterMail($new_appdev->member_2_name,'Application Development',$key));
+
         alert()->success('Team has been added successfully.')->autoclose(3000);
        
         $appdev = Appdev::all();
@@ -148,6 +157,13 @@ class AppdevController extends Controller
         }
 
         $new_appdev->save();
+
+        $key = Crypt::encryptString('APPDEV-'.$new_appdev->id);
+
+        Mail::to($new_appdev->member_1_email)->send(new RegisterMail($new_appdev->member_1_name,'Application Development',$key));
+        Mail::to($new_appdev->member_2_email)->send(new RegisterMail($new_appdev->member_2_name,'Application Development',$key));
+
+        
         alert()->success('Dear '.$request->team_name.', Your registration information has successfully been uploaded. Please check your e-mail and our website for further information.')->autoclose(120000);
         return redirect()->route('front');
     }

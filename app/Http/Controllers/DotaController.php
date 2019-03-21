@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Dota;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Crypt;
+use Mail;
+use App\Mail\RegisterMail;
 
 class DotaController extends Controller
 {
@@ -72,6 +75,11 @@ class DotaController extends Controller
         
         
         $dota->save();
+
+        $key = Crypt::encryptString('DOTA-'.$dota->id);
+
+        Mail::to($dota->email)->send(new RegisterMail($dota->team_name,'DOTA 2',$key));
+
         alert()->success('Team has been added successfully.')->autoclose(3000);
        
         $dota2 = Dota::all();
@@ -124,6 +132,12 @@ class DotaController extends Controller
         
         
         $dota->save();
+
+        $key = Crypt::encryptString('DOTA-'.$dota->id);
+
+        Mail::to($dota->email)->send(new RegisterMail($dota->team_name,'DOTA 2',$key));
+
+
         alert()->success('Dear '.$request->team_name.', Your registration information has successfully been uploaded. Please check your e-mail and our website for further information.')->autoclose(120000);
         return redirect()->route('front');
     }

@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Siege;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Crypt;
+use Mail;
+use App\Mail\RegisterMail;
 
 class SiegeController extends Controller
 {
@@ -72,6 +75,11 @@ class SiegeController extends Controller
         
         
         $siege->save();
+
+        $key = Crypt::encryptString('SIEGE-'.$siege->id);
+
+        Mail::to($siege->email)->send(new RegisterMail($siege->team_name,'Rainbow Six Siege',$key));
+
         alert()->success('Team has been added successfully.')->autoclose(3000);
        
         $siege = Siege::all();
@@ -124,6 +132,11 @@ class SiegeController extends Controller
         
         
         $siege->save();
+
+        $key = Crypt::encryptString('SIEGE-'.$siege->id);
+
+        Mail::to($siege->email)->send(new RegisterMail($siege->team_name,'Rainbow Six Siege',$key));
+        
         alert()->success('Dear '.$request->team_name.', Your registration information has successfully been uploaded. Please check your e-mail and our website for further information.')->autoclose(120000);
         return redirect()->route('front');
     }
