@@ -37,12 +37,7 @@
                           
                           <div class="radio">
                             <label>
-                              <input type="radio" value="School" class="flat" checked name="category"><strong> School</strong>
-                            </label>
-                          </div>
-                          <div class="radio">
-                            <label>
-                              <input type="radio" value="College" class="flat" name="category"><strong> College</strong>
+                              <input type="radio" value="School-College" class="flat" checked name="category"><strong> School-College</strong>
                             </label>
                           </div>
                           <div class="radio">

@@ -109,8 +109,7 @@
                       <div class="form-group">
                         <label>Category</label>
                           <select name="category" class="form-control" required="required">
-                              <option value="School">School</option>
-                              <option value="College">College</option>
+                              <option value="School-College">School-College</option>
                               <option value="University">University</option>
                           </select>
                       </div>

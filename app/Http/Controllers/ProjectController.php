@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Project;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Crypt;
+use Mail;
+use App\Mail\RegisterMail;
 
 class ProjectController extends Controller
 {
@@ -62,6 +65,14 @@ class ProjectController extends Controller
         
         
         $new_pc->save();
+        $key = Crypt::encryptString('PS-'.$new_pc->id);
+
+        Mail::to($new_pc->member_1_email)->send(new RegisterMail($new_pc->member_1_name,'Project Showcasing',$key));
+        Mail::to($new_pc->member_2_email)->send(new RegisterMail($new_pc->member_2_name,'Project Showcasing',$key));
+        if ($new_pc->member_3_email!=null) {
+            Mail::to($new_pc->member_3_email)->send(new RegisterMail($new_pc->member_3_name,'Project Showcasing',$key));
+        }
+        
         alert()->success('Team has been added successfully.')->autoclose(3000);
        
         $ps = Project::all();
@@ -94,6 +105,14 @@ class ProjectController extends Controller
         $new_pc->member_3_tshirt =  $request->member_3_tshirt;
         
         $new_pc->save();
+        $key = Crypt::encryptString('PS-'.$new_pc->id);
+
+        Mail::to($new_pc->member_1_email)->send(new RegisterMail($new_pc->member_1_name,'Project Showcasing',$key));
+        Mail::to($new_pc->member_2_email)->send(new RegisterMail($new_pc->member_2_name,'Project Showcasing',$key));
+        if ($new_pc->member_3_email!=null) {
+            Mail::to($new_pc->member_3_email)->send(new RegisterMail($new_pc->member_3_name,'Project Showcasing',$key));
+        }
+
         alert()->success('Dear '.$request->team_name.', Your registration information has successfully been uploaded. Please check your e-mail and our website for further information.')->autoclose(120000);
         return redirect()->route('front');
     }
