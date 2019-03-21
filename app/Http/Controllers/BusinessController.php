@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use App\business;
 use Illuminate\Http\Request;
 use Storage;
+use Illuminate\Support\Facades\Crypt;
+use Mail;
+use App\Mail\RegisterMail;
 
 class BusinessController extends Controller
 {
@@ -66,7 +69,12 @@ class BusinessController extends Controller
         
         
         $new_business->save();
+
+        $key = Crypt::encryptString('BUSINESS-'.$new_business->id);
         alert()->success('Team has been added successfully.')->autoclose(3000);
+        Mail::to($new_business->member_1_email)->send(new RegisterMail($new_business->member_1_name,'IT Business Case Competition',$key));
+        Mail::to($new_business->member_2_email)->send(new RegisterMail($new_business->member_2_name,'IT Business Case Competition',$key));
+        Mail::to($new_business->member_3_email)->send(new RegisterMail($new_business->member_3_name,'IT Business Case Competition',$key));
        
         $business = Business::all();
         return redirect()->route('business_list')->with('businesses',$business);
@@ -106,6 +114,13 @@ class BusinessController extends Controller
         
         $new_business->save();
         alert()->success('Dear '.$request->team_name.', Your registration information has successfully been uploaded. Please check your e-mail and our website for further information.')->autoclose(120000);
+
+        $key = Crypt::encryptString('BUSINESS-'.$new_business->id);
+        alert()->success('Team has been added successfully.')->autoclose(3000);
+        Mail::to($new_business->member_1_email)->send(new RegisterMail($new_business->member_1_name,'IT Business Case Competition',$key));
+        Mail::to($new_business->member_2_email)->send(new RegisterMail($new_business->member_2_name,'IT Business Case Competition',$key));
+        Mail::to($new_business->member_3_email)->send(new RegisterMail($new_business->member_3_name,'IT Business Case Competition',$key));
+
         return redirect()->route('front');
     }
 

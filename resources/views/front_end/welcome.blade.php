@@ -186,7 +186,7 @@
     </section>-->
 
     <div>
-      <img src={{asset('images/banner.png')}} width="100%" height="100%">
+      <img src={{asset('images/Banner.png')}} width="100%" height="100%">
     </div>
 
     <!-- <section class="ftco-section-parallax" >
@@ -279,10 +279,10 @@
                   </div>
                   <div class="text">
                    
-                    <p class="name">Tamzid Karim</p>
-                    <p class="mb-2">Vice-President</p>
-                    <span class="position">facebook.com/karim.tamzid</span><br>
-                    <span class="position">+8801722237176</span>
+                    <p class="name" style="color: black">Tamzid Karim</p>
+                    <p class="mb-2" style="color: black">Vice-President</p>
+                    <span class="position" style="color: black">facebook.com/karim.tamzid</span><br>
+                    <span class="position" style="color: black">+8801722237176</span>
                   </div>
                 </div>
               </div>
@@ -295,27 +295,27 @@
                   </div>
                   <div class="text">
                     
-                    <p class="name">Anqur Enayet</p>
-                    <p class="mb-2">Vice-President</p>
-                    <span class="position">facebook.com/anqur.enayet</span><br>
-                    <span class="position">+8801834684946</span>
+                    <p class="name" style="color: black">Anqur Enayet</p>
+                    <p class="mb-2" style="color: black">Vice-President</p>
+                    <span class="position" style="color: black">facebook.com/anqur.enayet</span><br>
+                    <span class="position" style="color: black">+8801834684946</span>
                   </div>
                 </div>
               </div>
 
               <div class="item text-center">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(../images/rahat.jpg)">
+                  <div class="user-img mb-4" style="background-image: url(../images/Rahat.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
                   </div>
                   <div class="text">
                     
-                    <p class="name">Rahat Anwar Khan</p>
-                    <p class="mb-2">President</p>
-                    <span class="position">facebook.com/rahat.khan.2848</span><br>
-                    <span class="position">+8801521323672</span>
+                    <p class="name" style="color: black">Rahat Anwar Khan</p>
+                    <p class="mb-2" style="color: black">President</p>
+                    <span class="position" style="color: black">facebook.com/rahat.khan.2848</span><br>
+                    <span class="position" style="color: black">+8801521323672</span>
                   </div>
                 </div>
               </div>
@@ -350,10 +350,10 @@
                   </div>
                   <div class="text">
                    
-                    <p class="name">Saadman Malik Aurko</p>
-                    <p class="mb-2">Front-end and Back-end Dev</p>
-                    <span class="position">facebook.com/saadman.malik</span><br>
-                    <span class="position">+8801912810987</span>
+                    <p class="name" style="color: black">Saadman Malik Aurko</p>
+                    <p class="mb-2" style="color: black">Front-end and Back-end Dev</p>
+                    <span class="position" style="color: black">facebook.com/saadman.malik</span><br>
+                    <span class="position" style="color: black">+8801912810987</span>
                   </div>
                 </div>
               </div>
@@ -366,10 +366,10 @@
                   </div>
                   <div class="text">
                     
-                    <p class="name">Ifaz Ahmed Aflan</p>
-                    <p class="mb-2">Graphics Designer</p>
-                    <span class="position">facebook.com/aflan.cse</span><br>
-                    <span class="position">+8801954790638</span>
+                    <p class="name" style="color: black">Ifaz Ahmed Aflan</p>
+                    <p class="mb-2" style="color: black">Graphics Designer</p>
+                    <span class="position" style="color: black">facebook.com/aflan.cse</span><br>
+                    <span class="position" style="color: black">+8801954790638</span>
                   </div>
                 </div>
               </div>
@@ -383,10 +383,10 @@
                   </div>
                   <div class="text">
                     
-                    <p class="name">Tasnim Ahmed</p>
-                    <p class="mb-2">Front-end and Back-end Dev</p>
-                    <span class="position">facebook.com/tasnim.ahmed.iut</span>
-                    <span class="position">+8801733004000</span>
+                    <p class="name" style="color: black">Tasnim Ahmed</p>
+                    <p class="mb-2" style="color: black">Front-end and Back-end Dev</p>
+                    <span class="position" style="color: black">facebook.com/tasnim.ahmed.iut</span>
+                    <span class="position" style="color: black">+8801733004000</span>
                   </div>
                 </div>
               </div>

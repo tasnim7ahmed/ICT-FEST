@@ -71,7 +71,7 @@
                         </div>
                       </div>
 
-                      <div class="form-group">
+                      <!-- <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Registration Fees</label>
                         <div class="col-md-4 col-sm-6 col-xs-12">
                           <select name="total" class="form-control" required="required">
@@ -80,7 +80,7 @@
                               <option value="400">400</option>
                           </select>
                         </div>
-                      </div>
+                      </div> -->
 
                       <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">T-Shirt Size</label>

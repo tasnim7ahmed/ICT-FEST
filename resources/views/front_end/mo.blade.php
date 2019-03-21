@@ -13,17 +13,19 @@
         </div>
       </div>
     </div>
-    
-    <section class="ftco-section">
+    <div>
+      <img src={{asset('images/Cover_MO.png')}} width="100%" height="100%">
+    </div>
+    <section class="ftco-section" style="background-image: url(../images/Background.png); background-size: 100%;">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-6 text-center heading-section ftco-animate">
+          <div class="col-md-6 text heading-section ftco-animate">
             <span class="subheading">Math Olympiad</span>
             <h2 class="mb-4">Rules &amp; Regulations</h2>
             <h4><strong>Registration</strong></h4>
 <ul>
-<li>First you have to fill up the online form in the website.</li>
-<li>Then you have to complete the payment.</li>
+<li style="color:black">First you have to fill up the online form in the website.</li>
+<li style="color:black">Then you have to complete the payment.</li>
 <br>
 <h4><strong>Registration Fee</strong></h4>
 
@@ -35,45 +37,45 @@
 <br>
 <h4><strong>Participation Rules</strong></h4>
 <ul>
-<li>You must complete the registration to participate.</li>
-<li>You have to participate individually.</li>
-<li>There will be two categories.
+<li style="color:black">You must complete the registration to participate.</li>
+<li style="color:black">You have to participate individually.</li>
+<li style="color:black">There will be two categories.
 <ul>
-<li>University Level (Undergraduate students)</li>
-<li>School/College Level (College students + School students from Class 8 to Class 10)</li>
+<li style="color:black">University Level (Undergraduate students)</li>
+<li style="color:black">School/College Level (College students + School students from Class 8 to Class 10)</li>
 </ul>
 </li>
-<li>You must bring your School/College/University ID Card at the day of the olympiad for verification purpose.</li>
+<li style="color:black">You must bring your School/College/University ID Card at the day of the olympiad for verification purpose.</li>
 </ul>
 <br>
 <h4><strong>Olympiad Rules</strong></h4>
 <ul>
-<li>You will be given 2 hours to solve the problems.</li>
-<li>The total marks will be 100.</li>
-<li>You have to write the answer on the question paper.</li>
-<li>You will be provided with a single rough sheet.</li>
+<li style="color:black">You will be given 2 hours to solve the problems.</li>
+<li style="color:black">The total marks will be 100.</li>
+<li style="color:black">You have to write the answer on the question paper.</li>
+<li style="color:black">You will be provided with a single rough sheet.</li>
 <br>
 <h5>The probable fields of questions are : </h5>
 <ul>
 <h4>University Level</h4>
 <ul>
-<li>Number Theory</li>
-<li>Combinatorics</li>
-<li>Linear Algebra</li>
-<li>Geometry</li>
-<li>Probability</li>
-<li>Discrete Mathematics</li>
+<li style="color:black">Number Theory</li>
+<li style="color:black">Combinatorics</li>
+<li style="color:black">Linear Algebra</li>
+<li style="color:black">Geometry</li>
+<li style="color:black">Probability</li>
+<li style="color:black">Discrete Mathematics</li>
 </ul>
 </li>
 <h4>School/College Level</h4>
 <ul>
-<li>Basic Algebra</li>
-<li>Number Theory</li>
-<li>Combinatorics</li>
-<li>Geometry</li>
-<li>Basic Probability</li>
-<li>Number System</li>
-<li>Logic Puzzles</li>
+<li style="color:black">Basic Algebra</li>
+<li style="color:black">Number Theory</li>
+<li style="color:black">Combinatorics</li>
+<li style="color:black">Geometry</li>
+<li style="color:black">Basic Probability</li>
+<li style="color:black">Number System</li>
+<li style="color:black">Logic Puzzles</li>
 </ul>
 </li>
 </ul>
@@ -83,9 +85,9 @@
           </div>
         </div>
       </div>
-    </section>
+    <!-- </section>
 
-    <section class="ftco-section contact-section ftco-degree-bg">
+    <section class="ftco-section contact-section ftco-degree-bg"> -->
       <div class="container bg-light">
         <div class="row d-flex mb-5 contact-info">
           <div class="col-md-12 mb-4">
