@@ -119,6 +119,7 @@
 <p><strong>***Authorities may change the rules and regulations along with other details if necessary. In that case everyone will be notified through the facebook page of IUT Computer Society (IUTCS). Everyone is requested to follow the facebook page for updated news.</strong></p>
 <p><h6 style="color: red">Entry fee: </h6></p>
 <p><h6 style="color: red">300tk per participant</h6></p>
+<p><h5 style="color: black">For further query contact, Mohaimin Shoron: +8801989698451</h5></p>
           </h5>
           </div>
         </div>

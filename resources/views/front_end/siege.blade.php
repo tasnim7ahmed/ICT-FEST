@@ -168,6 +168,7 @@
 <p style="color:black">All the matches up to quarter finals will be hosted online and monitored by the organizers. The online matches will be hosted by either one of two teams, decided randomly. The semifinals and grand finals will be hosted on site i.e. at IUT campus. The semi-finalists will be given individual fest kits.<br /> <strong><u>Note</u></strong>: Depending on the response and participation, we might decide to host the quarter finals on site as well; however, for now, only the semis and grand finals have been decided to be held on site.</p>
 <p style="color:black"><h3 style="color:red">Entry fee: </h3></p>
 <p style="color:black"><h3 style="color: red">1500tk per team </h3></p>
+<p><h5 style="color: black">For further query contact, Mohaimin Shoron: +8801989698451</h5></p>
           </h5>
           </div>
         </div>

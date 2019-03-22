@@ -114,6 +114,7 @@
 <p style="color: black">From 12PM, the presentations will start at IUT Auditorium.</p>
 <p style="color: black">3 Teams will win prizes based on their performance at Grand Finale.</p>
 <p style="color: black">We&rsquo;re very excited to invite you to an event you&rsquo;ll remember for a long time.</p>
+<p><h5 style="color: black">For further query contact, Lutfor Rahman Rafe: +8801791266536</h5></p>
 <p style="color: black">&nbsp;</p>
           </div>
         </div>

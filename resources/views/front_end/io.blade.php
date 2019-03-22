@@ -31,8 +31,8 @@
 <br>
 <h4 align="text-center"><strong>Registration Fee</strong></h4>
 
-<li style="color: red">University Level: 400 Taka (Four Hundred Taka)</li>
-<li style="color: red">School/College Level: 300 Taka (Three Hundred Taka)</li>
+<li ><h5 style="color: red">University Level: 400 Taka (Four Hundred Taka)</h4></li>
+<li ><h5 style="color: red">School/College Level: 300 Taka (Three Hundred Taka)</h4></li>
 <br>
 </li>
 </ul>
@@ -87,6 +87,7 @@
 </ul>
 </li>
 </ul>
+<p><h5 style="color: black">For further query contact, Shahriar Ivan: +8801720968532</h5></p>
 <p>&nbsp;</p>
           </div>
         </div>

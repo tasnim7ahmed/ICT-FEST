@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Project;
 use Illuminate\Http\Request;
+use Storage;
 use Illuminate\Support\Facades\Crypt;
 use Mail;
 use App\Mail\RegisterMail;
@@ -41,28 +42,42 @@ class ProjectController extends Controller
     {
         $new_pc = new Project;
         $new_pc->team_name = $request->team_name;
-        $new_pc->institution = $request->institution;
-        $new_pc->total = 2500;
+        $new_pc->project_name = $request->project_name;
+        
+        $new_pc->total = 2000;
         $new_pc->paid = 0;
         $new_pc->selected = 'False';
+        $new_pc->submission = 'False';
 
 
         $new_pc->member_1_name =    $request->member_1_name;
+        $new_pc->member_1_institution = $request->member_1_institution;
         $new_pc->member_1_contact = $request->member_1_contact;
         $new_pc->member_1_email =   $request->member_1_email;
         $new_pc->member_1_tshirt =  $request->member_1_tshirt;
 
         $new_pc->member_2_name =    $request->member_2_name;
+        $new_pc->member_2_institution = $request->member_2_institution;
         $new_pc->member_2_contact = $request->member_2_contact;
         $new_pc->member_2_email =   $request->member_2_email;
         $new_pc->member_2_tshirt =  $request->member_2_tshirt;
 
         $new_pc->member_3_name =    $request->member_3_name;
+        $new_pc->member_3_institution = $request->member_3_institution;
         $new_pc->member_3_contact = $request->member_3_contact;
         $new_pc->member_3_email =   $request->member_3_email;
         $new_pc->member_3_tshirt =  $request->member_3_tshirt;
         
-        
+        $new_pc->pdf = $request->file('pdf')->store('project_showcasing');
+
+        if($request->file('pdf')==null){
+           $new_pc->pdf="";
+            alert()->success('Your registration was unsucessful. Please contact us for further query.')->autoclose(120000);
+            return redirect()->route('front');
+        }
+        else if ($request->has('pdf')) {
+           $new_pc->submission = 'True';
+        }
         
         $new_pc->save();
         $key = Crypt::encryptString('PS-'.$new_pc->id);
@@ -83,26 +98,42 @@ class ProjectController extends Controller
     {
         $new_pc = new Project;
         $new_pc->team_name = $request->team_name;
-        $new_pc->institution = $request->institution;
-        $new_pc->total = 2500;
+        $new_pc->project_name = $request->project_name;
+        
+        $new_pc->total = 2000;
         $new_pc->paid = 0;
         $new_pc->selected = 'False';
+        $new_pc->submission = 'False';
 
-        
+
         $new_pc->member_1_name =    $request->member_1_name;
+        $new_pc->member_1_institution = $request->member_1_institution;
         $new_pc->member_1_contact = $request->member_1_contact;
         $new_pc->member_1_email =   $request->member_1_email;
         $new_pc->member_1_tshirt =  $request->member_1_tshirt;
 
         $new_pc->member_2_name =    $request->member_2_name;
+        $new_pc->member_2_institution = $request->member_2_institution;
         $new_pc->member_2_contact = $request->member_2_contact;
         $new_pc->member_2_email =   $request->member_2_email;
         $new_pc->member_2_tshirt =  $request->member_2_tshirt;
 
         $new_pc->member_3_name =    $request->member_3_name;
+        $new_pc->member_3_institution = $request->member_3_institution;
         $new_pc->member_3_contact = $request->member_3_contact;
         $new_pc->member_3_email =   $request->member_3_email;
         $new_pc->member_3_tshirt =  $request->member_3_tshirt;
+        
+        $new_pc->pdf = $request->file('pdf')->store('project_showcasing');
+
+        if($request->file('pdf')==null){
+           $new_pc->pdf="";
+            alert()->success('Your registration was unsucessful. Please contact us for further query.')->autoclose(120000);
+            return redirect()->route('front');
+        }
+        else if ($request->has('pdf')) {
+           $new_pc->submission = 'True';
+        }
         
         $new_pc->save();
         $key = Crypt::encryptString('PS-'.$new_pc->id);
@@ -144,6 +175,13 @@ class ProjectController extends Controller
         alert()->warning('Payment has been completed successfully', 'Done')->autoclose(3000);
         $mm=Project::all();
         return redirect()->route('ps_list')->with('pss',$mm);
+    }
+
+    public function download($id)
+    {
+        $biz = Project::find($id);
+        //$file = Storage::disk('local')->get($biz->pdf);
+        return Storage::download($biz->pdf);
     }
 
 

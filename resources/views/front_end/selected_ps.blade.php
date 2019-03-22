@@ -32,10 +32,13 @@
                         <tr>
                           <th>ID</th>
                           <th>Team Name</th>
-                          <th>Institution</th>
+                          <th>Project Name</th>                       
                           <th>Team Leader</th>
+                          <th>Team Leader Institution </th>
                           <th>Member - 1</th>
+                          <th>Member - 1 Institution</th>
                           <th>Member - 2</th>
+                          <th>Member - 2 Institution</th>
                           <th>Fees</th>
                           <th>Registered At</th>
                           <th>Payment<br>Status</th>
@@ -46,10 +49,13 @@
                           <tr>
                             <td>{{$pc->id}}</td>
                             <td>{{$pc->team_name}}</td>
-                            <td>{{$pc->institution}}</td>
+                            <td>{{$pc->project_name}}</td>
                             <td>{{$pc->member_1_name}}</td>
+                            <td>{{$pc->member_1_institution}}</td>
                             <td>{{$pc->member_2_name}}</td>
+                            <td>{{$pc->member_2_institution}}</td>
                             <td>{{$pc->member_3_name}}</td>
+                            <td>{{$pc->member_3_institution}}</td>
                             <td>{{$pc->total}}</td>
                             <td>{{$pc->created_at}}</td>
                             <?php

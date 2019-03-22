@@ -32,9 +32,21 @@
                           <th>Category</th>
                           <th>Institution</th>
                           <th>Team Leader</th>
+                          <th>Team Leader's Email</th>
+                          <th>Team Leader's Contact</th>
+                          <th>Team Leader's T-shirt</th>
                           <th>Member - 1</th>
+                          <th>Member - 1 Email</th>
+                          <th>Member - 1 Contact</th>
+                          <th>Member - 1 T-shirt</th>
                           <th>Member - 2</th>
+                          <th>Member - 2 Email</th>
+                          <th>Member - 2 Contact</th>
+                          <th>Member - 2 T-shirt</th>
                           <th>Name of Supervisor</th>
+                          <th>Supervisor Email</th>
+                          <th>Supervisor Contact</th>
+                          <th>Supervisor T-shirt</th>
                           <th>Fees</th>
                           <th>Registered At</th>
                           <th>Idea Submission</th>
@@ -54,9 +66,24 @@
                             <td>{{$poster->category}}</td>
                             <td>{{$poster->institution}}</td>
                             <td>{{$poster->member_1_name}}</td>
+                            <td>{{$poster->member_1_email}}</td>
+                            <td>{{$poster->member_1_contact}}</td>
+                            <td>{{$poster->member_1_tshirt}}</td>
+
                             <td>{{$poster->member_2_name}}</td>
+                            <td>{{$poster->member_2_email}}</td>
+                            <td>{{$poster->member_2_contact}}</td>
+                            <td>{{$poster->member_2_tshirt}}</td>
+
                             <td>{{$poster->member_3_name}}</td>
+                            <td>{{$poster->member_3_email}}</td>
+                            <td>{{$poster->member_3_contact}}</td>
+                            <td>{{$poster->member_3_tshirt}}</td>
+
                             <td>{{$poster->coach_name}}</td>
+                            <td>{{$poster->coach_email}}</td>
+                            <td>{{$poster->coach_contact}}</td>
+                            <td>{{$poster->coach_tshirt}}</td>
                             <td>{{$poster->total}}</td>
                             <td>{{$poster->created_at}}</td>
 

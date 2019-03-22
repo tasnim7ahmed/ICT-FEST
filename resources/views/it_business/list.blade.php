@@ -30,10 +30,23 @@
                           <th>Team Name</th>
                           <th>Institution</th>
                           <th>Team Leader</th>
+                          <th>Team Leader's Email</th>
+                          <th>Team Leader's Contact</th>
+                          <th>Team Leader's T-shirt</th>
+                          <th>Team Leader's Student ID</th>
                           <th>Member - 1</th>
+                          <th>Member - 1 Email</th>
+                          <th>Member - 1 Contact</th>
+                          <th>Member - 1 T-shirt</th>
+                          <th>Member - 1 Student ID</th>
                           <th>Member - 2</th>
+                          <th>Member - 2 Email</th>
+                          <th>Member - 2 Contact</th>
+                          <th>Member - 2 T-shirt</th>
+                          <th>Member - 2 Student ID</th>
                           <th>Fees</th>
                           <th>Registered At</th>
+                          <th>Idea Submission</th>
                           <th>Payment<br>Status</th>
                           <th>Selected<br>Status</th>
                           <th><font style="color:red">Payment<br>Completed</th>
@@ -49,10 +62,38 @@
                             <td>{{$business->team_name}}</td>
                             <td>{{$business->institution}}</td>
                             <td>{{$business->member_1_name}}</td>
+                            <td>{{$business->member_1_email}}</td>
+                            <td>{{$business->member_1_contact}}</td>
+                            <td>{{$business->member_1_tshirt}}</td>
+                            <td>{{$business->member_1_std_id}}</td>
+
+
                             <td>{{$business->member_2_name}}</td>
+                            <td>{{$business->member_2_email}}</td>
+                            <td>{{$business->member_2_contact}}</td>
+                            <td>{{$business->member_2_tshirt}}</td>
+                            <td>{{$business->member_2_std_id}}</td>
+
                             <td>{{$business->member_3_name}}</td>
+                            <td>{{$business->member_3_email}}</td>
+                            <td>{{$business->member_3_contact}}</td>
+                            <td>{{$business->member_3_tshirt}}</td>
+                            <td>{{$business->member_3_std_id}}</td>
                             <td>{{$business->total}}</td>
                             <td>{{$business->created_at}}</td>
+                            <?php
+                            
+                            $sub = $business->submission;
+                            if($sub=='True')
+                            {
+                                echo '<th><font style="color:green">'.'Successful'.'</font></th>';
+                            }
+                            else
+                            {
+                              echo '<th><font style="color:red">'.'Pending'.'</font></th>';
+                            }
+                            ?>
+
                             <?php
                             
                             $paid = $business->total - ($business->paid);
@@ -79,6 +120,9 @@
                             ?>
                 <th><a href="/payment_done_business/{{$business->id}}" class="glyphicon glyphicon-euro" onclick="return confirm('Are you sure about completing the payment? This cannot be undone.' );"></a></th>
                 <th><a href="/selection_done_business/{{$business->id}}" class="glyphicon glyphicon-plus" onclick="return confirm('Are you sure about selecting this participant? This cannot be undone.' );"></a></th>
+
+
+                
                 <th><a href="/business_download/{{$business->id}}" class="glyphicon glyphicon-download"></a></th>
                 
                 <th><a href="/delete_business/{{$business->id}}" class="glyphicon glyphicon-trash" onclick="return confirm('Are you sure about deleting this? This cannot be undone.');"></a></th>

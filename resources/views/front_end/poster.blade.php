@@ -111,7 +111,7 @@
 </ul>
 <p style="color:black"><br /> <br /> <strong>****************************************************</strong><br /> TOPICS of the competition:<br /> <br /> The topic of the presented poster is open to your choices. We welcome your choice of topic and any creative ideas that you want to share with us.</p>
 <p style="color:black">&nbsp;</p>
-
+<p><h5 style="color: black">For further query contact, Saidul Islam: +8801521325416</h5></p>
 
 <p style="color:black">&nbsp;</p>
 <p style="color:black">&nbsp;</p>

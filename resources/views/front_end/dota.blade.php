@@ -78,6 +78,7 @@
 <p style="color:black">&nbsp;</p>
 <p style="color:black"><h4 style="color: red">REGISTRATION FEE: </h4></p>
 <p style="color:black"><h4 style="color: red">2000TK PER TEAM</h4></p>
+<p><h5 style="color: black">For further query contact, Mohaimin Shoron: +8801989698451</h5></p>
           </h5>
           </div>
         </div>

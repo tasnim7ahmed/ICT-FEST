@@ -57,6 +57,7 @@
 </ol>
 
 <p style="color: black"><h5 style="color: red">Registration fee: Tk. 3000.00 (BDT Three thousand taka)</h5></p>
+<p><h5 style="color: black">For further query contact, Sabit Bananee: +8801925215306</h5></p>
 
           </h5>
           </div>
@@ -94,6 +95,7 @@
                           </select>
                       </div>
 
+                      <h6 style="color: red"> **If the members of the team are from different institution then write 'Mixed' in institution name otherwise write your respective institution name** </h6>
                       <div class="form-group">
                           <input type="text" name="institution" class="form-control" placeholder="Institution Name" required="required">
                       </div>

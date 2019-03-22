@@ -33,15 +33,23 @@
                           <th>Team Leader</th>
                           <th>Team Leader's Institution</th>
                           <th>Team Leader's Student ID</th>
+                          <th>Team Leader's Email</th>
+                          <th>Team Leader's Contact</th>
+                          <th>Team Leader's T-Shirt</th>
                           <th>Member - 1</th>
                           <th>Member - 1 Institution</th>
                           <th>Member - 1 Student ID</th>
+                          <th>Member - 1 Email</th>
+                          <th>Member - 1 Contact</th>
+                          <th>Member - 1 T-Shirt</th>
                           <th>Member - 2</th>
                           <th>Member - 2 Institution</th>
                           <th>Member - 2 Student ID</th>
+                          <th>Member - 2 T-Shirt</th>
                           <th>Member - 3</th>
                           <th>Member - 3 Institution</th>
                           <th>Member - 3 Student ID</th>
+                          <th>Member - 3 T-Shirt</th>
                           <th>Fees</th>
                           <th>Registered At</th>
                           <th>Idea Submission</th>
@@ -62,15 +70,26 @@
                             <td>{{$appdev->member_1_name}}</td>
                             <td>{{$appdev->member_1_institution}}</td>
                             <td>{{$appdev->member_1_std_id}}</td>
+                            <td>{{$appdev->member_1_email}}</td>
+                            <td>{{$appdev->member_1_contact}}</td>
+                            <td>{{$appdev->member_1_tshirt}}</td>
+
                             <td>{{$appdev->member_2_name}}</td>
                             <td>{{$appdev->member_2_institution}}</td>
                             <td>{{$appdev->member_2_std_id}}</td>
+                            <td>{{$appdev->member_2_email}}</td>
+                            <td>{{$appdev->member_2_contact}}</td>
+                            <td>{{$appdev->member_2_tshirt}}</td>
+
                             <td>{{$appdev->member_3_name}}</td>
                             <td>{{$appdev->member_3_institution}}</td>
                             <td>{{$appdev->member_3_std_id}}</td>
+                            <td>{{$appdev->member_3_tshirt}}</td>
+
                             <td>{{$appdev->member_4_name}}</td>
                             <td>{{$appdev->member_4_institution}}</td>
                             <td>{{$appdev->member_4_std_id}}</td>
+                            <td>{{$appdev->member_4_tshirt}}</td>
                             <td>{{$appdev->total}}</td>
                             <td>{{$appdev->created_at}}</td>
 

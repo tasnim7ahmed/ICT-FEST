@@ -66,6 +66,7 @@
 <p style="color:black"><strong>&nbsp;</strong></p>
 <h4 style="color: red"><strong>Registration FEE (only applicable to selected teams)</strong></h4>
 <p><h4 style="color:red"><strong>2000 Taka (for 3/4 people)**</strong></h4></p>
+<p><h5 style="color: black">For further query contact, Ahmed Rafayet: +8801954916806</h5></p>
 
 <p style="color:black"><strong>&nbsp;</strong></p>
 <p style="color:black"><strong>&nbsp;</strong></p>

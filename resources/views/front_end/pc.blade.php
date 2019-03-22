@@ -28,8 +28,8 @@
 <h4><center><strong><u>Registration Procedure </center> </u></strong></h4>
 <br>
 <p style="color:black">Registration should be completed online at IUT IUPC official website at <a href="http://www.ictfest2019.com/">http://www.ictfest2019.com/</a></p>
-<p style="color:black">An email will be sent to the coach for verification by our system.</p>
-<p style="color:black"><h6 style="color: red">Registration fee: Tk. 4000.00 (Four thousand taka) (***to be filled later***)</h6></p>
+<p style="color:black">An email will be sent to the coach and to the contestants for verification by our system.</p>
+<p style="color:black"><h6 style="color: red">Registration fee: Tk 4000 (Four thousand taka)</h6></p>
 <p style="color:black">&nbsp;</p>
 <h4><strong><center><u>Important Dates </center> </u></strong></h4>
 <br>
@@ -54,6 +54,7 @@
 <p style="color:black">In case of problem with network or system, please seek help of volunteers and system support team.</p>
 <p style="color:black">While printing your code, please write your team ID and room number above the code.</p>
 <p style="color:black">Teams are not allowed to use or keep any kind of electronic devices including USB drive, cell phone, smart watch etc. Browsing internet in any manner is prohibited.</p>
+<p><h5 style="color: black">For further query contact, <br>Fardin Saad: +8801622036553 <br> Ahsan Rezwan Zaman: +8801746800626</h5></p>
           </div>
         </div>
       </div>

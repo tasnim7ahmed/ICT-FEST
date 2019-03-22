@@ -30,9 +30,21 @@
                           <th>Team Name</th>
                           <th>Institution</th>
                           <th>Coach</th>
+                          <th>Coach Email</th>
+                          <th>Coach Contact</th>
+                          <th>Coach T-shirt</th>
                           <th>Team Leader</th>
+                          <th>Team Leader's Email</th>
+                          <th>Team Leader's Contact</th>
+                          <th>Team Leader's T-shirt</th>
                           <th>Member - 1</th>
+                          <th>Member - 1 Email</th>
+                          <th>Member - 1 Contact</th>
+                          <th>Member - 1 T-shirt</th>
                           <th>Member - 2</th>
+                          <th>Member - 2 Email</th>
+                          <th>Member - 2 Contact</th>
+                          <th>Member - 2 T-shirt</th>
                           <th>Fees</th>
                           <th>Registered At</th>
                           <th>Payment<br>Status</th>
@@ -49,9 +61,25 @@
                             <td>{{$pc->team_name}}</td>
                             <td>{{$pc->institution}}</td>
                             <td>{{$pc->coach_name}}</td>
+                            <td>{{$pc->coach_email}}</td>
+                            <td>{{$pc->coach_contact}}</td>
+                            <td>{{$pc->coach_tshirt}}</td>
+
                             <td>{{$pc->member_1_name}}</td>
+                            <td>{{$pc->member_1_email}}</td>
+                            <td>{{$pc->member_1_contact}}</td>
+                            <td>{{$pc->member_1_tshirt}}</td>
+
                             <td>{{$pc->member_2_name}}</td>
+                            <td>{{$pc->member_2_email}}</td>
+                            <td>{{$pc->member_2_contact}}</td>
+                            <td>{{$pc->member_2_tshirt}}</td>
+
                             <td>{{$pc->member_3_name}}</td>
+                            <td>{{$pc->member_3_email}}</td>
+                            <td>{{$pc->member_3_contact}}</td>
+                            <td>{{$pc->member_3_tshirt}}</td>
+
                             <td>{{$pc->total}}</td>
                             <td>{{$pc->created_at}}</td>
                             <?php

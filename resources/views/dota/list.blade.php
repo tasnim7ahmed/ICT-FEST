@@ -28,12 +28,26 @@
                         <tr>
                           <th>ID</th>
                           <th>Team Name</th>
+                          <th>Contact</th>
+                          <th>Email</th>
                           <th>Team Leader</th>
+                          <th>Team Leader DOTA ID</th>
+                          <th>Team Leader T-shirt</th>
                           <th>Member - 1</th>
+                          <th>Member - 1 DOTA ID</th>
+                          <th>Member - 1 T-Shirt</th>
                           <th>Member - 2</th>
+                          <th>Member - 2 DOTA ID</th>
+                          <th>Member - 2 T-Shirt</th>
                           <th>Member - 3</th>
+                          <th>Member - 3 DOTA ID</th>
+                          <th>Member - 3 T-Shirt</th>
                           <th>Member - 4</th>
+                          <th>Member - 4 DOTA ID</th>
+                          <th>Member - 4 T-Shirt</th>
                           <th>Member - 5</th>
+                          <th>Member - 5 DOTA ID</th>
+                          <th>Member - 5 T-Shirt</th>
                           <th>Fees</th>
                           <th>Registered At</th>
                           <th>Payment<br>Status</th>
@@ -48,12 +62,26 @@
                           <tr>
                             <td>{{$dota->id}}</td>
                             <td>{{$dota->team_name}}</td>
+                            <td>{{$dota->contact}}</td>
+                            <td>{{$dota->email}}</td>
                             <td>{{$dota->member_1_name}}</td>
+                            <td>{{$dota->member_1_ign}}</td>
+                            <td>{{$dota->member_1_tshirt}}</td>
                             <td>{{$dota->member_2_name}}</td>
+                            <td>{{$dota->member_2_ign}}</td>
+                            <td>{{$dota->member_2_tshirt}}</td>
                             <td>{{$dota->member_3_name}}</td>
+                            <td>{{$dota->member_3_ign}}</td>
+                            <td>{{$dota->member_3_tshirt}}</td>
                             <td>{{$dota->member_4_name}}</td>
+                            <td>{{$dota->member_4_ign}}</td>
+                            <td>{{$dota->member_4_tshirt}}</td>
                             <td>{{$dota->member_5_name}}</td>
+                            <td>{{$dota->member_5_ign}}</td>
+                            <td>{{$dota->member_5_tshirt}}</td>
                             <td>{{$dota->member_6_name}}</td>
+                            <td>{{$dota->member_6_ign}}</td>
+                            <td>{{$dota->member_6_tshirt}}</td>
                             <td>{{$dota->total}}</td>
                             <td>{{$dota->created_at}}</td>
                             <?php

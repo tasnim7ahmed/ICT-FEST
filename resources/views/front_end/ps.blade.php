@@ -29,6 +29,7 @@
 <h1>Online submission:</h1>
 <ul>
 <li style="color:black">Every willing contestant must register and submit their project idea assessment online.</li>
+<li style="color:black">The online project idea must be in PDF or DOC format (max 5 MB) and to be submitted while registering</li>
 <li style="color:black">The project idea assessment must include the following points with other details:
 <ol>
 <li style="color:black">Project Abstract</li>
@@ -40,6 +41,7 @@
 </li>
 <li style="color:black">After submission a screening will be held by the judge panel</li>
 <li style="color:black">Selected teams will be notified through email and text message</li>
+<li style="color:black">On spot registration will not be allowed</li>
 </ul>
 <br>
 <h1>Final Showcasing:</h1>
@@ -68,8 +70,8 @@
 <li style="color:black">Any type of misconduct or inappropriate behavior might lead to disqualification</li>
 </ul>
 <br>
-<p><h6 style="color: red">Registration fee: Tk. 2500.00 (Two thousand five hundred taka)</h6></p>
-
+<p><h6 style="color: red">Registration fee: Tk. 2000.00 (Two thousand taka). Only selected teams will have to pay the registration fee</h6></p>
+<p><h5 style="color: black">For further query contact, Meshkatul Zannat Supto: +8801855664611</h5></p>
 <p>&nbsp;</p>
           </div>
         </div>
@@ -86,23 +88,26 @@
         </div>
         <div class="row block-9">
           <div class="col-md-9 pr-md-5">
-            <form method="POST" action="{{ route('store_ps_front') }}">
+            <form method="POST" action="{{ route('store_ps_front') }}" enctype="multipart/form-data">
                       {{ csrf_field() }}
                       
                       <div class="form-group">
                           <input type="text" name="team_name" class="form-control" placeholder="Team Name" required="required">
                       </div>
+
                       <div class="form-group">
-                          <input type="text" name="institution" class="form-control" placeholder="Institution Name" required="required">
+                          <input type="text" name="project_name" class="form-control" placeholder="Project Name" required="required">
                       </div>
 
+                      <div class="col-md-12 mb-4">
+                          <h2 class="h3">Abstract of your project</h2>
+                      </div>
+                      <div class="form-group">
+                        <label>Please select your idea assessment file. (Must be PDF or DOC file not exceeding 5 MB)</label>
+                          <input type="file" name="pdf" class="form-control" placeholder="" required="required">
+                      </div>
 
-
-                      <!-- COACH -->
                       
-
-
-
 
 
                       <!-- member_1 -->
@@ -112,6 +117,10 @@
 
                       <div class="form-group">
                           <input type="text" name="member_1_name" class="form-control" placeholder="Name of the Team Leader" required="required">
+                      </div>
+
+                      <div class="form-group">
+                          <input type="text" name="member_1_institution" class="form-control" placeholder="Institution Name of the Team Leader" required="required">
                       </div>
 
                       <div class="form-group">
@@ -148,6 +157,10 @@
                       </div>
 
                       <div class="form-group">
+                          <input type="text" name="member_2_institution" class="form-control" placeholder="Institution Name of Member - 1" required="required">
+                      </div>
+
+                      <div class="form-group">
                           <input type="text" pattern="[+]?\d*" name="member_2_contact" class="form-control" placeholder="Contact No. of Member - 1" required="required">
                       </div>
 
@@ -179,6 +192,10 @@
 
                       <div class="form-group">
                           <input type="text" name="member_3_name" class="form-control" placeholder="Name of Member - 2">
+                      </div>
+
+                      <div class="form-group">
+                          <input type="text" name="member_3_institution" class="form-control" placeholder="Institution Name of Member - 2">
                       </div>
 
                       <div class="form-group">
