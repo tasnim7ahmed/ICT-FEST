@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="images/logo_black.png" type="image/ico" />
+	<link rel="icon" href="images/fest_icon.png" type="image/ico" />
 
     <title>IUT 10th ICT FEST</title>
 
@@ -135,23 +135,7 @@
 
                 
                   
-              <div class="menu_section">
-                <h3>Services</h3>
-                <ul class="nav side-menu">
-                  <li><a><i class="fa fa-money"></i> Transactions <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="e_commerce.html">History</a></li>
-                    </ul>
-                  </li>
-                  <li><a><i class="fa fa-envelope-o"></i> SMS <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="page_403.html">Send</a></li>
-                      <li><a href="page_404.html">History</a></li>
-                      <li><a href="page_404.html">Balance</a></li>  
-                    </ul>
-                            
-                </ul>
-              </div>
+              
             </div>
             </div>
             <!-- /sidebar menu -->

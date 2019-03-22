@@ -113,7 +113,7 @@
                           </div>
                         </div>
                 </th>
-                <!-- <th><a href="/payment_done_mo/{{$mo->id}}" class="glyphicon glyphicon-euro"></a></th> -->
+               
               <th>
                   <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">

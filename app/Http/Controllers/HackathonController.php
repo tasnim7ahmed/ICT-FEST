@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Hackathon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Crypt;
+use Mail;
+use App\Mail\RegisterMail;
 
 class HackathonController extends Controller
 {
@@ -63,6 +66,12 @@ class HackathonController extends Controller
         
         
         $hackathon->save();
+
+        $key = Crypt::encryptString('HACKATHON-'.$hackathon->id);
+
+        Mail::to($hackathon->email)->send(new RegisterMail($hackathon->team_name,'Hackathon',$key));
+        
+
         alert()->success('Team has been added successfully.')->autoclose(3000);
        
         $hackathon2 = Hackathon::all();
@@ -105,6 +114,11 @@ class HackathonController extends Controller
         
         
         $hackathon->save();
+
+        $key = Crypt::encryptString('HACKATHON-'.$hackathon->id);
+
+        Mail::to($hackathon->email)->send(new RegisterMail($hackathon->team_name,'Hackathon',$key));
+        
         alert()->success('Dear '.$request->team_name.', Your registration information has successfully been uploaded. Please check your e-mail and our website for further information.')->autoclose(120000);
         return redirect()->route('front');
     }

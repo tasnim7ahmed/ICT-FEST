@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use App\FIFA19;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Crypt;
+use Mail;
+use App\Mail\RegisterMail;
 
 class FIFA19Controller extends Controller
 {
@@ -46,9 +49,16 @@ class FIFA19Controller extends Controller
         $new_fifa->selected = 'False';
         $new_fifa->tshirt = $request->tshirt;
         $new_fifa->save();
+
+        $key = Crypt::encryptString('FIFA-'.$new_fifa->id);
+
+        Mail::to($new_fifa->email)->send(new RegisterMail($new_fifa->name,'FIFA 19',$key));
+
+
         alert()->success('Participant has been admitted successfully.')->autoclose(3000);
        
         $fifa = FIFA19::all();
+    
         return redirect()->route('fifa_list')->with('fifas',$fifa);
     }
 
@@ -72,6 +82,11 @@ class FIFA19Controller extends Controller
         $new_fifa->selected = 'False';
         $new_fifa->tshirt = $request->tshirt;
         $new_fifa->save();
+
+        $key = Crypt::encryptString('FIFA-'.$new_fifa->id);
+
+        Mail::to($new_fifa->email)->send(new RegisterMail($new_fifa->name,'FIFA 19',$key));
+        
         alert()->success('Dear '.$request->name.', Your registration information has successfully been uploaded. Please check your e-mail and our website for further information.')->autoclose(120000);
         return redirect()->route('front');
     }

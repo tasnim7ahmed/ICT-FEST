@@ -36,6 +36,10 @@ Route::get('/payment', function () {
     return view('front_end/payment');
 })->name('payment');
 
+Route::get('/schedule', function () {
+    return view('front_end/schedule');
+})->name('schedule');
+
 
 
 Route::get('/events/math_olympiad', function () {

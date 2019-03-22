@@ -13,49 +13,53 @@
         </div>
       </div>
     </div>
+
+    <div>
+      <img src={{asset('images/Cover_PC.png')}} width="100%" height="100%">
+    </div>
     
-    <section class="ftco-section">
+    <section class="ftco-section" style="background-image: url(../images/Background.png); background-size: 100%;">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-6 text-center heading-section ftco-animate">
-            <span class="subheading">PROGRAMMING CONTEST</span>
-            <h2 class="mb-4">Rules &amp; Regulations</h2>
-            <p><strong><u>&nbsp;</u></strong></p>
-<h4><center><strong><u>Registration Procedure </center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </u></strong></h4>
+          <div class="col-md-6 text heading-section ftco-animate">
+            <span class="subheading"><center>PROGRAMMING CONTEST</center></span>
+            <h2 class="mb-4"><center>Rules &amp; Regulations</center></h2>
+            <p style="color:black"><strong><u>&nbsp;</u></strong></p>
+<h4><center><strong><u>Registration Procedure </center> </u></strong></h4>
 <br>
-<p>Registration should be completed online at IUT IUPC official website at <a href="http://www.ictfest2019.com/">http://www.ictfest2019.com/</a></p>
-<p>An email will be sent to the coach for verification by our system.</p>
-<p><h6 style="color: red">Registration fee: Tk. 4000.00 (Four thousand taka) (***to be filled later***)</h6></p>
-<p>&nbsp;</p>
-<h4><strong><center><u>Important Dates </center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </u></strong></h4>
+<p style="color:black">Registration should be completed online at IUT IUPC official website at <a href="http://www.ictfest2019.com/">http://www.ictfest2019.com/</a></p>
+<p style="color:black">An email will be sent to the coach for verification by our system.</p>
+<p style="color:black"><h6 style="color: red">Registration fee: Tk. 4000.00 (Four thousand taka) (***to be filled later***)</h6></p>
+<p style="color:black">&nbsp;</p>
+<h4><strong><center><u>Important Dates </center> </u></strong></h4>
 <br>
-<p>Registration Opens:</p>
-<p><h6 style="color: red">Last date of registration: </h6></p>
-<p><h6 style="color: red">Last date of payment: </h6></p>
-<p>Mock Contest: 12th April, 2019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p>Contest : 13th April, 2019</p>
+<p style="color:black">Registration Opens:</p>
+<p style="color:black"><h6 style="color: red">Last date of registration: </h6></p>
+<p style="color:black"><h6 style="color: red">Last date of payment: </h6></p>
+<p style="color:black">Mock Contest: 12th April, 2019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p style="color:black">Contest : 13th April, 2019</p>
 <br>
-<h4><strong><u><center>Number of Teams </center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </u></strong></h4>
+<h4><strong><u><center>Number of Teams </center></u></strong></h4>
 <br>
-<p>Every university participating in the IUT IUPC 2019 will get at least one team.</p>
-<p>Slots will be provided to each university depending on the recent ICPC and NCPC performance.</p>
-<p>The program committee reserves all the rights to accept or reject any additional teams.</p>
-<p>The contest hosting university may be allowed to have additional teams, which will be decided by program committee.</p>
+<p style="color:black">Every university participating in the IUT IUPC 2019 will get at least one team.</p>
+<p style="color:black">Slots will be provided to each university depending on the recent ICPC performance.</p>
+<p style="color:black">The program committee reserves all the rights to accept or reject any additional teams.</p>
+<p style="color:black">The contest hosting university may be allowed to have additional teams, which will be decided by program committee.</p>
 <br>
-<h4><strong><u><center>Contest Rules </center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </u></strong></h4>
+<h4><strong><u><center>Contest Rules </center> </u></strong></h4>
 <br>
-<p>Each team has access to one computer with a specific set of problems which may be solved in any order.</p>
-<p>The contest runs for five hours and consists of 8-12 problems. Ranklist will be available online to contestants and spectators. (The ranklist will be frozen during the last hour of the contest).</p>
-<p>For any questions about the problems, you can send your clarifications through Toph. You must not ask any irrelevant questions to judges. In such cases, judges can take any decision even can disqualify your team.</p>
-<p>In case of problem with network or system, please seek help of volunteers and system support team.</p>
-<p>While printing your code, please write your team ID and room number above the code.</p>
-<p>Teams are not allowed to use or keep any kind of electronic devices including USB drive, cell phone, smart watch etc. Browsing internet in any manner is prohibited.</p>
+<p style="color:black">Each team has access to one computer with a specific set of problems which may be solved in any order.</p>
+<p style="color:black">The contest runs for five hours and consists of 8-12 problems. Ranklist will be available online to contestants and spectators. (The ranklist will be frozen during the last hour of the contest).</p>
+<p style="color:black">For any questions about the problems, you can send your clarifications through Toph. You must not ask any irrelevant questions to judges. In such cases, judges can take any decision even can disqualify your team.</p>
+<p style="color:black">In case of problem with network or system, please seek help of volunteers and system support team.</p>
+<p style="color:black">While printing your code, please write your team ID and room number above the code.</p>
+<p style="color:black">Teams are not allowed to use or keep any kind of electronic devices including USB drive, cell phone, smart watch etc. Browsing internet in any manner is prohibited.</p>
           </div>
         </div>
       </div>
-    </section>
+    <!-- </section>
 
-    <section class="ftco-section contact-section ftco-degree-bg">
+    <section class="ftco-section contact-section ftco-degree-bg"> -->
       <div class="container bg-light">
         <div class="row d-flex mb-5 contact-info">
           <div class="col-md-12 mb-4">
