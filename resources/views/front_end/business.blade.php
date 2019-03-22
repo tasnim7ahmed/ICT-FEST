@@ -18,7 +18,7 @@
       <img src={{asset('images/Cover_Business.png')}} width="100%" height="100%">
     </div>
 
-    <!-- <section class="ftco-section" style="background-image: url(../images/Background.png); background-size: 100%;">
+    <section class="ftco-section" style="background-image: url(../images/Background.png); background-size: 100%;">
       <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
   aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -33,22 +33,16 @@
         
         <form method="POST" action="{{ route('business_upload') }}" enctype="multipart/form-data">
                       {{ csrf_field() }}
-                      
+
+
 
                       <div class="form-group">
-                        <label>Team ID</label>
-                          <select name="id" class="form-control" required="required">
-                              <option value="">-- Please select your team ID --</option>
-                              @foreach ($businesses as $business) 
-                          
-                              echo '<option value="{{$business->id}}">{{$business->team_name}}</option>';
-                           
-                        @endforeach
-                          </select>
+                        <label>Secret Key</label>
+                          <input type="text" name="key" class="form-control" placeholder="Enter Your Secret-Key" required="required">
                       </div>
 
                       <div class="form-group">
-                        <label>Please select a PDF file not exceeding 5 MB</label>
+                        <label>Please select a File not exceeding 50 MB</label>
                           <input type="file" name="pdf" class="form-control" placeholder="" required="required">
                       </div>
                       
@@ -71,7 +65,7 @@
   <h2>
   <a href=""data-toggle="modal" data-target="#modalLoginForm">Submit Your Idea Here! <br><br></a></h2>
 </div>
-</section> -->
+</section>
 
     
     

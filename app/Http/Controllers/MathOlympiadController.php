@@ -45,7 +45,13 @@ class MathOlympiadController extends Controller
         $new_mo->contact = $request->contact;
         $new_mo->email = $request->email;
         $new_mo->institution = $request->institution;
-        $new_mo->total = 400;
+        if ($request->category=='School-College') {
+            $new_mo->total = 300;
+        }
+        else{
+            $new_mo->total = 400;
+        }
+        
         $new_mo->paid = 0;
         $new_mo->selected = 'False';
         $new_mo->tshirt = $request->tshirt;
@@ -67,7 +73,12 @@ class MathOlympiadController extends Controller
         $new_mo->contact = $request->contact;
         $new_mo->email = $request->email;
         $new_mo->institution = $request->institution;
-        $new_mo->total = 400;
+        if ($request->category=='School-College') {
+            $new_mo->total = 300;
+        }
+        else{
+            $new_mo->total = 400;
+        }
         $new_mo->paid = 0;
         $new_mo->selected = 'False';
         $new_mo->tshirt = $request->tshirt;

@@ -70,7 +70,7 @@ class BusinessController extends Controller
         
         $new_business->save();
 
-        $key = Crypt::encryptString('BUSINESS-'.$new_business->id);
+        $key = Crypt::encryptString('BC-'.$new_business->id);
         alert()->success('Team has been added successfully.')->autoclose(3000);
         Mail::to($new_business->member_1_email)->send(new RegisterMail($new_business->member_1_name,'IT Business Case Competition',$key));
         Mail::to($new_business->member_2_email)->send(new RegisterMail($new_business->member_2_name,'IT Business Case Competition',$key));
@@ -115,7 +115,7 @@ class BusinessController extends Controller
         $new_business->save();
         alert()->success('Dear '.$request->team_name.', Your registration information has successfully been uploaded. Please check your e-mail and our website for further information.')->autoclose(120000);
 
-        $key = Crypt::encryptString('BUSINESS-'.$new_business->id);
+        $key = Crypt::encryptString('BC-'.$new_business->id);
         alert()->success('Team has been added successfully.')->autoclose(3000);
         Mail::to($new_business->member_1_email)->send(new RegisterMail($new_business->member_1_name,'IT Business Case Competition',$key));
         Mail::to($new_business->member_2_email)->send(new RegisterMail($new_business->member_2_name,'IT Business Case Competition',$key));
@@ -163,7 +163,10 @@ class BusinessController extends Controller
     public function upload(Request $request)
     {
         $flag = 0;
-        $biz = Business::find($request->id);
+        $info = Crypt::decryptString($request->key);
+        
+        $info = preg_replace('/[^0-9]/', '', $info);
+        $biz = Business::find($info);
         if ($request->has('pdf')) {
             $biz->update(['pdf' => $request->file('pdf')->store('it_business')]);
         $flag = 1;

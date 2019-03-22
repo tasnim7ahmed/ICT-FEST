@@ -48,10 +48,18 @@ class IctOlympiadController extends Controller
         $new_io = new IctOlympiad;
         $new_io->name = $request->name;
         $new_io->category = $request->category;
+
         $new_io->contact = $request->contact;
         $new_io->email = $request->email;
         $new_io->institution = $request->institution;
-        $new_io->total = 400;
+        if ($request->category=='School-College') {
+            $new_io->total = 300;
+        }
+        else{
+            $new_io->total = 400;
+        }
+        
+
         $new_io->paid = 0;
         $new_io->selected = 'False';
         $new_io->tshirt = $request->tshirt;
@@ -72,7 +80,12 @@ class IctOlympiadController extends Controller
         $new_io->contact = $request->contact;
         $new_io->email = $request->email;
         $new_io->institution = $request->institution;
-        $new_io->total = 400;
+        if ($request->category=='School-College') {
+            $new_io->total = 300;
+        }
+        else{
+            $new_io->total = 400;
+        }
         $new_io->paid = 0;
         $new_io->selected = 'False';
         $new_io->tshirt = $request->tshirt;
