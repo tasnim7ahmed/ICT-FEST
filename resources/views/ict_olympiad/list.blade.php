@@ -78,98 +78,10 @@
                               echo '<th><font style="color:red">'.'False'.'</font></th>';
                             }
                             ?>
-                <!-- <th><a href="/payment_done_io/{{$io->id}}" class="glyphicon glyphicon-euro"></a></th>
-                <th><a href="/selection_done_io/{{$io->id}}" class="glyphicon glyphicon-plus"></a></th>
-                <th><a href="/delete_io/{{$io->id}}" class="glyphicon glyphicon-trash"></a></th> -->
+                <th><a href="/payment_done_io/{{$io->id}}" class="glyphicon glyphicon-euro" onclick="return confirm('Are you sure about completing the payment? This cannot be undone.' );"></a></th>
+                <th><a href="/selection_done_io/{{$io->id}}" class="glyphicon glyphicon-plus" onclick="return confirm('Are you sure about selecting this participant? This cannot be undone.' );"></a></th>
+                <th><a href="/delete_io/{{$io->id}}" class="glyphicon glyphicon-trash" onclick="return confirm('Are you sure about deleting this? This cannot be undone.' );"></a></th>
 
-
-
-
-
-                                <th>
-                  <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal1">
-                          Payment
-                        </button>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                          <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Payment Completion</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                  <span aria-hidden="true">&times;</span>
-                                </button>
-                              </div>
-                              <div class="modal-body">
-                                Payment Completed? <br>This process can't be undone.      
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <a href="/payment_done_io/{{$io->id}}"><button type="button" class="btn btn-success">Complete Payment</button></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                </th>
-               
-              <th>
-                  <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
-                      Select
-                    </button>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Select Participant</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body">
-                            Do you want to select this participant? <br>This process can't be undone.      
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <a href="/selection_done_io/{{$io->id}}"><button type="button" class="btn btn-primary">Select</button></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </th>
-
-
-                <th>
-                  <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
-                      Delete
-                    </button>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Delete Entity</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body">
-                            Do you want to delete? <br>This process can't be undone.      
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <a href="/delete_io/{{$io->id}}"><button type="button" class="btn btn-danger">Delete</button></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                </th>
 
 
 

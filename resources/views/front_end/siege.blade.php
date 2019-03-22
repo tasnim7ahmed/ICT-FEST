@@ -233,20 +233,20 @@
 
                       <!-- member_2 -->
                       <div class="col-md-12 mb-4">
-                          <h3 class="h4">Information Regarding Member - 1</h3>
+                          <h3 class="h4">Information Regarding Member - 2</h3>
                       </div>
 
                       <div class="form-group">
-                          <input type="text" name="member_2_name" class="form-control" placeholder="Name of Member - 1" required="required">
+                          <input type="text" name="member_2_name" class="form-control" placeholder="Name of Member - 2" required="required">
                       </div>
 
 
                       <div class="form-group">
-                          <input type="text" name="member_2_ign" class="form-control" placeholder="In-Game Name (IGN) of Member - 1" required="required">
+                          <input type="text" name="member_2_ign" class="form-control" placeholder="In-Game Name (IGN) of Member - 2" required="required">
                       </div>
 
                       <div class="form-group">
-                        <label>T-Shirt Size of Member - 1</label>
+                        <label>T-Shirt Size of Member - 2</label>
                         
                           <select name="member_2_tshirt" class="form-control" required="required">
                               <option value="M">M</option>
@@ -264,20 +264,20 @@
 
                       <!-- member_3 -->
                       <div class="col-md-12 mb-4">
-                          <h3 class="h4">Information Regarding Member - 2 </h3>
+                          <h3 class="h4">Information Regarding Member - 3 </h3>
                       </div>
 
                       <div class="form-group">
-                          <input type="text" name="member_3_name" class="form-control" placeholder="Name of Member - 2" required="required">
+                          <input type="text" name="member_3_name" class="form-control" placeholder="Name of Member - 3" required="required">
                       </div>
 
 
                       <div class="form-group">
-                          <input type="text" name="member_3_ign" class="form-control" placeholder="In-Game Name (IGN) of Member - 2" required="required">
+                          <input type="text" name="member_3_ign" class="form-control" placeholder="In-Game Name (IGN) of Member - 3" required="required">
                       </div>
 
                       <div class="form-group">
-                        <label>T-Shirt Size of Member - 2</label>
+                        <label>T-Shirt Size of Member - 3</label>
                         
                           <select name="member_3_tshirt" class="form-control" required="required">
                               <option value="M">M</option>
@@ -290,20 +290,20 @@
 
                       <!-- member_4 -->
                       <div class="col-md-12 mb-4">
-                          <h3 class="h4">Information Regarding Member - 3 </h3>
+                          <h3 class="h4">Information Regarding Member - 4 </h3>
                       </div>
 
                       <div class="form-group">
-                          <input type="text" name="member_4_name" class="form-control" placeholder="Name of Member - 3" required="required">
+                          <input type="text" name="member_4_name" class="form-control" placeholder="Name of Member - 4" required="required">
                       </div>
 
 
                       <div class="form-group">
-                          <input type="text" name="member_4_ign" class="form-control" placeholder="In-Game Name (IGN) of Member - 3" required="required">
+                          <input type="text" name="member_4_ign" class="form-control" placeholder="In-Game Name (IGN) of Member - 4" required="required">
                       </div>
 
                       <div class="form-group">
-                        <label>T-Shirt Size of Member - 3</label>
+                        <label>T-Shirt Size of Member - 4</label>
                         
                           <select name="member_4_tshirt" class="form-control" required="required">
                               <option value="M">M</option>
@@ -316,20 +316,20 @@
 
                       <!-- member_5 -->
                       <div class="col-md-12 mb-4">
-                          <h3 class="h4">Information Regarding Member - 4 </h3>
+                          <h3 class="h4">Information Regarding Member - 5 </h3>
                       </div>
 
                       <div class="form-group">
-                          <input type="text" name="member_5_name" class="form-control" placeholder="Name of Member - 4" required="required">
+                          <input type="text" name="member_5_name" class="form-control" placeholder="Name of Member - 5" required="required">
                       </div>
 
 
                       <div class="form-group">
-                          <input type="text" name="member_5_ign" class="form-control" placeholder="In-Game Name (IGN) of Member - 4" required="required">
+                          <input type="text" name="member_5_ign" class="form-control" placeholder="In-Game Name (IGN) of Member - 5" required="required">
                       </div>
 
                       <div class="form-group">
-                        <label>T-Shirt Size of Member - 4</label>
+                        <label>T-Shirt Size of Member - 5</label>
                         
                           <select name="member_5_tshirt" class="form-control" required="required">
                               <option value="M">M</option>
@@ -342,20 +342,20 @@
 
                       <!-- member_6 -->
                       <div class="col-md-12 mb-4">
-                          <h3 class="h4">Information Regarding Member - 5 (Optional) </h3>
+                          <h3 class="h4">Information Regarding Member - 6 (Optional) </h3>
                       </div>
 
                       <div class="form-group">
-                          <input type="text" name="member_6_name" class="form-control" placeholder="Name of Member - 5">
+                          <input type="text" name="member_6_name" class="form-control" placeholder="Name of Member - 6">
                       </div>
 
 
                       <div class="form-group">
-                          <input type="text" name="member_6_ign" class="form-control" placeholder="In-Game Name (IGN) of Member - 5">
+                          <input type="text" name="member_6_ign" class="form-control" placeholder="In-Game Name (IGN) of Member - 6">
                       </div>
 
                       <div class="form-group">
-                        <label>T-Shirt Size of Member - 5</label>
+                        <label>T-Shirt Size of Member - 6</label>
                         
                           <select name="member_6_tshirt" class="form-control">
                             <option value="">-- please select t-shirt size --</option>
