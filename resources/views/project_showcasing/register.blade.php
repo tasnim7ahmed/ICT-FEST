@@ -18,7 +18,7 @@
 
                       
                     
-                    <form class="form-horizontal form-label-left" method="POST" action="{{ route('store_ps') }}">
+                    <form class="form-horizontal form-label-left" method="POST" action="{{ route('store_ps') }}"  enctype="multipart/form-data">
                     	{{ csrf_field() }}
                       
 
@@ -33,16 +33,20 @@
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
                           <input type="text" name="team_name" class="form-control" placeholder="Team Name" required="required">
                       </div>
+
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                          <input type="text" name="institution" class="form-control" placeholder="Institution Name" required="required">
+                          <input type="text" name="project_name" class="form-control" placeholder="Project Name" required="required">
                       </div>
 
-
+                      <div class="col-md-12 mb-4">
+                          <h2 class="h3">Abstract of your project</h2>
+                      </div>
+                      <div class="form-group col-md-4 col-sm-6 col-xs-12">
+                        <label>Please select your idea assessment file. (Must be PDF or DOC file not exceeding 5 MB)</label>
+                          <input type="file" name="pdf" class="form-control" placeholder="" required="required">
+                      </div>
 
                       
-
-
-
 
 
                       <!-- member_1 -->
@@ -52,6 +56,10 @@
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
                           <input type="text" name="member_1_name" class="form-control" placeholder="Name of the Team Leader" required="required">
+                      </div>
+
+                      <div class="form-group col-md-4 col-sm-6 col-xs-12">
+                          <input type="text" name="member_1_institution" class="form-control" placeholder="Institution Name of the Team Leader" required="required">
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
@@ -88,6 +96,10 @@
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
+                          <input type="text" name="member_2_institution" class="form-control" placeholder="Institution Name of Member - 1" required="required">
+                      </div>
+
+                      <div class="form-group col-md-4 col-sm-6 col-xs-12">
                           <input type="text" pattern="[+]?\d*" name="member_2_contact" class="form-control" placeholder="Contact No. of Member - 1" required="required">
                       </div>
 
@@ -119,6 +131,10 @@
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">
                           <input type="text" name="member_3_name" class="form-control" placeholder="Name of Member - 2" >
+                      </div>
+
+                      <div class="form-group col-md-4 col-sm-6 col-xs-12">
+                          <input type="text" name="member_3_institution" class="form-control" placeholder="Institution Name of Member - 2">
                       </div>
 
                       <div class="form-group col-md-4 col-sm-6 col-xs-12">

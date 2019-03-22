@@ -272,22 +272,25 @@
         <div class="row ftco-animate">
           <div class="col-md-12">
             <div class="carousel-testimony owl-carousel ftco-owl">
+              
               <div class="item text-center">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(../images/tam.jpg)">
+                  <div class="user-img mb-4" style="background-image: url(../images/Rahat2.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
                   </div>
                   <div class="text">
-                   
-                    <p class="name" style="color: black">Tamzid Karim</p>
-                    <p class="mb-2" style="color: black">Vice-President</p>
-                    <span class="position" style="color: black">facebook.com/karim.tamzid</span><br>
-                    <span class="position" style="color: black">+8801722237176</span>
+                    
+                    <p class="name" style="color: black">Rahat Anwar Khan</p>
+                    <p class="mb-2" style="color: black">President</p>
+                    <span class="position" style="color: black">facebook.com/rahat.khan.2848</span><br>
+                    <span class="position" style="color: black">+8801521323672</span>
                   </div>
                 </div>
               </div>
+
+
               <div class="item text-center">
                 <div class="testimony-wrap p-4 pb-5">
                   <div class="user-img mb-4" style="background-image: url(../images/anqur.jpg)">
@@ -307,21 +310,41 @@
 
               <div class="item text-center">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(../images/Rahat.jpg)">
+                  <div class="user-img mb-4" style="background-image: url(../images/Reed.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
                   </div>
                   <div class="text">
                     
-                    <p class="name" style="color: black">Rahat Anwar Khan</p>
-                    <p class="mb-2" style="color: black">President</p>
-                    <span class="position" style="color: black">facebook.com/rahat.khan.2848</span><br>
-                    <span class="position" style="color: black">+8801521323672</span>
+                    <p class="name" style="color: black">Fahim Shahriar Reed</p>
+                    <p class="mb-2" style="color: black">Treasurer</p>
+                    <span class="position" style="color: black">facebook.com/fahim.reed</span><br>
+                    <span class="position" style="color: black">+8801930696040</span>
                   </div>
                 </div>
               </div>
+
+
               
+              
+
+              <div class="item text-center">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="user-img mb-4" style="background-image: url(../images/tam.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text">
+                   
+                    <p class="name" style="color: black">Tamzid Karim</p>
+                    <p class="mb-2" style="color: black">Vice-President</p>
+                    <span class="position" style="color: black">facebook.com/karim.tamzid</span><br>
+                    <span class="position" style="color: black">+8801722237176</span>
+                  </div>
+                </div>
+              </div>
               
               
             </div>
