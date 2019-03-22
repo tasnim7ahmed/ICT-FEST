@@ -63,7 +63,7 @@
 
 <div class="text-center">
   <h2>
-  <a href=""data-toggle="modal" data-target="#modalLoginForm">Submit Your Idea Here! <br><br></a></h2>
+  <a href=""data-toggle="modal" data-target="#modalLoginForm"><button class="btn-success">Submit Your Idea Here!</button><br><br></a></h2>
 </div>
 </section>
 
