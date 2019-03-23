@@ -26,7 +26,7 @@
             <h2 class="mb-4">Rules &amp; Regulations</h2>
             <p style="color:black">EVENT DETAILS</p>
 <p style="color:black">&nbsp;</p>
-<p style="color:black"><strong><h4>Registration Cost</h4></strong> <h6 style="color: red">BDT 1200 per team. Each team can be maximum of 3 members and minimum of 2.</h6></p>
+<p style="color:black"><strong><h4>Registration Cost</h4></strong> <h6 style="color: red">BDT 1230 per team. Each team can be maximum of 3 members and minimum of 2.</h6></p>
 
 <p style="color:black">RULES for the poster presentation competition are :<br /> ---------------------------------------------------------------------------------<br /> </p>
 <ol>
@@ -111,7 +111,7 @@
 </ul>
 <p style="color:black"><br /> <br /> <strong>****************************************************</strong><br /> TOPICS of the competition:<br /> <br /> The topic of the presented poster is open to your choices. We welcome your choice of topic and any creative ideas that you want to share with us.</p>
 <p style="color:black">&nbsp;</p>
-
+<p><h5 style="color: black">For further query contact, Saidul Islam: +8801521325416</h5></p>
 
 <p style="color:black">&nbsp;</p>
 <p style="color:black">&nbsp;</p>

@@ -27,49 +27,191 @@
           <div class="col-md-6 text heading-section ftco-animate">
             <span class="subheading">APPLICATION DEVELOPMENT</span>
             <h2 class="mb-4">Rules &amp; Regulations</h2>
-            <br>
-            <br>
-            <h4><strong>ONLINE SUBMISSION</strong></h4>
-<ul>
-<li style="color:black"><strong>Every team has to register and submit their idea online</strong></li>
-</ul>
-<h4><strong>IDEA SELECTION</strong></h4>
-<ul>
-<li style="color:black"><strong>From the submitted ideas, a fixed number of ideas will be selected and the selected teams need to pay the registration fee to confirm their participation</strong></li>
-</ul>
-<h4><strong>APPLICATION SHOWCASING</strong></h4>
-<ul>
-<li style="color:black"><strong>In this phase selected teams will showcase their developed application or prototype based on the idea on the event days.</strong></li>
-</ul>
-<h4><strong>RULES</strong></h4>
-<ul>
-<li style="color:black"><strong>The application must be based on Android or iOS or Windows platform.</strong></li>
-<li style="color:black"><strong>The developed app does not need to be 100% complete. Building only a working demo and demonstration of the demo is enough.</strong></li>
-<li style="color:black"><strong>Each team cannot submit more than one idea.</strong></li>
-<li style="color:black"><strong>Among the submitted ideas, a fixed number of ideas will be selected and declared in the &ldquo;IUT 10th ICT FEST 2019&rdquo; Facebook page and event. The selected teams then need to perform the final registration by sending the registration fee within a given period of time.</strong></li>
-<li style="color:black"><strong>If all the selected teams from the main list do not perform the final registration within the specified time, their chance of final registration will be canceled and a second list of selected ideas will be declared in the &ldquo;IUT 10th ICT FEST 2019&rdquo; Facebook page and event. The selected teams in the second list will be given a specified time within which they need to perform final registration by sending the registration fee.</strong></li>
-<li style="color:black"><strong>Only registered team members are allowed to showcase their applications. No substitution is permissible.</strong></li>
-<li style="color:black"><strong>Each team has to bring their full project on the day of showcasing. Bringing only the apk or exe file will lead to disqualification.</strong></li>
-<li style="color:black"><strong>The application can be fully developed or a prototype. In both cases, the developed app must be relevant to the submitted idea and will be able to perform all the features that are described when submitting the ideas.</strong></li>
-<li style="color:black"><strong>The team members must be current students of any university.</strong></li>
-<li style="color:black"><strong>Each team can have maximum 4 members. The member can be from same/different institution.</strong></li>
-<li style="color:black"><strong>Participants are requested to bring their Identity Cards of respective institutions.</strong></li>
-<li style="color:black"><strong>Teams must remain present on both days of the fest as per event schedule.</strong></li>
-<li style="color:black"><strong>The organizing committee holds the right to disqualify any team. Any type of misbehavior with the judges will result in disqualification.</strong></li>
-<li style="color:black"><strong>The organizing committee will not be liable if any team or individual lost his/her laptop, cellular phones, gadgets and other stuffs.</strong></li>
-</ul>
-<p style="color:black"><strong>&nbsp;</strong></p>
-<p style="color:black"><strong>The last date for idea submission is 7TH APRIL 2019.</strong></p>
-<p style="color:black"><strong>Selected teams will be notified within 9TH APRIL 2019.</strong></p>
-<p style="color:black"><strong>Selected teams must pay the registration fees within 10TH APRIL 2019.</strong></p>
-<p style="color:black"><strong>&nbsp;</strong></p>
-<p style="color:black"><strong>&nbsp;</strong></p>
-<h4 style="color: red"><strong>Registration FEE (only applicable to selected teams)</strong></h4>
-<p><h4 style="color:red"><strong>2000 Taka (for 3/4 people)**</strong></h4></p>
+              <br />
+              <br />
+              <h4><strong>Phase 1 - Online registration</strong></h4>
+              <ul>
+                <li style="color:black">
+                  Every team must <strong>register</strong> and
+                  <strong>submit</strong> their application ideas.
+                </li>
+              </ul>
+              <h4><strong>Phase 2 - Idea Assessment and Selection</strong></h4>
+              <ul>
+                <li style="color:black">
+                  <strong>Within 36 hours</strong> from online registration, you
+                  will be notified whether your idea has been
+                  <strong>selected</strong> or not.
+                </li>
+                <li style="color:black">
+                  Teams are expected to start building their apps after
+                  selection.
+                </li>
+              </ul>
+              <h4><strong>Phase 3 - Payment confirmation</strong></h4>
+              <ul>
+                <li style="color:black">
+                  Within 48 hours of receiving your idea selection email,
+                  selected teams must confirm their registration by completing
+                  the payment procedure.
+                </li>
+              </ul>
+              <h4><strong>Phase 4 - Application Showcasing</strong></h4>
+              <ul>
+                <li style="color:black">
+                  In this phase selected teams will showcase their developed
+                  application based on their idea on the event days..
+                </li>
+                <li style="color:black">
+                  Prepare a short presentation (3-5 minutes) to present your application to judges.
+                </li>
+              </ul>
+              <h4><strong>Rules And Regulations</strong></h4>
+              <ul>
+                <li style="color:black">
+                    The application must be based on Android or iOS or Windows platform.
+                </li>
+                <li style="color:black">
+                    All applications must have <strong>at least one of five bdapps api</strong> implemented. The quality of this implementation will be closely moderated by our judges. Failure to implement this will result in <strong>severe deduction</strong> of marks. For more details on bdapps for developers click <a href="http://dev.bdapps.com/">here</a>
+                  </li>
+                <li style="color:black">
+                  The developed app does not need to be 100% complete. Most of the important features should be implemented. UI/UX must be functional and consistent.
+                </li>
+                <li style="color:black">
+                  Each team cannot submit more than one idea.
+                </li>
+                <li style="color:black">
+                  Only registered team members are allowed to showcase their
+                  applications. No substitution is permissible.
+                <li style="color:black">
+                  Each team has to bring their full project on the day of
+                  showcasing. Bringing only the apk or exe file will lead to
+                  disqualification.
+                </li>
+                <li style="color:black">
+                  The team members must be current students of any university.
+                </li>
+                <li style="color:black">
+                  Each team can have maximum 4 members. The member can be from same/different institution.
+                </li>
+                <li style="color:black">
+                  Participants are requested to bring their Identity Cards of respective institutions.
+                </li>
+                <li style="color:black">
+                  Teams must remain present on both days of the fest as per event schedule.
+                </li>
+                <li style="color:black">
+                  The organizing committee holds the right to disqualify any team. Any type of misbehavior with the judges will result in disqualification.
+                </li>
+                <li style="color:black">
+                  The organizing committee will not be liable if any team or individual lost his/her laptop, cellular phones, gadgets and other stuffs.
+                </li>
+              </ul>
+              <h4><strong>Idea Submission format</strong></h4>
+              <div style="color:black">
+                  Can be in pdf or doc format<br>
+                  <strong>Team Name:</strong><br>
+                  <strong>App title:</strong> Give your app an appropriate name<br>
+                  <strong>Category:</strong> Chosen category of the app<br>
+                  <strong>Platform:</strong> Windows/Android/iOS<br>
+                  <strong>Description:</strong> A short description about your app<br>
+                  <strong>Features to be implemented:</strong> What features will be there. They must be functional in your demo.<br>
+              </div>
+              
 
-<p style="color:black"><strong>&nbsp;</strong></p>
-<p style="color:black"><strong>&nbsp;</strong></p>
-<p style="color:black"><strong>&nbsp;</strong></p>
+              <h4><strong>Scoring Scheme</strong></h4>
+              <div style="color:black">
+                  Apps will be scored based on:
+                  <ul>
+                    <li style="color:black">
+                        App functionality
+                    </li>
+                    <li style="color:black">
+                        Creativity of the app idea
+                    </li>
+                    <li style="color:black">
+                        Productivity of the app and how it serves its purpose
+                    </li>
+                    <li style="color:black">
+                        Innovation - apps that are merely clones of other apps are naturally ranked lower
+                    </li>
+                    <li style="color:black">
+                        Design of the mobile app
+                    </li>
+                    <li style="color:black">
+                        Originality
+                    </li> 
+                    <li style="color:black">
+                       BDapps integration(s)
+                    </li>
+                  </ul>
+              </div>
+              
+
+              <h4><strong>Categories for the apps:</strong></h4>
+              <div style="color:black">
+                  <ul>
+                      <li style="color:black">
+                          Health (food, agriculture and related others)
+                      </li>
+                      <li style="color:black">
+                          Education
+                      </li>
+                      <li style="color:black">
+                          Lifestyle (lifestyle, music, news, fun, content)
+                      </li>
+                      <li style="color:black">
+                          Social or blogging
+                      </li>
+                      <li style="color:black">
+                          Business or Economy
+                      </li>
+                   </ul>
+                   **All applications must have <strong>at least one of five bdapps api</strong>. The quality of this implementation will be closely moderated by our judges. Failure to implement this will result in <strong>severe deduction</strong> of marks. For more details on bdapps for developers visit http://dev.bdapps.com/<br>
+                   **Here are some video tutorials for bdapps integration.<br>
+                   <ul>
+                     <li style="color:black">
+                        <a href="https://www.youtube.com/watch?v=vcuO7fxM0oc&feature=youtu.be">Video Link 1</a><br>
+                     </li>
+                     <li style="color:black">
+                        <a href="https://www.youtube.com/watch?v=QRWvalL53UM&feature=youtu.be">Video Link 2</a><br>
+                     </li>
+                   </ul>
+              </div>
+              
+
+              <p style="color:black"><strong>&nbsp;</strong></p>
+              <p style="color:black">
+                <strong
+                  >The last date for idea submission is 6TH APRIL 2019.</strong
+                >
+              </p>
+              <p style="color:black">
+                <strong
+                  >Selected teams must pay the registration fees within 48 hours of being selected.</strong
+                >
+              </p>
+              <p style="color:black"><strong>&nbsp;</strong></p>
+              <p style="color:black"><strong>&nbsp;</strong></p>
+              <h4 style="color: red">
+                <strong
+                  >Registration FEE (only applicable to selected teams)</strong
+                >
+              </h4>
+              <p></p>
+              <h4 style="color:red">
+                <strong>2040 Taka (for 3/4 people)**</strong>
+              </h4>
+              <p></p>
+              <p></p>
+              <h5 style="color: black">
+                For further query contact, Ahmed Rafayet: +8801954916806
+              </h5>
+              <p></p>
+
+              <p style="color:black"><strong>&nbsp;</strong></p>
+              <p style="color:black"><strong>&nbsp;</strong></p>
+              <p style="color:black"><strong>&nbsp;</strong></p>
           </div>
         </div>
       </div>

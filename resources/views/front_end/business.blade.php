@@ -102,7 +102,7 @@
 <br>
 <h4><strong>Payment Details :</strong></h4>
 <p style="color: black">ONLY THE SELECTED TEAMS from will have to pay the registration fee.</p>
-<p style="color: black"><h6 style="color:red">Registration Fee : 2000 Tk</p></h6>
+<p style="color: black"><h6 style="color:red">Registration Fee : 2040 Tk</p></h6>
 <br>
 <h4><strong>Presentation Round :</strong></h4>
 <p style="color: black">The selected teams will make a presentation on their case on April 12th at IUT Campus. Each team will get 15 minutes to present their case and there will be 5 minutes of question-answer round.</p>
@@ -114,6 +114,7 @@
 <p style="color: black">From 12PM, the presentations will start at IUT Auditorium.</p>
 <p style="color: black">3 Teams will win prizes based on their performance at Grand Finale.</p>
 <p style="color: black">We&rsquo;re very excited to invite you to an event you&rsquo;ll remember for a long time.</p>
+<p><h5 style="color: black">For further query contact, Lutfor Rahman Rafe: +8801791266536</h5></p>
 <p style="color: black">&nbsp;</p>
           </div>
         </div>

@@ -202,6 +202,7 @@ Route::get('/selection_done_ps/{id}','ProjectController@selection')->middleware(
 Route::get('/payment_done_ps/{id}','ProjectController@payment')->middleware('auth');
 
 Route::post('/events/project_showcasing', 'ProjectController@store_front')->name('store_ps_front');
+Route::get('/ps_download/{id}','ProjectController@download')->middleware('auth');
 
 
 

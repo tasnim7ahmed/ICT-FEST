@@ -48,15 +48,18 @@
   <li style="color: black">All the members of the team must be a current student of a university.</li>
   <li style="color: black">Each team can have minimum 3 members and maximum 4 members. The member can be from same/different institution.</li>
   <li style="color: black">Each team must have a team leader.</li>
+  <li style="color: red"><strong> No female students are allowed to participate in hackathon. Female students can participate in other events except hackathon. </strong></li>
   <li style="color: black">The team members need to bring their own laptops, cell phones, mobile charger, power bank, multiplug etc. It is better if the team keeps an USB internet modem with them so that they can use it if any unavoidable circumstances occurs.</li>
   <li style="color: black">Only registered teams will be allowed to participate in the hackathon.</li>
+  <li style="color:red"><strong> Participants have to use BDAPPS api in their developed application.</strong> </li>
   <li style="color: black">Participants are requested to bring their Identity Cards of respective institutions.</li>
   <li style="color: black">Teams must be present on time in the event day.</li>
   <li style="color: black">The organizing committee holds the right to disqualify any team. Any type of misbehavior with the judges will result in disqualification.</li>
   <li style="color: black">The organizing committee will not be liable if any team or individual lost his/her laptop, cellular phones, gadgets and other stuffs.</li>
 </ol>
 
-<p style="color: black"><h5 style="color: red">Registration fee: Tk. 3000.00 (BDT Three thousand taka)</h5></p>
+<p style="color: black"><h5 style="color: red">Registration fee: Tk. 3060.00 (BDT Three thousand taka)</h5></p>
+<p><h5 style="color: black">For further query contact, Sabit Bananee: +8801925215306</h5></p>
 
           </h5>
           </div>
@@ -94,6 +97,7 @@
                           </select>
                       </div>
 
+                      <h6 style="color: red"> **If the members of the team are from different institution then write 'Mixed' in institution name otherwise write your respective institution name** </h6>
                       <div class="form-group">
                           <input type="text" name="institution" class="form-control" placeholder="Institution Name" required="required">
                       </div>

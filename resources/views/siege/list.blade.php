@@ -28,12 +28,26 @@
                         <tr>
                           <th>ID</th>
                           <th>Team Name</th>
+                          <th>Contact</th>
+                          <th>Email</th>
                           <th>Team Leader</th>
+                          <th>Team Leader IGN</th>
+                          <th>Team Leader T-shirt</th>
                           <th>Member - 1</th>
+                          <th>Member - 1 IGN</th>
+                          <th>Member - 1 T-Shirt</th>
                           <th>Member - 2</th>
+                          <th>Member - 2 IGN</th>
+                          <th>Member - 2 T-Shirt</th>
                           <th>Member - 3</th>
+                          <th>Member - 3 IGN</th>
+                          <th>Member - 3 T-Shirt</th>
                           <th>Member - 4</th>
+                          <th>Member - 4 IGN</th>
+                          <th>Member - 4 T-Shirt</th>
                           <th>Member - 5</th>
+                          <th>Member - 5 IGN</th>
+                          <th>Member - 5 T-Shirt</th>
                           <th>Fees</th>
                           <th>Registered At</th>
                           <th>Payment<br>Status</th>
@@ -48,12 +62,26 @@
                           <tr>
                             <td>{{$siege->id}}</td>
                             <td>{{$siege->team_name}}</td>
+                            <td>{{$siege->contact}}</td>
+                            <td>{{$siege->email}}</td>
                             <td>{{$siege->member_1_name}}</td>
+                            <td>{{$siege->member_1_ign}}</td>
+                            <td>{{$siege->member_1_tshirt}}</td>
                             <td>{{$siege->member_2_name}}</td>
+                            <td>{{$siege->member_2_ign}}</td>
+                            <td>{{$siege->member_2_tshirt}}</td>
                             <td>{{$siege->member_3_name}}</td>
+                            <td>{{$siege->member_3_ign}}</td>
+                            <td>{{$siege->member_3_tshirt}}</td>
                             <td>{{$siege->member_4_name}}</td>
+                            <td>{{$siege->member_4_ign}}</td>
+                            <td>{{$siege->member_4_tshirt}}</td>
                             <td>{{$siege->member_5_name}}</td>
+                            <td>{{$siege->member_5_ign}}</td>
+                            <td>{{$siege->member_5_tshirt}}</td>
                             <td>{{$siege->member_6_name}}</td>
+                            <td>{{$siege->member_6_ign}}</td>
+                            <td>{{$siege->member_6_tshirt}}</td>
                             <td>{{$siege->total}}</td>
                             <td>{{$siege->created_at}}</td>
                             <?php

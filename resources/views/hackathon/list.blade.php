@@ -30,10 +30,16 @@
                           <th>Team Name</th>
                           <th>Category</th>
                           <th>Institution</th>
+                          <th>Contact</th>
+                          <th>Email</th>
                           <th>Team Leader</th>
+                          <th>Team Leader's T-Shirt</th>
                           <th>Member - 1</th>
+                          <th>Member - 1 T-Shirt</th>
                           <th>Member - 2</th>
+                          <th>Member - 2 T-Shirt</th>
                           <th>Member - 3</th>
+                          <th>Member - 3 T-Shirt</th>
                           <th>Fees</th>
                           <th>Registered At</th>
                           <th>Payment<br>Status</th>
@@ -50,10 +56,16 @@
                             <td>{{$hackathon->team_name}}</td>
                             <td>{{$hackathon->category}}</td>
                             <td>{{$hackathon->institution}}</td>
+                            <td>{{$hackathon->contact}}</td>
+                            <td>{{$hackathon->email}}</td>
                             <td>{{$hackathon->member_1_name}}</td>
+                            <td>{{$hackathon->member_1_tshirt}}</td>
                             <td>{{$hackathon->member_2_name}}</td>
+                            <td>{{$hackathon->member_2_tshirt}}</td>
                             <td>{{$hackathon->member_3_name}}</td>
+                            <td>{{$hackathon->member_3_tshirt}}</td>
                             <td>{{$hackathon->member_4_name}}</td>
+                            <td>{{$hackathon->member_4_tshirt}}</td>
                             <td>{{$hackathon->total}}</td>
                             <td>{{$hackathon->created_at}}</td>
                             <?php
