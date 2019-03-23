@@ -54,6 +54,13 @@
 <p style="color:black">In case of problem with network or system, please seek help of volunteers and system support team.</p>
 <p style="color:black">While printing your code, please write your team ID and room number above the code.</p>
 <p style="color:black">Teams are not allowed to use or keep any kind of electronic devices including USB drive, cell phone, smart watch etc. Browsing internet in any manner is prohibited.</p>
+<p><h4 style="color:red">
+                <strong>*** If you are facing any problem in our registration process, then please knock us at our <a href="https://www.facebook.com/events/2210175945978123/">Facebook</a> page.</strong>
+              </h4>
+
+              <h4 style="color:red">
+                <strong>*** Based on your performances in the competition, our sponsors might contact you in the future.</strong>
+              </h4></p>
 <p><h5 style="color: black">For further query contact, <br>Fardin Saad: +8801622036553 <br> Ahsan Rezwan Zaman: +8801746800626</h5></p>
           </div>
         </div>

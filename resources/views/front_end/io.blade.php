@@ -87,6 +87,16 @@
 </ul>
 </li>
 </ul>
+
+
+<p><h4 style="color:red">
+                <strong>*** If you are facing any problem in our registration process, then please knock us at our <a href="https://www.facebook.com/events/2210175945978123/">Facebook</a> page.</strong>
+              </h4>
+
+              <h4 style="color:red">
+                <strong>*** Based on your performances in the competition, our sponsors might contact you in the future.</strong>
+              </h4></p>
+
 <p><h5 style="color: black">For further query contact, Shahriar Ivan: +8801720968532</h5></p>
 <p>&nbsp;</p>
           </div>

@@ -111,6 +111,13 @@
 </ul>
 <p style="color:black"><br /> <br /> <strong>****************************************************</strong><br /> TOPICS of the competition:<br /> <br /> The topic of the presented poster is open to your choices. We welcome your choice of topic and any creative ideas that you want to share with us.</p>
 <p style="color:black">&nbsp;</p>
+<p><h4 style="color:red">
+                <strong>*** If you are facing any problem in our registration process, then please knock us at our <a href="https://www.facebook.com/events/2210175945978123/">Facebook</a> page.</strong>
+              </h4>
+
+              <h4 style="color:red">
+                <strong>*** Based on your performances in the competition, our sponsors might contact you in the future.</strong>
+              </h4></p>
 <p><h5 style="color: black">For further query contact, Saidul Islam: +8801521325416</h5></p>
 
 <p style="color:black">&nbsp;</p>

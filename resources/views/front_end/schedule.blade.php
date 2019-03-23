@@ -19,7 +19,7 @@
         <div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-6 text-center heading-section ftco-animate">
             <span class="subheading">ICT Fest Events' Schedule</span>
-            <h2 class="mb-4">Schedule information will be revealed later !!!</h2>
+            <h2 class="mb-4">Schedule will be revealed later !!!</h2>
             <p> </p>
           </div>
         </div>

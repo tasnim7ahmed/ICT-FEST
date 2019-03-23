@@ -78,6 +78,15 @@
 <p style="color:black">&nbsp;</p>
 <p style="color:black"><h4 style="color: red">REGISTRATION FEE: </h4></p>
 <p style="color:black"><h4 style="color: red">2040TK PER TEAM</h4></p>
+
+
+<p><h4 style="color:red">
+                <strong>*** If you are facing any problem in our registration process, then please knock us at our <a href="https://www.facebook.com/events/2210175945978123/">Facebook</a> page.</strong>
+              </h4>
+
+              <h4 style="color:red">
+                <strong>*** Based on your performances in the competition, our sponsors might contact you in the future.</strong>
+              </h4></p>
 <p><h5 style="color: black">For further query contact, Mohaimin Shoron: +8801989698451</h5></p>
           </h5>
           </div>
