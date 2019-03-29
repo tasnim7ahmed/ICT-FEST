@@ -34,12 +34,18 @@
 </ol>
 <ul>
 <li style="color:black">Title of the poster.</li>
-<li style="color:black">Name of the authors followed by their institution.</li>
-<li style="color:black">Name of the supervisor followed by his institution.(If there is any supervisor supervising for the team)</li>
-<li style="color:black">Abstract</li>
-<li style="color:black">Methodology</li>
-<li style="color:black">Feasibility and Impact Analysis</li>
-<li style="color:black">Conclusion</li>
+<li style="color:black">Discussion on the topic of the poster.</li>
+<li style="color:black">The idea portrayed in the poster should be existing or being used. Any unimplemented or imaginary technology/idea won’t be taken into consideration.</li>
+<li style="color:black"> The posters will be judged based on the following criterions-<br>
+  <ul>
+  <li>Idea/ Technology Implementation</li>
+  <li>Sustainability</li>
+  <li>Usefulness from our country's perspective</li>
+  <li>Designing and decorations</li>
+  <li>Presentation and vocabulary uses</li>
+  </ul>
+  </li>
+
 </ul>
 <p style="color:black">&nbsp;</p>
 <ol start="2">
@@ -48,31 +54,23 @@
 <p style="color:black">&nbsp;</p>
 <p style="color:black">Other rules:</p>
 <ul>
-<li style="color:black">Poster size should be 36&rdquo; (height) by 24&rdquo; (width) and must be oriented in Portrait Style.</li>
+<li style="color:black">Poster size should be standard.</li>
 </ul>
 <p style="color:black">&nbsp;</p>
 <ul>
 <li style="color:black">Poster banner:</li>
 </ul>
-<p style="color:black">PVC banner (For University Level Students)</p>
-<p style="color:black">PVC or Handmade Banner (For School-College Level Students)</p>
+<p style="color:black"><strong>PVC banner (For University Level Students)</strong></p>
+<p style="color:black"><strong>Handmade Banner using art paper (For School-College Level Students)</strong></p>
 <p style="color:black">&nbsp;</p>
 <ul>
 <li style="color:black">Students must obtain permission from their mentors/supervisors and</li>
 </ul>
-<p style="color:black">co-authors before presenting the poster. Any report referring to an unauthorized poster presentation will be addressed immediately.</p>
+<p style="color:black">co-authors before presenting the poster. Any report referring to an unauthorized poster presentation will be addressed immediately. If there is no supervisor, then you don't have to worry about it</p>
 <p style="color:black">&nbsp;</p>
 <ul>
-<li style="color:black">Students from schools, colleges and universities (up to Masters) can participate.</li>
+<li style="color:black"><strong>Students from schools, colleges and universities (up to Masters) can participate.</strong></li>
 </ul>
-<p style="color:black">&nbsp;</p>
-<ul>
-<li style="color:black">The judgement will be for individual two levels:</li>
-</ul>
-<ol>
-<li style="color:black">University Level.</li>
-<li style="color:black">School-College Level.</li>
-</ol>
 <p style="color:black">&nbsp;</p>
 <ul>
 <li style="color:black">The work presented must be original and innovative. Immediate actions will be taken against any form of <strong>plagiarism</strong>.</li>
@@ -83,7 +81,7 @@
 </ul>
 <p style="color:black">&nbsp;</p>
 <ul>
-<li style="color:black">A team should be formed with a minimum of 2 members and maximum 3 members.</li>
+<li style="color:black"><strong>A team should be formed with a minimum of 2 members and maximum 3 members.</strong></li>
 </ul>
 <p style="color:black">&nbsp;</p>
 <ul>
@@ -109,7 +107,8 @@
 <ul>
 <li style="color:black">In all cases, decisions taken by the organizing committee will be final.</li>
 </ul>
-<p style="color:black"><br /> <br /> <strong>****************************************************</strong><br /> TOPICS of the competition:<br /> <br /> The topic of the presented poster is open to your choices. We welcome your choice of topic and any creative ideas that you want to share with us.</p>
+<strong>
+<p style="color:black"><br /> <br /> <strong>****************************************************</strong><br /> TOPICS of the competition:<br /> <br /> The topic of the presented poster is open to your choices. We welcome your choice of topic and any creative ideas that you want to share with us.</p></strong>
 <p style="color:black">&nbsp;</p>
 <p><h4 style="color:red">
                 <strong>*** If you are facing any problem in our registration process, then please knock us at our <a href="https://www.facebook.com/events/2210175945978123/">Facebook</a> page.</strong>

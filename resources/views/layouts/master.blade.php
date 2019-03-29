@@ -131,6 +131,11 @@
                     </ul>
                   </li>
 
+
+                  <li><a href={{route('payment_list')}}><i class="fa fa-edit"></i>Payment<span class="fa fa-chevron"></span></a>
+                    
+                  </li>
+
                 </ul>
 
                 

@@ -21,6 +21,7 @@ use App\Dota;
 use App\Poster;
 use App\Appdev;
 use App\Hackathon;
+use App\Payment;
 
 
 
@@ -307,3 +308,13 @@ Route::get('/selection_done_hackathon/{id}','HackathonController@selection')->mi
 Route::get('/payment_done_hackathon/{id}','HackathonController@payment')->middleware('auth');
 
 Route::post('/events/hackathon', 'HackathonController@store_front')->name('store_hackathon_front');
+
+
+
+
+
+// COPY FROM HERE
+
+Route::post('/payment', 'PaymentController@create')->name('store_payment');
+Route::get('/payment_list', 'PaymentController@index')->name('payment_list')->middleware('auth');
+Route::get('/delete_payment/{id}','PaymentController@delete')->middleware('auth');
