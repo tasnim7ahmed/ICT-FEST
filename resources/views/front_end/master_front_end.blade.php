@@ -62,8 +62,8 @@
                     @endauth
                 
             @endif -->
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Selected Participants</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Selected Participants</a>
               <div class="dropdown-menu" aria-labelledby="dropdown04">
                 <a class="dropdown-item" href="{{route('selected_mo')}}">Math Olympiad</a>
                 <a class="dropdown-item" href="{{route('selected_io')}}">ICT Olympiad</a>
@@ -77,9 +77,9 @@
                 <a class="dropdown-item" href="{{route('selected_appdev')}}">Application Development</a>
                 <a class="dropdown-item" href="{{route('selected_hackathon')}}">Hackathon</a>
               </div>
-          </li> -->
+          </li>
           <li class="nav-item"><a href={{route('payment')}} class="nav-link">Payment</a></li>
-          <li class="nav-item"><a href={{route('schedule')}} class="nav-link">Schedule</a></li>
+          <li class="nav-item"><a href={{route('schedule')}} class="nav-link">Schedule &amp; Transportation</a></li>
           <li class="nav-item"><a href={{route('events')}} class="nav-link"><span>Events</span></a></li>
         </ul>
       </div>

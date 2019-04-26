@@ -20,7 +20,7 @@
         <div class="row no-gutters d-flex align-items-center" >
 
           <div class="col-md-3 mb-4">
-            <a href="#" class="featured-img">
+            <a class="featured-img">
               <!-- <div class="text-1 p-4 d-flex align-items-center">
                 <h3>The Verge<br><span class="tag">Website</span></h3>
               </div> -->
@@ -40,7 +40,7 @@
                 <div class="row no-gutters d-flex align-items-end">
 
                   <div class="col-md-6">
-                    <a href="#" class="featured-img">
+                    <a class="featured-img">
                       <!-- <div class="text-1 p-4 d-flex align-items-center">
                         <h3>Racks<br><span class="tag">Website</span></h3>
                       </div> -->
@@ -55,7 +55,7 @@
                   </div>
 
                   <div class="col-md-6">
-                    <a href="#" class="featured-img">
+                    <a class="featured-img">
                       <!-- <div class="text-1 p-4 d-flex align-items-center">
                         <h3>Zendesk<br><span class="tag">Website</span></h3>
                       </div> -->
@@ -75,7 +75,7 @@
               <div class="col-md-12">
                 <div class="row no-gutters d-flex align-items-start">
                   <div class="col-md-6">
-                    <a href="#" class="featured-img">
+                    <a class="featured-img">
                       <!-- <div class="text-1 p-4 d-flex align-items-center">
                         <h3>Curator<br><span class="tag">Website</span></h3>
                       </div> -->
@@ -89,7 +89,7 @@
                     </a>
                   </div>
                   <div class="col-md-6">
-                    <a href="#" class="featured-img">
+                    <a class="featured-img">
                       <!-- <div class="text-1 p-4 d-flex align-items-center">
                         <h3>Tasty<br><span class="tag">Website</span></h3>
                       </div> -->
@@ -108,7 +108,7 @@
           </div>
 
           <div class="col-md-3">
-            <a href="#" class="featured-img">
+            <a class="featured-img">
               <!-- <div class="text-1 p-4 d-flex align-items-center">
                 <h3>Voyage<br><span class="tag">Website</span></h3>
               </div> -->
