@@ -15,11 +15,11 @@ class MathOlympiadController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    
+
     public function index()
     {
-        $mo = MathOlympiad::all();
-        return view('math_olympiad/list')->with('mos',$mo);
+        $mos = MathOlympiad::all();
+        return view('math_olympiad/list')->with('mos', $mos);
     }
     /**
      * Show the form for creating a new resource.
@@ -45,24 +45,23 @@ class MathOlympiadController extends Controller
         $new_mo->contact = $request->contact;
         $new_mo->email = $request->email;
         $new_mo->institution = $request->institution;
-        if ($request->category=='School-College') {
+        if ($request->category == 'School-College') {
             $new_mo->total = 300;
-        }
-        else{
+        } else {
             $new_mo->total = 400;
         }
-        
+
         $new_mo->paid = 0;
         $new_mo->selected = 'False';
         $new_mo->tshirt = $request->tshirt;
         $new_mo->save();
-        $key = Crypt::encryptString('MO-'.$new_mo->id);
+        $key = Crypt::encryptString('MO-' . $new_mo->id);
         alert()->success('Participant has been admitted successfully.')->autoclose(3000);
 
-        Mail::to($new_mo->email)->send(new RegisterMail($new_mo->name,'Math Olympiad',$key));
-       
+        Mail::to($new_mo->email)->send(new RegisterMail($new_mo->name, 'Math Olympiad', $key));
+
         $mo = MathOlympiad::all();
-        return redirect()->route('mo_list')->with('mos',$mo);
+        return redirect()->route('mo_list')->with('mos', $mo);
     }
 
     public function store_front(Request $request)
@@ -73,22 +72,21 @@ class MathOlympiadController extends Controller
         $new_mo->contact = $request->contact;
         $new_mo->email = $request->email;
         $new_mo->institution = $request->institution;
-        if ($request->category=='School-College') {
+        if ($request->category == 'School-College') {
             $new_mo->total = 300;
-        }
-        else{
+        } else {
             $new_mo->total = 400;
         }
         $new_mo->paid = 0;
         $new_mo->selected = 'False';
         $new_mo->tshirt = $request->tshirt;
         $new_mo->save();
-        $key = Crypt::encryptString('MO-'.$new_mo->id);
+        $key = Crypt::encryptString('MO-' . $new_mo->id);
 
-        alert()->success('Dear '.$request->name.', Your registration information has successfully been uploaded. Please check your e-mail and our website for further information.')->autoclose(120000);
+        alert()->success('Dear ' . $request->name . ', Your registration information has successfully been uploaded. Please check your e-mail and our website for further information.')->autoclose(120000);
 
 
-        Mail::to($new_mo->email)->send(new RegisterMail($new_mo->name,'Math Olympiad',$key));
+        Mail::to($new_mo->email)->send(new RegisterMail($new_mo->name, 'Math Olympiad', $key));
 
 
         return redirect()->route('front');
@@ -110,26 +108,26 @@ class MathOlympiadController extends Controller
         $mo = MathOlympiad::find($id);
         $mo->delete();
         alert()->warning('Student has been discarded successfully', 'Deleted')->autoclose(3000);
-        $mm=MathOlympiad::all();
-        return redirect()->route('mo_list')->with('mos',$mm);
+        $mm = MathOlympiad::all();
+        return redirect()->route('mo_list')->with('mos', $mm);
     }
 
     public function selection($id)
     {
         MathOlympiad::find($id)->update(['selected' => 'True']);
-        
+
         alert()->warning('Student has been selected successfully', 'Done')->autoclose(3000);
-        $mm=MathOlympiad::all();
-        return redirect()->route('mo_list')->with('mos',$mm);
+        $mm = MathOlympiad::all();
+        return redirect()->route('mo_list')->with('mos', $mm);
     }
 
     public function payment($id)
     {
         MathOlympiad::find($id)->update(['paid' => MathOlympiad::find($id)->total]);
-        
+
         alert()->warning('Payment has been completed successfully', 'Done')->autoclose(3000);
-        $mm=MathOlympiad::all();
-        return redirect()->route('mo_list')->with('mos',$mm);
+        $mm = MathOlympiad::all();
+        return redirect()->route('mo_list')->with('mos', $mm);
     }
 
 
