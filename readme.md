@@ -1,3 +1,49 @@
+# IUT 10th ICT Fest 2019
+
+IUT 10th ICT Fest 2019 was one of the largest ICT Fest of the country organized by IUT Computer Society. This website handled all the event registrations and payments from hundreds of participants of the festival.
+There were a total of 11 events held in the ICT Fest which are listed below: 
+
+01. Math Olympiad
+02. ICT Olympiad
+03. Programming Contest
+04. Project Showcasing
+05. IT Business Case Competition
+06. Poster Presentation
+07. FIFA 19
+08. Rainbow Six Siege
+09. DOTA 2
+10. Application Development
+11. Hackathon
+
+Every events had their seperate custom registration page. The selected participants for the events were showed in the selected participant page.
+After registration, the website had an automated confirmation email feature sending the participants a secret key in their email which was used during payment procedures for the event.
+
+**Tech Stack**
+
+The website was created using Laravel framework v5.7 with PHP 7.1.3 and phpMyAdmin was used as the tool to control its MySQL database. Front end code template was downloaded from colorlib which was made of HTML, CSS and JavaScript.
+
+**Screenshots of the website**
+
+Front Page:
+
+![ictfest_front](https://github.com/tasnim7ahmed/ICT-FEST/assets/17502087/40ac0879-d33c-4bf0-b164-5d1aef2f073f)
+
+![ictfest_front3](https://github.com/tasnim7ahmed/ICT-FEST/assets/17502087/d153e85c-2b8d-41ba-a78e-e0cc5e5544d9)
+
+Events Page:
+
+![ictfest_front4](https://github.com/tasnim7ahmed/ICT-FEST/assets/17502087/1b6a7dae-0dea-425c-9e5f-7d62241c46a4)
+
+Programming Contest Page:
+
+![ictfest_prog1](https://github.com/tasnim7ahmed/ICT-FEST/assets/17502087/8210a031-c75d-4d4b-a1b7-d8442ecb4c99)
+
+![ictfest_prog2](https://github.com/tasnim7ahmed/ICT-FEST/assets/17502087/711f9306-5f2d-4001-adf1-85dcf37f4704)
+
+![ictfest_progSelected](https://github.com/tasnim7ahmed/ICT-FEST/assets/17502087/8944149d-6ff3-49a4-b319-153353233249)
+
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
